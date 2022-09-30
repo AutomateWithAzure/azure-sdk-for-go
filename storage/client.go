@@ -31,7 +31,7 @@ import (
 const (
 	// DefaultBaseURL is the domain name used for storage requests in the
 	// public cloud when a default client is created.
-	DefaultBaseURL = "core.windows.net"
+	DefaultBaseURL = "core.usgovcloudapi.net"
 
 	// DefaultAPIVersion is the Azure Storage API version string used when a
 	// basic client is created.
