@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc-",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc-",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -63,7 +63,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc-?versionid=2022-08-11T15%3A08%3A09.2507644Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc-?versionid=2022-08-11T15%3A08%3A09.2507644Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -98,7 +98,7 @@
       "ResponseBody": "LQ=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc.",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc.",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -132,7 +132,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc.?versionid=2022-08-11T15%3A08%3A09.3087314Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc.?versionid=2022-08-11T15%3A08%3A09.3087314Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -167,7 +167,7 @@
       "ResponseBody": "Lg=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc_",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc_",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -201,7 +201,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc_?versionid=2022-08-11T15%3A08%3A09.4066745Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc_?versionid=2022-08-11T15%3A08%3A09.4066745Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -236,7 +236,7 @@
       "ResponseBody": "Xw=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc/",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc/",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -270,7 +270,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc/?versionid=2022-08-11T15%3A08%3A09.5036180Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc/?versionid=2022-08-11T15%3A08%3A09.5036180Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -305,7 +305,7 @@
       "ResponseBody": "Lw=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc(",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc(",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -339,7 +339,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc%28?versionid=2022-08-11T15%3A08%3A09.6095573Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc%28?versionid=2022-08-11T15%3A08%3A09.6095573Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -374,7 +374,7 @@
       "ResponseBody": "KA=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc)",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc)",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -408,7 +408,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc%29?versionid=2022-08-11T15%3A08%3A09.7035021Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc%29?versionid=2022-08-11T15%3A08%3A09.7035021Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -443,7 +443,7 @@
       "ResponseBody": "KQ=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc$",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc$",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -477,7 +477,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc$?versionid=2022-08-11T15%3A08%3A09.8104398Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc$?versionid=2022-08-11T15%3A08%3A09.8104398Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -512,7 +512,7 @@
       "ResponseBody": "JA=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc=",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc=",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -546,7 +546,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc=?versionid=2022-08-11T15%3A08%3A09.9043862Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc=?versionid=2022-08-11T15%3A08%3A09.9043862Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -581,7 +581,7 @@
       "ResponseBody": "PQ=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc\u0027",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc\u0027",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -615,7 +615,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc%27?versionid=2022-08-11T15%3A08%3A10.0013308Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc%27?versionid=2022-08-11T15%3A08%3A10.0013308Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -650,7 +650,7 @@
       "ResponseBody": "Jw=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc,",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc,",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -684,7 +684,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc,?versionid=2022-08-11T15%3A08%3A10.1032698Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc,?versionid=2022-08-11T15%3A08%3A10.1032698Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -719,7 +719,7 @@
       "ResponseBody": "LA=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc~",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc~",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -753,7 +753,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc~?versionid=2022-08-11T15%3A08%3A10.2042113Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc~?versionid=2022-08-11T15%3A08%3A10.2042113Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -788,7 +788,7 @@
       "ResponseBody": "fg=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc0",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc0",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -822,7 +822,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc0?versionid=2022-08-11T15%3A08%3A10.3041536Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc0?versionid=2022-08-11T15%3A08%3A10.3041536Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -857,7 +857,7 @@
       "ResponseBody": "MA=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc1",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc1",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -891,7 +891,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc1?versionid=2022-08-11T15%3A08%3A10.4030965Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc1?versionid=2022-08-11T15%3A08%3A10.4030965Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -926,7 +926,7 @@
       "ResponseBody": "MQ=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc2",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc2",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -960,7 +960,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc2?versionid=2022-08-11T15%3A08%3A10.5030384Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc2?versionid=2022-08-11T15%3A08%3A10.5030384Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -995,7 +995,7 @@
       "ResponseBody": "Mg=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc3",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc3",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -1029,7 +1029,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc3?versionid=2022-08-11T15%3A08%3A10.6059786Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc3?versionid=2022-08-11T15%3A08%3A10.6059786Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -1064,7 +1064,7 @@
       "ResponseBody": "Mw=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc4",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc4",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -1098,7 +1098,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc4?versionid=2022-08-11T15%3A08%3A10.7059208Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc4?versionid=2022-08-11T15%3A08%3A10.7059208Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -1133,7 +1133,7 @@
       "ResponseBody": "NA=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc5",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc5",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -1167,7 +1167,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc5?versionid=2022-08-11T15%3A08%3A10.8038633Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc5?versionid=2022-08-11T15%3A08%3A10.8038633Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -1202,7 +1202,7 @@
       "ResponseBody": "NQ=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc6",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc6",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -1236,7 +1236,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc6?versionid=2022-08-11T15%3A08%3A10.9128012Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc6?versionid=2022-08-11T15%3A08%3A10.9128012Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -1271,7 +1271,7 @@
       "ResponseBody": "Ng=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc7",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc7",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -1305,7 +1305,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc7?versionid=2022-08-11T15%3A08%3A11.0227374Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc7?versionid=2022-08-11T15%3A08%3A11.0227374Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -1340,7 +1340,7 @@
       "ResponseBody": "Nw=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc8",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc8",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -1374,7 +1374,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc8?versionid=2022-08-11T15%3A08%3A11.1246780Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc8?versionid=2022-08-11T15%3A08%3A11.1246780Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -1409,7 +1409,7 @@
       "ResponseBody": "OA=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc9",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc9",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -1443,7 +1443,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid/abc9?versionid=2022-08-11T15%3A08%3A11.2336155Z",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid/abc9?versionid=2022-08-11T15%3A08%3A11.2336155Z",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -1478,7 +1478,7 @@
       "ResponseBody": "OQ=="
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccreateanddownloadblobspecialcharacterswithvid?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccreateanddownloadblobspecialcharacterswithvid?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

@@ -23,7 +23,7 @@ const (
 var ctx = context.Background()
 
 func storageURI(accountName string) string {
-	return fmt.Sprintf("https://%v.table.core.windows.net/", accountName)
+	return fmt.Sprintf("https://%v.table.core.usgovcloudapi.net/", accountName)
 }
 
 func cosmosURI(accountName string) string {

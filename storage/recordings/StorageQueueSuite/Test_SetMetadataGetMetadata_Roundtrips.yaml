@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:55 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.queue.core.windows.net/queue-156storagequeuesuitetestsetmetadatagetmetadataroundtrips
+    url: https://golangrocksonazure.queue.core.usgovcloudapi.net/queue-156storagequeuesuitetestsetmetadatagetmetadataroundtrips
     method: PUT
   response:
     body: ""
@@ -49,7 +49,7 @@ interactions:
       - rofl
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.queue.core.windows.net/queue-156storagequeuesuitetestsetmetadatagetmetadataroundtrips?comp=metadata
+    url: https://golangrocksonazure.queue.core.usgovcloudapi.net/queue-156storagequeuesuitetestsetmetadatagetmetadataroundtrips?comp=metadata
     method: PUT
   response:
     body: ""
@@ -80,7 +80,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:55 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.queue.core.windows.net/queue-156storagequeuesuitetestsetmetadatagetmetadataroundtrips?comp=metadata
+    url: https://golangrocksonazure.queue.core.usgovcloudapi.net/queue-156storagequeuesuitetestsetmetadatagetmetadataroundtrips?comp=metadata
     method: GET
   response:
     body: ""
@@ -119,7 +119,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:55 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.queue.core.windows.net/queue-156storagequeuesuitetestsetmetadatagetmetadataroundtrips
+    url: https://golangrocksonazure.queue.core.usgovcloudapi.net/queue-156storagequeuesuitetestsetmetadatagetmetadataroundtrips
     method: DELETE
   response:
     body: ""

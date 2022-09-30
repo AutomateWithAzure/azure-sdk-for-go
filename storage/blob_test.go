@@ -65,13 +65,13 @@ func (s *StorageBlobSuite) TestGetBlobURL(c *chk.C) {
 
 	cnt := blobCli.GetContainerReference("c")
 	b := cnt.GetBlobReference("nested/blob")
-	c.Assert(b.GetURL(), chk.Equals, "https://golangrocksonazure.blob.core.windows.net/c/nested/blob")
+	c.Assert(b.GetURL(), chk.Equals, "https://golangrocksonazure.blob.core.usgovcloudapi.net/c/nested/blob")
 
 	cnt.Name = ""
-	c.Assert(b.GetURL(), chk.Equals, "https://golangrocksonazure.blob.core.windows.net/$root/nested/blob")
+	c.Assert(b.GetURL(), chk.Equals, "https://golangrocksonazure.blob.core.usgovcloudapi.net/$root/nested/blob")
 
 	b.Name = "blob"
-	c.Assert(b.GetURL(), chk.Equals, "https://golangrocksonazure.blob.core.windows.net/$root/blob")
+	c.Assert(b.GetURL(), chk.Equals, "https://golangrocksonazure.blob.core.usgovcloudapi.net/$root/blob")
 
 }
 
@@ -82,10 +82,10 @@ func (s *StorageBlobSuite) TestGetBlobContainerURL(c *chk.C) {
 
 	cnt := blobCli.GetContainerReference("c")
 	b := cnt.GetBlobReference("")
-	c.Assert(b.GetURL(), chk.Equals, "https://golangrocksonazure.blob.core.windows.net/c")
+	c.Assert(b.GetURL(), chk.Equals, "https://golangrocksonazure.blob.core.usgovcloudapi.net/c")
 
 	cnt.Name = ""
-	c.Assert(b.GetURL(), chk.Equals, "https://golangrocksonazure.blob.core.windows.net/$root")
+	c.Assert(b.GetURL(), chk.Equals, "https://golangrocksonazure.blob.core.usgovcloudapi.net/$root")
 }
 
 func (s *StorageBlobSuite) TestDeleteBlobIfExists(c *chk.C) {

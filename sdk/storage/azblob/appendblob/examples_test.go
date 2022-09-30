@@ -34,7 +34,7 @@ func Example_appendblob_Client() {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
 	blobName := "test_append_blob.txt"
-	blobURL := fmt.Sprintf("https://%s.blob.core.windows.net/testcontainer/%s", accountName, blobName)
+	blobURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/testcontainer/%s", accountName, blobName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)

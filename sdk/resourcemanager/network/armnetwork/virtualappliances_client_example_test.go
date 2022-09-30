@@ -105,9 +105,9 @@ func ExampleVirtualAppliancesClient_BeginCreateOrUpdate() {
 		},
 		Properties: &armnetwork.VirtualAppliancePropertiesFormat{
 			BootStrapConfigurationBlobs: []*string{
-				to.Ptr("https://csrncvhdstorage1.blob.core.windows.net/csrncvhdstoragecont/csrbootstrapconfig")},
+				to.Ptr("https://csrncvhdstorage1.blob.core.usgovcloudapi.net/csrncvhdstoragecont/csrbootstrapconfig")},
 			CloudInitConfigurationBlobs: []*string{
-				to.Ptr("https://csrncvhdstorage1.blob.core.windows.net/csrncvhdstoragecont/csrcloudinitconfig")},
+				to.Ptr("https://csrncvhdstorage1.blob.core.usgovcloudapi.net/csrncvhdstoragecont/csrcloudinitconfig")},
 			NvaSKU: &armnetwork.VirtualApplianceSKUProperties{
 				BundledScaleUnit:   to.Ptr("1"),
 				MarketPlaceVersion: to.Ptr("12.1"),

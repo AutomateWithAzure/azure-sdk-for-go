@@ -28,4 +28,4 @@ steps:
         -branchReplacementName ${{ parameters.BranchReplacementName }}
         -devOpsLogging: $true
         -checkLinkGuidance: ${{ parameters.CheckLinkGuidance }}
-        -inputCacheFile "https://azuresdkartifacts.blob.core.windows.net/verify-links-cache/verify-links-cache.txt"
+        -inputCacheFile "https://azuresdkartifacts.blob.core.usgovcloudapi.net/verify-links-cache/verify-links-cache.txt"

@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobresizeifnonematchtrue?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobresizeifnonematchtrue?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobresizeifnonematchtrue/gotestblobblobresizeifnonematchtrue",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobresizeifnonematchtrue/gotestblobblobresizeifnonematchtrue",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -61,7 +61,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobresizeifnonematchtrue/gotestblobblobresizeifnonematchtrue?comp=properties",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobresizeifnonematchtrue/gotestblobblobresizeifnonematchtrue?comp=properties",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -92,7 +92,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobresizeifnonematchtrue/gotestblobblobresizeifnonematchtrue",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobresizeifnonematchtrue/gotestblobblobresizeifnonematchtrue",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -128,7 +128,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobresizeifnonematchtrue?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobresizeifnonematchtrue?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

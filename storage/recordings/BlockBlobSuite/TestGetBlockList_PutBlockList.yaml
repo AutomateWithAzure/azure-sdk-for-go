@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44blockblobsuitetestgetblocklist?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44blockblobsuitetestgetblocklist?restype=container
     method: PUT
   response:
     body: ""
@@ -63,7 +63,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44blockblobsuitetestgetblocklist/blob/44blockblobsuitetestgetblocklistputblocklist?blockid=bG9s&comp=block
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44blockblobsuitetestgetblocklist/blob/44blockblobsuitetestgetblocklistputblocklist?blockid=bG9s&comp=block
     method: PUT
   response:
     body: ""
@@ -98,7 +98,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44blockblobsuitetestgetblocklist/blob/44blockblobsuitetestgetblocklistputblocklist?blocklisttype=committed&comp=blocklist
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44blockblobsuitetestgetblocklist/blob/44blockblobsuitetestgetblocklistputblocklist?blocklisttype=committed&comp=blocklist
     method: GET
   response:
     body: "\uFEFF\x3C\x3F\x78\x6D\x6C\x20\x76\x65\x72\x73\x69\x6F\x6E\x3D\"\x31\x2E\x30\"\x20\x65\x6E\x63\x6F\x64\x69\x6E\x67\x3D\"\x75\x74\x66\x2D\x38\"\x3F\x3E\x3C\x42\x6C\x6F\x63\x6B\x4C\x69\x73\x74\x3E\x3C\x43\x6F\x6D\x6D\x69\x74\x74\x65\x64\x42\x6C\x6F\x63\x6B\x73\x20\x2F\x3E\x3C\x2F\x42\x6C\x6F\x63\x6B\x4C\x69\x73\x74\x3E"
@@ -129,7 +129,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44blockblobsuitetestgetblocklist/blob/44blockblobsuitetestgetblocklistputblocklist?blocklisttype=uncommitted&comp=blocklist
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44blockblobsuitetestgetblocklist/blob/44blockblobsuitetestgetblocklistputblocklist?blocklisttype=uncommitted&comp=blocklist
     method: GET
   response:
     body: "\uFEFF\x3C\x3F\x78\x6D\x6C\x20\x76\x65\x72\x73\x69\x6F\x6E\x3D\"\x31\x2E\x30\"\x20\x65\x6E\x63\x6F\x64\x69\x6E\x67\x3D\"\x75\x74\x66\x2D\x38\"\x3F\x3E\x3C\x42\x6C\x6F\x63\x6B\x4C\x69\x73\x74\x3E\x3C\x55\x6E\x63\x6F\x6D\x6D\x69\x74\x74\x65\x64\x42\x6C\x6F\x63\x6B\x73\x3E\x3C\x42\x6C\x6F\x63\x6B\x3E\x3C\x4E\x61\x6D\x65\x3E\x62\x47\x39\x73\x3C\x2F\x4E\x61\x6D\x65\x3E\x3C\x53\x69\x7A\x65\x3E\x31\x30\x32\x34\x3C\x2F\x53\x69\x7A\x65\x3E\x3C\x2F\x42\x6C\x6F\x63\x6B\x3E\x3C\x2F\x55\x6E\x63\x6F\x6D\x6D\x69\x74\x74\x65\x64\x42\x6C\x6F\x63\x6B\x73\x3E\x3C\x2F\x42\x6C\x6F\x63\x6B\x4C\x69\x73\x74\x3E"
@@ -162,7 +162,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44blockblobsuitetestgetblocklist/blob/44blockblobsuitetestgetblocklistputblocklist?comp=blocklist
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44blockblobsuitetestgetblocklist/blob/44blockblobsuitetestgetblocklistputblocklist?comp=blocklist
     method: PUT
   response:
     body: ""
@@ -201,7 +201,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44blockblobsuitetestgetblocklist/blob/44blockblobsuitetestgetblocklistputblocklist?blocklisttype=all&comp=blocklist
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44blockblobsuitetestgetblocklist/blob/44blockblobsuitetestgetblocklistputblocklist?blocklisttype=all&comp=blocklist
     method: GET
   response:
     body: "\uFEFF\x3C\x3F\x78\x6D\x6C\x20\x76\x65\x72\x73\x69\x6F\x6E\x3D\"\x31\x2E\x30\"\x20\x65\x6E\x63\x6F\x64\x69\x6E\x67\x3D\"\x75\x74\x66\x2D\x38\"\x3F\x3E\x3C\x42\x6C\x6F\x63\x6B\x4C\x69\x73\x74\x3E\x3C\x43\x6F\x6D\x6D\x69\x74\x74\x65\x64\x42\x6C\x6F\x63\x6B\x73\x3E\x3C\x42\x6C\x6F\x63\x6B\x3E\x3C\x4E\x61\x6D\x65\x3E\x62\x47\x39\x73\x3C\x2F\x4E\x61\x6D\x65\x3E\x3C\x53\x69\x7A\x65\x3E\x31\x30\x32\x34\x3C\x2F\x53\x69\x7A\x65\x3E\x3C\x2F\x42\x6C\x6F\x63\x6B\x3E\x3C\x2F\x43\x6F\x6D\x6D\x69\x74\x74\x65\x64\x42\x6C\x6F\x63\x6B\x73\x3E\x3C\x55\x6E\x63\x6F\x6D\x6D\x69\x74\x74\x65\x64\x42\x6C\x6F\x63\x6B\x73\x20\x2F\x3E\x3C\x2F\x42\x6C\x6F\x63\x6B\x4C\x69\x73\x74\x3E"
@@ -238,7 +238,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44blockblobsuitetestgetblocklist/blob/44blockblobsuitetestgetblocklistputblocklist
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44blockblobsuitetestgetblocklist/blob/44blockblobsuitetestgetblocklistputblocklist
     method: DELETE
   response:
     body: ""
@@ -271,7 +271,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44blockblobsuitetestgetblocklist?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44blockblobsuitetestgetblocklist?restype=container
     method: DELETE
   response:
     body: ""

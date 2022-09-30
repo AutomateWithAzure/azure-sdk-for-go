@@ -477,7 +477,7 @@ func ExampleVirtualMachineScaleSetVMsClient_BeginUpdate() {
 							DetachOption: to.Ptr(armcompute.DiskDetachOptionTypesForceDetach),
 							DiskSizeGB:   to.Ptr[int32](128),
 							Image: &armcompute.VirtualHardDisk{
-								URI: to.Ptr("https://{storageAccountName}.blob.core.windows.net/{containerName}/{vhdName}.vhd"),
+								URI: to.Ptr("https://{storageAccountName}.blob.core.usgovcloudapi.net/{containerName}/{vhdName}.vhd"),
 							},
 							Lun: to.Ptr[int32](1),
 							ManagedDisk: &armcompute.ManagedDiskParameters{
@@ -489,7 +489,7 @@ func ExampleVirtualMachineScaleSetVMsClient_BeginUpdate() {
 							},
 							ToBeDetached: to.Ptr(true),
 							Vhd: &armcompute.VirtualHardDisk{
-								URI: to.Ptr("https://{storageAccountName}.blob.core.windows.net/{containerName}/{vhdName}.vhd"),
+								URI: to.Ptr("https://{storageAccountName}.blob.core.usgovcloudapi.net/{containerName}/{vhdName}.vhd"),
 							},
 							WriteAcceleratorEnabled: to.Ptr(true),
 						}},
@@ -527,7 +527,7 @@ func ExampleVirtualMachineScaleSetVMsClient_BeginUpdate() {
 							},
 						},
 						Image: &armcompute.VirtualHardDisk{
-							URI: to.Ptr("https://{storageAccountName}.blob.core.windows.net/{containerName}/{vhdName}.vhd"),
+							URI: to.Ptr("https://{storageAccountName}.blob.core.usgovcloudapi.net/{containerName}/{vhdName}.vhd"),
 						},
 						ManagedDisk: &armcompute.ManagedDiskParameters{
 							ID: to.Ptr("/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/disks/vmss3176_vmss3176_0_OsDisk_1_6d72b805e50e4de6830303c5055077fc"),
@@ -538,7 +538,7 @@ func ExampleVirtualMachineScaleSetVMsClient_BeginUpdate() {
 						},
 						OSType: to.Ptr(armcompute.OperatingSystemTypesWindows),
 						Vhd: &armcompute.VirtualHardDisk{
-							URI: to.Ptr("https://{storageAccountName}.blob.core.windows.net/{containerName}/{vhdName}.vhd"),
+							URI: to.Ptr("https://{storageAccountName}.blob.core.usgovcloudapi.net/{containerName}/{vhdName}.vhd"),
 						},
 						WriteAcceleratorEnabled: to.Ptr(true),
 					},

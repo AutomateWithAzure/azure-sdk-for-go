@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobputblocklistifmatchfalse?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobputblocklistifmatchfalse?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobputblocklistifmatchfalse/gotestblobblobputblocklistifmatchfalse?blockid=AAAAAA%3D%3D\u0026comp=block",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobputblocklistifmatchfalse/gotestblobblobputblocklistifmatchfalse?blockid=AAAAAA%3D%3D\u0026comp=block",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -58,7 +58,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobputblocklistifmatchfalse/gotestblobblobputblocklistifmatchfalse?comp=blocklist",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobputblocklistifmatchfalse/gotestblobblobputblocklistifmatchfalse?comp=blocklist",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -93,7 +93,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobputblocklistifmatchfalse/gotestblobblobputblocklistifmatchfalse?comp=blocklist",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobputblocklistifmatchfalse/gotestblobblobputblocklistifmatchfalse?comp=blocklist",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobputblocklistifmatchfalse?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobputblocklistifmatchfalse?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

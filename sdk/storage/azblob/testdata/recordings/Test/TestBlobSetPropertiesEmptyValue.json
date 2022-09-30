@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsetpropertiesemptyvalue?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsetpropertiesemptyvalue?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsetpropertiesemptyvalue/gotestblobblobsetpropertiesemptyvalue",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsetpropertiesemptyvalue/gotestblobblobsetpropertiesemptyvalue",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -63,7 +63,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsetpropertiesemptyvalue/gotestblobblobsetpropertiesemptyvalue?comp=properties",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsetpropertiesemptyvalue/gotestblobblobsetpropertiesemptyvalue?comp=properties",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -92,7 +92,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsetpropertiesemptyvalue/gotestblobblobsetpropertiesemptyvalue",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsetpropertiesemptyvalue/gotestblobblobsetpropertiesemptyvalue",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -129,7 +129,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsetpropertiesemptyvalue/gotestblobblobsetpropertiesemptyvalue?comp=properties",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsetpropertiesemptyvalue/gotestblobblobsetpropertiesemptyvalue?comp=properties",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -157,7 +157,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsetpropertiesemptyvalue/gotestblobblobsetpropertiesemptyvalue",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsetpropertiesemptyvalue/gotestblobblobsetpropertiesemptyvalue",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -193,7 +193,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsetpropertiesemptyvalue?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsetpropertiesemptyvalue?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

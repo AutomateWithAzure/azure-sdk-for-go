@@ -23,7 +23,7 @@ const (
 // NOTE: Changing any SAS-related field requires computing a new SAS signature.
 type BlobURLParts struct {
 	Scheme              string // Ex: "https://"
-	Host                string // Ex: "account.blob.core.windows.net", "10.132.141.33", "10.132.141.33:80"
+	Host                string // Ex: "account.blob.core.usgovcloudapi.net", "10.132.141.33", "10.132.141.33:80"
 	IPEndpointStyleInfo IPEndpointStyleInfo
 	ContainerName       string // "" if no container
 	BlobName            string // "" if no blob

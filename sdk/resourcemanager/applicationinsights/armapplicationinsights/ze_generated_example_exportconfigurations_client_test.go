@@ -55,7 +55,7 @@ func ExampleExportConfigurationsClient_Create() {
 		"my-component",
 		armapplicationinsights.ComponentExportRequest{
 			DestinationAccountID:             to.Ptr("/subscriptions/subid/resourceGroups/my-resource-group/providers/Microsoft.ClassicStorage/storageAccounts/mystorageblob"),
-			DestinationAddress:               to.Ptr("https://mystorageblob.blob.core.windows.net/testexport?sv=2015-04-05&sr=c&sig=token"),
+			DestinationAddress:               to.Ptr("https://mystorageblob.blob.core.usgovcloudapi.net/testexport?sv=2015-04-05&sr=c&sig=token"),
 			DestinationStorageLocationID:     to.Ptr("eastus"),
 			DestinationStorageSubscriptionID: to.Ptr("subid"),
 			DestinationType:                  to.Ptr("Blob"),
@@ -135,7 +135,7 @@ func ExampleExportConfigurationsClient_Update() {
 		"uGOoki0jQsyEs3IdQ83Q4QsNr4=",
 		armapplicationinsights.ComponentExportRequest{
 			DestinationAccountID:             to.Ptr("/subscriptions/subid/resourceGroups/my-resource-group/providers/Microsoft.ClassicStorage/storageAccounts/mystorageblob"),
-			DestinationAddress:               to.Ptr("https://mystorageblob.blob.core.windows.net/fchentest?sv=2015-04-05&sr=c&sig=token"),
+			DestinationAddress:               to.Ptr("https://mystorageblob.blob.core.usgovcloudapi.net/fchentest?sv=2015-04-05&sr=c&sig=token"),
 			DestinationStorageLocationID:     to.Ptr("eastus"),
 			DestinationStorageSubscriptionID: to.Ptr("subid"),
 			DestinationType:                  to.Ptr("Blob"),

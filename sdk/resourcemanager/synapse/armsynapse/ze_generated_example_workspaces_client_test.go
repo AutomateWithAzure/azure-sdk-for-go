@@ -158,7 +158,7 @@ func ExampleWorkspacesClient_BeginCreateOrUpdate() {
 					InitialWorkspaceAdminObjectID: to.Ptr("6c20646f-8050-49ec-b3b1-80a0e58e454d"),
 				},
 				DefaultDataLakeStorage: &armsynapse.DataLakeStorageAccountDetails{
-					AccountURL: to.Ptr("https://accountname.dfs.core.windows.net"),
+					AccountURL: to.Ptr("https://accountname.dfs.core.usgovcloudapi.net"),
 					Filesystem: to.Ptr("default"),
 				},
 				Encryption: &armsynapse.EncryptionDetails{

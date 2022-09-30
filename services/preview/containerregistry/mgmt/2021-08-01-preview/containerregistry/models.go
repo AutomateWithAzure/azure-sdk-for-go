@@ -2378,8 +2378,8 @@ type ExportPipelineTargetProperties struct {
 	// Type - The type of target for the export pipeline.
 	Type *string `json:"type,omitempty"`
 	// URI - The target uri of the export pipeline.
-	// When 'AzureStorageBlob': "https://accountName.blob.core.windows.net/containerName/blobName"
-	// When 'AzureStorageBlobContainer':  "https://accountName.blob.core.windows.net/containerName"
+	// When 'AzureStorageBlob': "https://accountName.blob.core.usgovcloudapi.net/containerName/blobName"
+	// When 'AzureStorageBlobContainer':  "https://accountName.blob.core.usgovcloudapi.net/containerName"
 	URI *string `json:"uri,omitempty"`
 	// KeyVaultURI - They key vault secret uri to obtain the target storage SAS token.
 	KeyVaultURI *string `json:"keyVaultUri,omitempty"`
@@ -3097,8 +3097,8 @@ type ImportPipelineSourceProperties struct {
 	// Type - The type of source for the import pipeline. Possible values include: 'PipelineSourceTypeAzureStorageBlobContainer'
 	Type PipelineSourceType `json:"type,omitempty"`
 	// URI - The source uri of the import pipeline.
-	// When 'AzureStorageBlob': "https://accountName.blob.core.windows.net/containerName/blobName"
-	// When 'AzureStorageBlobContainer': "https://accountName.blob.core.windows.net/containerName"
+	// When 'AzureStorageBlob': "https://accountName.blob.core.usgovcloudapi.net/containerName/blobName"
+	// When 'AzureStorageBlobContainer': "https://accountName.blob.core.usgovcloudapi.net/containerName"
 	URI *string `json:"uri,omitempty"`
 	// KeyVaultURI - They key vault secret uri to obtain the source storage SAS token.
 	KeyVaultURI *string `json:"keyVaultUri,omitempty"`

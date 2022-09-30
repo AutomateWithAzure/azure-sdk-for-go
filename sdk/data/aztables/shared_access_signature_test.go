@@ -22,7 +22,7 @@ func TestSASServiceClient(t *testing.T) {
 	cred, err := NewSharedKeyCredential(accountName, accountKey)
 	require.NoError(t, err)
 
-	serviceClient, err := NewServiceClientWithSharedKey(fmt.Sprintf("https://%s.table.core.windows.net/", accountName), cred, nil)
+	serviceClient, err := NewServiceClientWithSharedKey(fmt.Sprintf("https://%s.table.core.usgovcloudapi.net/", accountName), cred, nil)
 	require.NoError(t, err)
 
 	tableName, err := createRandomName(t, tableNamePrefix)
@@ -76,7 +76,7 @@ func TestSASClient(t *testing.T) {
 	cred, err := NewSharedKeyCredential(accountName, accountKey)
 	require.NoError(t, err)
 
-	serviceClient, err := NewServiceClientWithSharedKey(fmt.Sprintf("https://%s.table.core.windows.net/", accountName), cred, nil)
+	serviceClient, err := NewServiceClientWithSharedKey(fmt.Sprintf("https://%s.table.core.usgovcloudapi.net/", accountName), cred, nil)
 	require.NoError(t, err)
 
 	tableName, err := createRandomName(t, tableNamePrefix)
@@ -127,7 +127,7 @@ func TestSASClientReadOnly(t *testing.T) {
 	cred, err := NewSharedKeyCredential(accountName, accountKey)
 	require.NoError(t, err)
 
-	serviceClient, err := NewServiceClientWithSharedKey(fmt.Sprintf("https://%s.table.core.windows.net/", accountName), cred, nil)
+	serviceClient, err := NewServiceClientWithSharedKey(fmt.Sprintf("https://%s.table.core.usgovcloudapi.net/", accountName), cred, nil)
 	require.NoError(t, err)
 
 	tableName, err := createRandomName(t, tableNamePrefix)

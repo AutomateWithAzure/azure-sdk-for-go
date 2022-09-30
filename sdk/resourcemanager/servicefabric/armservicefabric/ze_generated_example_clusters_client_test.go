@@ -93,11 +93,11 @@ func ExampleClustersClient_BeginCreateOrUpdate() {
 					}},
 				ClusterCodeVersion: to.Ptr("7.0.470.9590"),
 				DiagnosticsStorageAccountConfig: &armservicefabric.DiagnosticsStorageAccountConfig{
-					BlobEndpoint:            to.Ptr("https://diag.blob.core.windows.net/"),
+					BlobEndpoint:            to.Ptr("https://diag.blob.core.usgovcloudapi.net/"),
 					ProtectedAccountKeyName: to.Ptr("StorageAccountKey1"),
-					QueueEndpoint:           to.Ptr("https://diag.queue.core.windows.net/"),
+					QueueEndpoint:           to.Ptr("https://diag.queue.core.usgovcloudapi.net/"),
 					StorageAccountName:      to.Ptr("diag"),
-					TableEndpoint:           to.Ptr("https://diag.table.core.windows.net/"),
+					TableEndpoint:           to.Ptr("https://diag.table.core.usgovcloudapi.net/"),
 				},
 				EventStoreServiceEnabled: to.Ptr(true),
 				FabricSettings: []*armservicefabric.SettingsSectionDescription{

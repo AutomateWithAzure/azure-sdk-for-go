@@ -844,9 +844,9 @@ type ExportPipelineTargetProperties struct {
 	// The type of target for the export pipeline.
 	Type *string `json:"type,omitempty"`
 
-	// The target uri of the export pipeline. When 'AzureStorageBlob': "https://accountName.blob.core.windows.net/containerName/blobName"
+	// The target uri of the export pipeline. When 'AzureStorageBlob': "https://accountName.blob.core.usgovcloudapi.net/containerName/blobName"
 	// When 'AzureStorageBlobContainer':
-	// "https://accountName.blob.core.windows.net/containerName"
+	// "https://accountName.blob.core.usgovcloudapi.net/containerName"
 	URI *string `json:"uri,omitempty"`
 }
 
@@ -1140,9 +1140,9 @@ type ImportPipelineSourceProperties struct {
 	// The type of source for the import pipeline.
 	Type *PipelineSourceType `json:"type,omitempty"`
 
-	// The source uri of the import pipeline. When 'AzureStorageBlob': "https://accountName.blob.core.windows.net/containerName/blobName"
+	// The source uri of the import pipeline. When 'AzureStorageBlob': "https://accountName.blob.core.usgovcloudapi.net/containerName/blobName"
 	// When 'AzureStorageBlobContainer':
-	// "https://accountName.blob.core.windows.net/containerName"
+	// "https://accountName.blob.core.usgovcloudapi.net/containerName"
 	URI *string `json:"uri,omitempty"`
 }
 

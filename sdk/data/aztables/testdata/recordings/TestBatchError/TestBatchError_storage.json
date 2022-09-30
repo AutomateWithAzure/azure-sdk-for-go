@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/Tables",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/Tables",
       "RequestMethod": "POST",
       "RequestHeaders": {
         ":method": "POST",
@@ -23,7 +23,7 @@
         "Cache-Control": "no-cache",
         "Content-Type": "application/json; odata=minimalmetadata; streaming=true; charset=utf-8",
         "Date": "Wed, 13 Apr 2022 19:29:04 GMT",
-        "Location": "https://fakeaccount.table.core.windows.net/Tables(\u0027tableName2163872032\u0027)",
+        "Location": "https://fakeaccount.table.core.usgovcloudapi.net/Tables(\u0027tableName2163872032\u0027)",
         "Server": [
           "Windows-Azure-Table/1.0",
           "Microsoft-HTTPAPI/2.0"
@@ -34,12 +34,12 @@
         "x-ms-version": "2019-02-02"
       },
       "ResponseBody": {
-        "odata.metadata": "https://fakeaccount.table.core.windows.net/$metadata#Tables/@Element",
+        "odata.metadata": "https://fakeaccount.table.core.usgovcloudapi.net/$metadata#Tables/@Element",
         "TableName": "tableName2163872032"
       }
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/tableName2163872032",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/tableName2163872032",
       "RequestMethod": "POST",
       "RequestHeaders": {
         ":method": "POST",
@@ -69,10 +69,10 @@
       "ResponseHeaders": {
         "Cache-Control": "no-cache",
         "Content-Length": "0",
-        "DataServiceId": "https://fakeaccount.table.core.windows.net/tableName2163872032(PartitionKey=\u0027partition\u0027,RowKey=\u00273\u0027)",
+        "DataServiceId": "https://fakeaccount.table.core.usgovcloudapi.net/tableName2163872032(PartitionKey=\u0027partition\u0027,RowKey=\u00273\u0027)",
         "Date": "Wed, 13 Apr 2022 19:29:04 GMT",
         "ETag": "W/\u0022datetime\u00272022-04-13T19%3A29%3A04.2283077Z\u0027\u0022",
-        "Location": "https://fakeaccount.table.core.windows.net/tableName2163872032(PartitionKey=\u0027partition\u0027,RowKey=\u00273\u0027)",
+        "Location": "https://fakeaccount.table.core.usgovcloudapi.net/tableName2163872032(PartitionKey=\u0027partition\u0027,RowKey=\u00273\u0027)",
         "Preference-Applied": "return-no-content",
         "Server": [
           "Windows-Azure-Table/1.0",
@@ -85,7 +85,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/$batch",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/$batch",
       "RequestMethod": "POST",
       "RequestHeaders": {
         ":method": "POST",
@@ -117,7 +117,7 @@
       "ResponseBody": "LS1iYXRjaHJlc3BvbnNlXzM3N2I3ZWVkLTk4OGYtNGI5Zi05ZTBmLThhMWQwOWI0N2Y0Ng0KQ29udGVudC1UeXBlOiBtdWx0aXBhcnQvbWl4ZWQ7IGJvdW5kYXJ5PWNoYW5nZXNldHJlc3BvbnNlXzM0OWYxZGEwLTYzNjUtNDBmMi05OWFkLWVhNGZkZjNiZTBlZg0KDQotLWNoYW5nZXNldHJlc3BvbnNlXzM0OWYxZGEwLTYzNjUtNDBmMi05OWFkLWVhNGZkZjNiZTBlZg0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9odHRwDQpDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBiaW5hcnkNCg0KSFRUUC8xLjEgNDA5IENvbmZsaWN0DQpYLUNvbnRlbnQtVHlwZS1PcHRpb25zOiBub3NuaWZmDQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KUHJlZmVyZW5jZS1BcHBsaWVkOiByZXR1cm4tbm8tY29udGVudA0KRGF0YVNlcnZpY2VWZXJzaW9uOiAzLjA7DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb247b2RhdGE9bWluaW1hbG1ldGFkYXRhO3N0cmVhbWluZz10cnVlO2NoYXJzZXQ9dXRmLTgNCg0KeyJvZGF0YS5lcnJvciI6eyJjb2RlIjoiRW50aXR5QWxyZWFkeUV4aXN0cyIsIm1lc3NhZ2UiOnsibGFuZyI6ImVuLVVTIiwidmFsdWUiOiIyOlRoZSBzcGVjaWZpZWQgZW50aXR5IGFscmVhZHkgZXhpc3RzLlxuUmVxdWVzdElkOjEyM2VjOThkLWQwMDItMDBhOS0wMzZjLTRmMzRjMzAwMDAwMFxuVGltZToyMDIyLTA0LTEzVDE5OjI5OjA0LjI3MTI4MjhaIn19fQ0KLS1jaGFuZ2VzZXRyZXNwb25zZV8zNDlmMWRhMC02MzY1LTQwZjItOTlhZC1lYTRmZGYzYmUwZWYtLQ0KLS1iYXRjaHJlc3BvbnNlXzM3N2I3ZWVkLTk4OGYtNGI5Zi05ZTBmLThhMWQwOWI0N2Y0Ni0tDQo="
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/Tables(\u0027tableName2163872032\u0027)",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/Tables(\u0027tableName2163872032\u0027)",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/json",

@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocresizepageblob?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocresizepageblob?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocresizepageblob/gotestblobresizepageblob",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocresizepageblob/gotestblobresizepageblob",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -61,7 +61,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocresizepageblob/gotestblobresizepageblob?comp=properties",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocresizepageblob/gotestblobresizepageblob?comp=properties",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -91,7 +91,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocresizepageblob/gotestblobresizepageblob?comp=properties",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocresizepageblob/gotestblobresizepageblob?comp=properties",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -121,7 +121,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocresizepageblob/gotestblobresizepageblob",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocresizepageblob/gotestblobresizepageblob",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -157,7 +157,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocresizepageblob?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocresizepageblob?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

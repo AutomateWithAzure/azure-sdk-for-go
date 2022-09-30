@@ -25,7 +25,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:43 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
     body: ""
@@ -35,11 +35,11 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table29storageentitysuitetestupd')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table29storageentitysuitetestupd')
       Date:
       - Tue, 13 Apr 2021 15:57:41 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table29storageentitysuitetestupd')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table29storageentitysuitetestupd')
       Preference-Applied:
       - return-no-content
       Server:
@@ -76,10 +76,10 @@ interactions:
       - Tue, 13 Apr 2021 15:57:43 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestupd
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestupd
     method: POST
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#table29storageentitysuitetestupd/@Element","odata.type":"golangrocksonazure.table29storageentitysuitetestupd","odata.id":"https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestupd(PartitionKey=''mypartitionkey'',RowKey=''myrowkey'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A42.9918625Z''\"","odata.editLink":"table29storageentitysuitetestupd(PartitionKey=''mypartitionkey'',RowKey=''myrowkey'')","PartitionKey":"mypartitionkey","RowKey":"myrowkey","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:42.9918625Z","AmountDue":200.23,"CustomerCode@odata.type":"Edm.Guid","CustomerCode":"c9da6455-213d-42c9-9a79-3e9149a57833","CustomerSince@odata.type":"Edm.DateTime","CustomerSince":"1992-12-20T21:55:00Z","IsActive":true,"NumberOfOrders@odata.type":"Edm.Int64","NumberOfOrders":"255"}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#table29storageentitysuitetestupd/@Element","odata.type":"golangrocksonazure.table29storageentitysuitetestupd","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestupd(PartitionKey=''mypartitionkey'',RowKey=''myrowkey'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A42.9918625Z''\"","odata.editLink":"table29storageentitysuitetestupd(PartitionKey=''mypartitionkey'',RowKey=''myrowkey'')","PartitionKey":"mypartitionkey","RowKey":"myrowkey","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:42.9918625Z","AmountDue":200.23,"CustomerCode@odata.type":"Edm.Guid","CustomerCode":"c9da6455-213d-42c9-9a79-3e9149a57833","CustomerSince@odata.type":"Edm.DateTime","CustomerSince":"1992-12-20T21:55:00Z","IsActive":true,"NumberOfOrders@odata.type":"Edm.Int64","NumberOfOrders":"255"}'
     headers:
       Cache-Control:
       - no-cache
@@ -90,7 +90,7 @@ interactions:
       Etag:
       - W/"datetime'2021-04-13T15%3A57%3A42.9918625Z'"
       Location:
-      - https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestupd(PartitionKey='mypartitionkey',RowKey='myrowkey')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestupd(PartitionKey='mypartitionkey',RowKey='myrowkey')
       Preference-Applied:
       - return-content
       Server:
@@ -129,7 +129,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:43 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestupd%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestupd%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
     method: PUT
   response:
     body: ""
@@ -180,7 +180,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:43 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestupd%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestupd%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
     method: PUT
   response:
     body: '{"odata.error":{"code":"ConditionNotMet","message":{"lang":"en-US","value":"The
@@ -226,7 +226,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:43 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestupd%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestupd%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
     method: PUT
   response:
     body: ""
@@ -269,7 +269,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:43 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table29storageentitysuitetestupd%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table29storageentitysuitetestupd%27%29?timeout=30
     method: DELETE
   response:
     body: ""

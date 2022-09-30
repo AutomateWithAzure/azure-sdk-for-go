@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 16:04:06 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-37storagedirsuitetestdirectorymetadata?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-37storagedirsuitetestdirectorymetadata?restype=share
     method: PUT
   response:
     body: ""
@@ -49,7 +49,7 @@ interactions:
       - Tue, 13 Apr 2021 16:04:06 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-37storagedirsuitetestdirectorymetadata/testdir?restype=directory
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-37storagedirsuitetestdirectorymetadata/testdir?restype=directory
     method: PUT
   response:
     body: ""
@@ -90,7 +90,7 @@ interactions:
       - somethingvalue
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-37storagedirsuitetestdirectorymetadata/testdir?comp=metadata&restype=directory
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-37storagedirsuitetestdirectorymetadata/testdir?comp=metadata&restype=directory
     method: PUT
   response:
     body: ""
@@ -127,7 +127,7 @@ interactions:
       - Tue, 13 Apr 2021 16:04:06 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-37storagedirsuitetestdirectorymetadata/testdir?restype=directory
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-37storagedirsuitetestdirectorymetadata/testdir?restype=directory
     method: HEAD
   response:
     body: ""
@@ -168,7 +168,7 @@ interactions:
       - Tue, 13 Apr 2021 16:04:06 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-37storagedirsuitetestdirectorymetadata?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-37storagedirsuitetestdirectorymetadata?restype=share
     method: DELETE
   response:
     body: ""

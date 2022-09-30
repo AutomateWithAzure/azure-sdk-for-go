@@ -14,7 +14,7 @@ interactions:
       - Thu, 15 Apr 2021 14:35:36 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/65containersuitetestsetcontainer?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/65containersuitetestsetcontainer?restype=container
     method: PUT
   response:
     body: ""
@@ -53,7 +53,7 @@ interactions:
       - Thu, 15 Apr 2021 14:35:36 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/65containersuitetestsetcontainer?comp=acl&restype=container&timeout=30
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/65containersuitetestsetcontainer?comp=acl&restype=container&timeout=30
     method: PUT
   response:
     body: ""
@@ -88,7 +88,7 @@ interactions:
       - Thu, 15 Apr 2021 14:35:36 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/65containersuitetestsetcontainer?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/65containersuitetestsetcontainer?restype=container
     method: DELETE
   response:
     body: ""

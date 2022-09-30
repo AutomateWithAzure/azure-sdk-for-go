@@ -36,7 +36,7 @@ func ExampleImagesClient_BeginCreateOrUpdate() {
 			Properties: &armcompute.ImageProperties{
 				StorageProfile: &armcompute.ImageStorageProfile{
 					OSDisk: &armcompute.ImageOSDisk{
-						BlobURI: to.Ptr("https://mystorageaccount.blob.core.windows.net/osimages/osimage.vhd"),
+						BlobURI: to.Ptr("https://mystorageaccount.blob.core.usgovcloudapi.net/osimages/osimage.vhd"),
 						DiskEncryptionSet: &armcompute.DiskEncryptionSetParameters{
 							ID: to.Ptr("/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/diskEncryptionSets/{existing-diskEncryptionSet-name}"),
 						},

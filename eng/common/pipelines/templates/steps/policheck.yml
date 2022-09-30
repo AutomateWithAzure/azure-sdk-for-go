@@ -7,7 +7,7 @@ parameters:
 
 steps:
   - pwsh: |
-      azcopy copy "https://azuresdkartifacts.blob.core.windows.net/policheck/${{ parameters.ExclusionDataBaseFileName }}.mdb?${{ parameters.PoliCheckBlobSAS }}" `
+      azcopy copy "https://azuresdkartifacts.blob.core.usgovcloudapi.net/policheck/${{ parameters.ExclusionDataBaseFileName }}.mdb?${{ parameters.PoliCheckBlobSAS }}" `
       "$(Build.BinariesDirectory)"
     displayName: 'Download PoliCheck Exclusion Database'
 

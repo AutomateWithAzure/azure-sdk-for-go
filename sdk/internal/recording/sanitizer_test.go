@@ -259,8 +259,8 @@ func TestHeaderRegexSanitizer(t *testing.T) {
 	req.Header.Set(ModeHeader, GetRecordMode())
 	req.Header.Set(IDHeader, GetRecordingId(t))
 	req.Header.Set("testproxy-header", "fakevalue")
-	req.Header.Set("FakeStorageLocation", "https://fakeaccount.blob.core.windows.net")
-	req.Header.Set("ComplexRegex", "https://fakeaccount.table.core.windows.net")
+	req.Header.Set("FakeStorageLocation", "https://fakeaccount.blob.core.usgovcloudapi.net")
+	req.Header.Set("ComplexRegex", "https://fakeaccount.table.core.usgovcloudapi.net")
 
 	err = AddHeaderRegexSanitizer("testproxy-header", "Sanitized", "", nil)
 	require.NoError(t, err)
@@ -294,7 +294,7 @@ func TestHeaderRegexSanitizer(t *testing.T) {
 
 	require.Equal(t, "Sanitized", data.Entries[0].RequestHeaders["testproxy-header"])
 	require.Equal(t, "Sanitized", data.Entries[0].RequestHeaders["fakestoragelocation"])
-	require.Equal(t, "https://Sanitized.table.core.windows.net", data.Entries[0].RequestHeaders["complexregex"])
+	require.Equal(t, "https://Sanitized.table.core.usgovcloudapi.net", data.Entries[0].RequestHeaders["complexregex"])
 }
 
 func TestBodyKeySanitizer(t *testing.T) {
@@ -430,8 +430,8 @@ func TestRemoveHeaderSanitizer(t *testing.T) {
 	req.Header.Set(UpstreamURIHeader, srvURL)
 	req.Header.Set(ModeHeader, GetRecordMode())
 	req.Header.Set(IDHeader, GetRecordingId(t))
-	req.Header.Set("FakeStorageLocation", "https://fakeaccount.blob.core.windows.net")
-	req.Header.Set("ComplexRegexRemove", "https://fakeaccount.table.core.windows.net")
+	req.Header.Set("FakeStorageLocation", "https://fakeaccount.blob.core.usgovcloudapi.net")
+	req.Header.Set("ComplexRegexRemove", "https://fakeaccount.table.core.usgovcloudapi.net")
 
 	err = AddRemoveHeaderSanitizer([]string{"ComplexRegexRemove", "FakeStorageLocation"}, nil)
 	require.NoError(t, err)
@@ -679,7 +679,7 @@ func TestResetSanitizers(t *testing.T) {
 	req.Header.Set(UpstreamURIHeader, srvURL)
 	req.Header.Set(ModeHeader, GetRecordMode())
 	req.Header.Set(IDHeader, GetRecordingId(t))
-	req.Header.Set("FakeStorageLocation", "https://fakeaccount.blob.core.windows.net")
+	req.Header.Set("FakeStorageLocation", "https://fakeaccount.blob.core.usgovcloudapi.net")
 
 	// Add a sanitizer
 	err = AddRemoveHeaderSanitizer([]string{"FakeStorageLocation"}, &RecordingOptions{TestInstance: t})
@@ -709,7 +709,7 @@ func TestResetSanitizers(t *testing.T) {
 	err = json.Unmarshal(byteValue, &data)
 	require.NoError(t, err)
 
-	require.Equal(t, data.Entries[0].RequestHeaders["fakestoragelocation"], "https://fakeaccount.blob.core.windows.net")
+	require.Equal(t, data.Entries[0].RequestHeaders["fakestoragelocation"], "https://fakeaccount.blob.core.usgovcloudapi.net")
 }
 
 func TestSingleTestSanitizer(t *testing.T) {
@@ -741,7 +741,7 @@ func TestSingleTestSanitizer(t *testing.T) {
 			req.Header.Set(UpstreamURIHeader, srvURL)
 			req.Header.Set(ModeHeader, GetRecordMode())
 			req.Header.Set(IDHeader, GetRecordingId(t))
-			req.Header.Set("FakeStorageLocation", "https://fakeaccount.blob.core.windows.net")
+			req.Header.Set("FakeStorageLocation", "https://fakeaccount.blob.core.usgovcloudapi.net")
 
 			_, err = client.Do(req)
 			require.NoError(t, err)
@@ -763,7 +763,7 @@ func TestSingleTestSanitizer(t *testing.T) {
 			if i == 0 {
 				require.NotContains(t, data.Entries[0].RequestHeaders, "fakestoragelocation")
 			} else {
-				require.Equal(t, data.Entries[0].RequestHeaders["fakestoragelocation"], "https://fakeaccount.blob.core.windows.net")
+				require.Equal(t, data.Entries[0].RequestHeaders["fakestoragelocation"], "https://fakeaccount.blob.core.usgovcloudapi.net")
 			}
 		})
 	}

@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocgetsetblobmetadatawithcpkscope01?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocgetsetblobmetadatawithcpkscope01?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocgetsetblobmetadatawithcpkscope01/gotestblobgetsetblobmetadatawithcpkscope",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocgetsetblobmetadatawithcpkscope01/gotestblobgetsetblobmetadatawithcpkscope",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -65,7 +65,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocgetsetblobmetadatawithcpkscope01/gotestblobgetsetblobmetadatawithcpkscope?comp=metadata",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocgetsetblobmetadatawithcpkscope01/gotestblobgetsetblobmetadatawithcpkscope?comp=metadata",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocgetsetblobmetadatawithcpkscope01/gotestblobgetsetblobmetadatawithcpkscope?comp=metadata",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocgetsetblobmetadatawithcpkscope01/gotestblobgetsetblobmetadatawithcpkscope?comp=metadata",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -131,7 +131,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocgetsetblobmetadatawithcpkscope01/gotestblobgetsetblobmetadatawithcpkscope",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocgetsetblobmetadatawithcpkscope01/gotestblobgetsetblobmetadatawithcpkscope",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -171,7 +171,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocgetsetblobmetadatawithcpkscope01/gotestblobgetsetblobmetadatawithcpkscope?comp=metadata",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocgetsetblobmetadatawithcpkscope01/gotestblobgetsetblobmetadatawithcpkscope?comp=metadata",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -203,7 +203,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocgetsetblobmetadatawithcpkscope01/gotestblobgetsetblobmetadatawithcpkscope",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocgetsetblobmetadatawithcpkscope01/gotestblobgetsetblobmetadatawithcpkscope",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -242,7 +242,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocgetsetblobmetadatawithcpkscope01?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocgetsetblobmetadatawithcpkscope01?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

@@ -187,7 +187,7 @@ func TestCreateTable(t *testing.T) {
 		require.NoError(t, err)
 	}()
 
-	serviceUrl := fmt.Sprintf("https://%v.table.core.windows.net", accountName)
+	serviceUrl := fmt.Sprintf("https://%v.table.core.usgovcloudapi.net", accountName)
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	require.NoError(t, err)
 

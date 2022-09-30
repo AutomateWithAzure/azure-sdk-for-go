@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/41blobsasurisuitetestblobsasuric?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/41blobsasurisuitetestblobsasuric?restype=container
     method: PUT
   response:
     body: ""
@@ -54,7 +54,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/41blobsasurisuitetestblobsasuric/Lorem/Lorem-._~:%3F%23%5B%5D@%21$&%27%28%29%2A,;+=%20Lorem
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/41blobsasurisuitetestblobsasuric/Lorem/Lorem-._~:%3F%23%5B%5D@%21$&%27%28%29%2A,;+=%20Lorem
     method: PUT
   response:
     body: ""
@@ -84,7 +84,7 @@ interactions:
     body: ""
     form: {}
     headers: {}
-    url: https://golangrocksonazure.blob.core.windows.net/41blobsasurisuitetestblobsasuric/Lorem/Lorem-._~:%3F%23%5B%5D@%21$&%27%28%29%2A,;+=%20Lorem?se=2050-12-20T22%3A55%3A06Z&sig=oSe20fq2LSsXtnCpr9CNShlqR%2Fi%2B4pTlpn%2B3Q4cMva4%3D&sp=r&sr=b&sv=2018-03-28
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/41blobsasurisuitetestblobsasuric/Lorem/Lorem-._~:%3F%23%5B%5D@%21$&%27%28%29%2A,;+=%20Lorem?se=2050-12-20T22%3A55%3A06Z&sig=oSe20fq2LSsXtnCpr9CNShlqR%2Fi%2B4pTlpn%2B3Q4cMva4%3D&sp=r&sr=b&sv=2018-03-28
     method: GET
   response:
     body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat
@@ -136,7 +136,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/41blobsasurisuitetestblobsasuric?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/41blobsasurisuitetestblobsasuric?restype=container
     method: DELETE
   response:
     body: ""

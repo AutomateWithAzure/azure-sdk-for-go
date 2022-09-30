@@ -423,7 +423,7 @@ func ExampleCachesClient_BeginStartPrimingJob() {
 		"sc1",
 		&armstoragecache.CachesClientBeginStartPrimingJobOptions{Primingjob: &armstoragecache.PrimingJob{
 			PrimingJobName:     to.Ptr("contosoJob"),
-			PrimingManifestURL: to.Ptr("https://contosostorage.blob.core.windows.net/contosoblob/00000000_00000000000000000000000000000000.00000000000.FFFFFFFF.00000000?sp=r&st=2021-08-11T19:33:35Z&se=2021-08-12T03:33:35Z&spr=https&sv=2020-08-04&sr=b&sig=<secret-value-from-key>"),
+			PrimingManifestURL: to.Ptr("https://contosostorage.blob.core.usgovcloudapi.net/contosoblob/00000000_00000000000000000000000000000000.00000000000.FFFFFFFF.00000000?sp=r&st=2021-08-11T19:33:35Z&se=2021-08-12T03:33:35Z&spr=https&sv=2020-08-04&sr=b&sig=<secret-value-from-key>"),
 		},
 		})
 	if err != nil {

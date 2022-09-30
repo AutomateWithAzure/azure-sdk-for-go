@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocseal?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocseal?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocseal/gotestblobseal",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocseal/gotestblobseal",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -60,7 +60,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocseal/gotestblobseal?comp=appendblock",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocseal/gotestblobseal?comp=appendblock",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -93,7 +93,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocseal/gotestblobseal?comp=seal",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocseal/gotestblobseal?comp=seal",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -122,7 +122,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocseal/gotestblobseal?comp=appendblock",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocseal/gotestblobseal?comp=appendblock",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocseal/gotestblobseal",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocseal/gotestblobseal",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -192,7 +192,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocseal?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocseal?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

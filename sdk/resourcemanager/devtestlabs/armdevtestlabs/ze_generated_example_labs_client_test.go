@@ -243,7 +243,7 @@ func ExampleLabsClient_BeginExportResourceUsage() {
 		"resourceGroupName",
 		"{labName}",
 		armdevtestlabs.ExportResourceUsageParameters{
-			BlobStorageAbsoluteSasURI: to.Ptr("https://invalid.blob.core.windows.net/export.blob?sv=2015-07-08&sig={sas}&sp=rcw"),
+			BlobStorageAbsoluteSasURI: to.Ptr("https://invalid.blob.core.usgovcloudapi.net/export.blob?sv=2015-07-08&sig={sas}&sp=rcw"),
 			UsageStartDate:            to.Ptr(func() time.Time { t, _ := time.Parse(time.RFC3339Nano, "2020-12-01T00:00:00Z"); return t }()),
 		},
 		nil)

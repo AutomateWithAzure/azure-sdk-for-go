@@ -22,7 +22,7 @@ var (
 )
 
 const (
-	DefaultAzureManagementURL    = "https://management.core.windows.net"
+	DefaultAzureManagementURL    = "https://management.core.usgovcloudapi.net"
 	DefaultOperationPollInterval = time.Second * 30
 	DefaultAPIVersion            = "2014-10-01"
 

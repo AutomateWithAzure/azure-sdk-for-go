@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobgetpagerangesifmatchfalse?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobgetpagerangesifmatchfalse?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobgetpagerangesifmatchfalse/gotestblobblobgetpagerangesifmatchfalse",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobgetpagerangesifmatchfalse/gotestblobblobgetpagerangesifmatchfalse",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -61,7 +61,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobgetpagerangesifmatchfalse/gotestblobblobgetpagerangesifmatchfalse?comp=page",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobgetpagerangesifmatchfalse/gotestblobblobgetpagerangesifmatchfalse?comp=page",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -95,7 +95,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobgetpagerangesifmatchfalse/gotestblobblobgetpagerangesifmatchfalse?comp=pagelist",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobgetpagerangesifmatchfalse/gotestblobblobgetpagerangesifmatchfalse?comp=pagelist",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobgetpagerangesifmatchfalse?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobgetpagerangesifmatchfalse?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

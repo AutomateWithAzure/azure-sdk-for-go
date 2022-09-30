@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobclearpagesifsequencenumberlessthannegone?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobclearpagesifsequencenumberlessthannegone?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobclearpagesifsequencenumberlessthannegone/gotestblobblobclearpagesifsequencenumberlessthannegone",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobclearpagesifsequencenumberlessthannegone/gotestblobblobclearpagesifsequencenumberlessthannegone",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -61,7 +61,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobclearpagesifsequencenumberlessthannegone/gotestblobblobclearpagesifsequencenumberlessthannegone?comp=page",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobclearpagesifsequencenumberlessthannegone/gotestblobblobclearpagesifsequencenumberlessthannegone?comp=page",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -95,7 +95,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobclearpagesifsequencenumberlessthannegone/gotestblobblobclearpagesifsequencenumberlessthannegone?comp=page",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobclearpagesifsequencenumberlessthannegone/gotestblobblobclearpagesifsequencenumberlessthannegone?comp=page",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobclearpagesifsequencenumberlessthannegone?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobclearpagesifsequencenumberlessthannegone?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

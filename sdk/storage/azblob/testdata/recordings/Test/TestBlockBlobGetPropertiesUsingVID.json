@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblockblobgetpropertiesusingvid?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblockblobgetpropertiesusingvid?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblockblobgetpropertiesusingvid/gotestblobblockblobgetpropertiesusingvid",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblockblobgetpropertiesusingvid/gotestblobblockblobgetpropertiesusingvid",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -63,7 +63,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblockblobgetpropertiesusingvid/gotestblobblockblobgetpropertiesusingvid",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblockblobgetpropertiesusingvid/gotestblobblockblobgetpropertiesusingvid",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -101,7 +101,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblockblobgetpropertiesusingvid/gotestblobblockblobgetpropertiesusingvid",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblockblobgetpropertiesusingvid/gotestblobblockblobgetpropertiesusingvid",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -137,7 +137,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblockblobgetpropertiesusingvid/gotestblobblockblobgetpropertiesusingvid",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblockblobgetpropertiesusingvid/gotestblobblockblobgetpropertiesusingvid",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -176,7 +176,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblockblobgetpropertiesusingvid?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblockblobgetpropertiesusingvid?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

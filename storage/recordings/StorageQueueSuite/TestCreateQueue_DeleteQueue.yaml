@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:52 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.queue.core.windows.net/queue-45storagequeuesuitetestcreatequeuedeletequeue
+    url: https://golangrocksonazure.queue.core.usgovcloudapi.net/queue-45storagequeuesuitetestcreatequeuedeletequeue
     method: PUT
   response:
     body: ""
@@ -45,7 +45,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:52 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.queue.core.windows.net/queue-45storagequeuesuitetestcreatequeuedeletequeue
+    url: https://golangrocksonazure.queue.core.usgovcloudapi.net/queue-45storagequeuesuitetestcreatequeuedeletequeue
     method: DELETE
   response:
     body: ""

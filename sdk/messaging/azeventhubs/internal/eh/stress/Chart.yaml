@@ -11,4 +11,4 @@ annotations:
 dependencies:
 - name: stress-test-addons
   version: ~0.1.19
-  repository: https://stresstestcharts.blob.core.windows.net/helm/
+  repository: https://stresstestcharts.blob.core.usgovcloudapi.net/helm/

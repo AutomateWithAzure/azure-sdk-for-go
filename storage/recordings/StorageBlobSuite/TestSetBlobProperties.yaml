@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:10 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/38storageblobsuitetestsetblobpro?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/38storageblobsuitetestsetblobpro?restype=container
     method: PUT
   response:
     body: ""
@@ -53,7 +53,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:11 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/38storageblobsuitetestsetblobpro/blob/38storageblobsuitetestsetblobproperties
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/38storageblobsuitetestsetblobpro/blob/38storageblobsuitetestsetblobproperties
     method: PUT
   response:
     body: ""
@@ -102,7 +102,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:11 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/38storageblobsuitetestsetblobpro/blob/38storageblobsuitetestsetblobproperties?comp=properties
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/38storageblobsuitetestsetblobpro/blob/38storageblobsuitetestsetblobproperties?comp=properties
     method: PUT
   response:
     body: ""
@@ -137,7 +137,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:11 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/38storageblobsuitetestsetblobpro/blob/38storageblobsuitetestsetblobproperties
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/38storageblobsuitetestsetblobpro/blob/38storageblobsuitetestsetblobproperties
     method: HEAD
   response:
     body: ""
@@ -198,7 +198,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:11 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/38storageblobsuitetestsetblobpro?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/38storageblobsuitetestsetblobpro?restype=container
     method: DELETE
   response:
     body: ""

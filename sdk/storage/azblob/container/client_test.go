@@ -96,7 +96,7 @@ type ContainerUnrecordedTestsSuite struct {
 //
 //	accountName, err := getRequiredEnv(AccountNameEnvVar)
 //	_require.Nil(err)
-//	correctURL := "https://" + accountName + ".blob.core.windows.net/$root"
+//	correctURL := "https://" + accountName + ".blob.core.usgovcloudapi.net/$root"
 //	_require.Equal(testURL.URL(), correctURL)
 //}
 

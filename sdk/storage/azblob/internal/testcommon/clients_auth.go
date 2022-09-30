@@ -37,8 +37,8 @@ const (
 )
 
 const (
-	DefaultEndpointSuffix       = "core.windows.net/"
-	DefaultBlobEndpointSuffix   = "blob.core.windows.net/"
+	DefaultEndpointSuffix       = "core.usgovcloudapi.net/"
+	DefaultBlobEndpointSuffix   = "blob.core.usgovcloudapi.net/"
 	AccountNameEnvVar           = "AZURE_STORAGE_ACCOUNT_NAME"
 	AccountKeyEnvVar            = "AZURE_STORAGE_ACCOUNT_KEY"
 	DefaultEndpointSuffixEnvVar = "AZURE_STORAGE_ENDPOINT_SUFFIX"
@@ -46,7 +46,7 @@ const (
 
 const (
 	FakeStorageAccount = "fakestorage"
-	FakeStorageURL     = "https://fakestorage.blob.core.windows.net"
+	FakeStorageURL     = "https://fakestorage.blob.core.usgovcloudapi.net"
 )
 
 var (
@@ -103,7 +103,7 @@ func GetClient(t *testing.T, accountType TestAccountType, options *azblob.Client
 		return nil, err
 	}
 
-	client, err := azblob.NewClientWithSharedKeyCredential("https://"+cred.AccountName()+".blob.core.windows.net/", cred, options)
+	client, err := azblob.NewClientWithSharedKeyCredential("https://"+cred.AccountName()+".blob.core.usgovcloudapi.net/", cred, options)
 
 	return client, err
 }
@@ -120,7 +120,7 @@ func GetServiceClient(t *testing.T, accountType TestAccountType, options *servic
 		return nil, err
 	}
 
-	serviceClient, err := service.NewClientWithSharedKeyCredential("https://"+cred.AccountName()+".blob.core.windows.net/", cred, options)
+	serviceClient, err := service.NewClientWithSharedKeyCredential("https://"+cred.AccountName()+".blob.core.usgovcloudapi.net/", cred, options)
 
 	return serviceClient, err
 }
@@ -147,7 +147,7 @@ func GetGenericCredential(accountType TestAccountType) (*azblob.SharedKeyCredent
 
 func GetConnectionString(accountType TestAccountType) string {
 	accountName, accountKey := GetAccountInfo(accountType)
-	connectionString := fmt.Sprintf("DefaultEndpointsProtocol=https;AccountName=%s;AccountKey=%s;EndpointSuffix=core.windows.net/",
+	connectionString := fmt.Sprintf("DefaultEndpointsProtocol=https;AccountName=%s;AccountKey=%s;EndpointSuffix=core.usgovcloudapi.net/",
 		accountName, accountKey)
 	return connectionString
 }

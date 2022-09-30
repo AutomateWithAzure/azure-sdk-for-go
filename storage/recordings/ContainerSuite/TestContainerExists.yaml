@@ -14,7 +14,7 @@ interactions:
       - Thu, 15 Apr 2021 14:35:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/134containersuitetestcontainerex?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/134containersuitetestcontainerex?restype=container
     method: HEAD
   response:
     body: ""
@@ -45,7 +45,7 @@ interactions:
       - Thu, 15 Apr 2021 14:35:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/234containersuitetestcontainerex?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/234containersuitetestcontainerex?restype=container
     method: PUT
   response:
     body: ""
@@ -80,7 +80,7 @@ interactions:
       - Thu, 15 Apr 2021 14:35:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/234containersuitetestcontainerex?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/234containersuitetestcontainerex?restype=container
     method: HEAD
   response:
     body: ""
@@ -121,7 +121,7 @@ interactions:
       - Thu, 15 Apr 2021 14:35:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/134containersuitetestcontainerex?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=wyMWryo%2B9f%2FsTryk6UFHAo3StUSLwFGhJPl14Z5RZxs%3D&sp=racwdl&sr=c&sv=2018-03-28
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/134containersuitetestcontainerex?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=wyMWryo%2B9f%2FsTryk6UFHAo3StUSLwFGhJPl14Z5RZxs%3D&sp=racwdl&sr=c&sv=2018-03-28
     method: HEAD
   response:
     body: ""
@@ -150,7 +150,7 @@ interactions:
       - Thu, 15 Apr 2021 14:35:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/234containersuitetestcontainerex?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=7KI%2FPuN1FtViz75QT7H4sxwILdapppcmIiS8znBFPa8%3D&sp=racwdl&sr=c&sv=2018-03-28
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/234containersuitetestcontainerex?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=7KI%2FPuN1FtViz75QT7H4sxwILdapppcmIiS8znBFPa8%3D&sp=racwdl&sr=c&sv=2018-03-28
     method: HEAD
   response:
     body: ""
@@ -179,7 +179,7 @@ interactions:
       - Thu, 15 Apr 2021 14:35:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/134containersuitetestcontainerex?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=YrSNFHLIBz9pTwGYutjO4TkMFjpUO%2BUnmT6DiqjhoAw%3D&sp=rwdlacup&spr=https&srt=sco&ss=b&sv=2018-03-28
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/134containersuitetestcontainerex?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=YrSNFHLIBz9pTwGYutjO4TkMFjpUO%2BUnmT6DiqjhoAw%3D&sp=rwdlacup&spr=https&srt=sco&ss=b&sv=2018-03-28
     method: HEAD
   response:
     body: ""
@@ -208,7 +208,7 @@ interactions:
       - Thu, 15 Apr 2021 14:35:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/234containersuitetestcontainerex?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=YrSNFHLIBz9pTwGYutjO4TkMFjpUO%2BUnmT6DiqjhoAw%3D&sp=rwdlacup&spr=https&srt=sco&ss=b&sv=2018-03-28
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/234containersuitetestcontainerex?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=YrSNFHLIBz9pTwGYutjO4TkMFjpUO%2BUnmT6DiqjhoAw%3D&sp=rwdlacup&spr=https&srt=sco&ss=b&sv=2018-03-28
     method: HEAD
   response:
     body: ""
@@ -251,7 +251,7 @@ interactions:
       - Thu, 15 Apr 2021 14:35:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/234containersuitetestcontainerex?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/234containersuitetestcontainerex?restype=container
     method: DELETE
   response:
     body: ""

@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccontainersetpermissionsaclmorethanfive?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccontainersetpermissionsaclmorethanfive?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccontainersetpermissionsaclmorethanfive?comp=acl\u0026restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccontainersetpermissionsaclmorethanfive?comp=acl\u0026restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccontainersetpermissionsaclmorethanfive?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccontainersetpermissionsaclmorethanfive?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

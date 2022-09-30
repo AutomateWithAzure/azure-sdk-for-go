@@ -21,7 +21,7 @@ const xml1 = `
 		<HostCaching>ReadWrite</HostCaching>
 		<OSState>Generalized</OSState>
 		<OS>Linux</OS>
-		<MediaLink>https://sa.blob.core.windows.net/images/PackerMade_Ubuntu_Serv14_2015-12-12.vhd</MediaLink>
+		<MediaLink>https://sa.blob.core.usgovcloudapi.net/images/PackerMade_Ubuntu_Serv14_2015-12-12.vhd</MediaLink>
 		<LogicalDiskSizeInGB>30</LogicalDiskSizeInGB>
 		<IOType>Standard</IOType>
 	</OSDiskConfiguration>
@@ -50,7 +50,7 @@ const xml2 = `
 		<HostCaching>ReadWrite</HostCaching>
 		<OSState>Generalized</OSState>
 		<OS>Linux</OS>
-		<MediaLink>https://sa.blob.core.windows.net/images/PackerMade_Ubuntu_Serv14_2015-12-12.vhd</MediaLink>
+		<MediaLink>https://sa.blob.core.usgovcloudapi.net/images/PackerMade_Ubuntu_Serv14_2015-12-12.vhd</MediaLink>
 		<LogicalDiskSizeInGB>30</LogicalDiskSizeInGB>
 		<IOType>Standard</IOType>
 	</OSDiskConfiguration>
@@ -58,14 +58,14 @@ const xml2 = `
 		<DataDiskConfiguration>
 			<Name>DataDisk1</Name>
 			<HostCaching>ReadWrite</HostCaching>
-			<MediaLink>https://sa.blob.core.windows.net/images/PackerMade_Ubuntu_Serv14_2015-12-12-dd1.vhd</MediaLink>
+			<MediaLink>https://sa.blob.core.usgovcloudapi.net/images/PackerMade_Ubuntu_Serv14_2015-12-12-dd1.vhd</MediaLink>
 			<LogicalDiskSizeInGB>31</LogicalDiskSizeInGB>
 			<IOType>Standard</IOType>
 		</DataDiskConfiguration>
 		<DataDiskConfiguration>
 			<Name>DataDisk2</Name>
 			<HostCaching>ReadWrite</HostCaching>
-			<MediaLink>https://sa.blob.core.windows.net/images/PackerMade_Ubuntu_Serv14_2015-12-12-dd2.vhd</MediaLink>
+			<MediaLink>https://sa.blob.core.usgovcloudapi.net/images/PackerMade_Ubuntu_Serv14_2015-12-12-dd2.vhd</MediaLink>
 			<LogicalDiskSizeInGB>32</LogicalDiskSizeInGB>
 			<IOType>Standard</IOType>
 		</DataDiskConfiguration>

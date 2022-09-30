@@ -14,7 +14,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:42 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-28storagefilesuitetestgetfile?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-28storagefilesuitetestgetfile?restype=share
     method: PUT
   response:
     body: ""
@@ -53,7 +53,7 @@ interactions:
       - file
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-28storagefilesuitetestgetfile/some.file
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-28storagefilesuitetestgetfile/some.file
     method: PUT
   response:
     body: ""
@@ -116,7 +116,7 @@ interactions:
       - "2018-03-28"
       x-ms-write:
       - update
-    url: https://golangrocksonazure.file.core.windows.net/share-28storagefilesuitetestgetfile/some.file?comp=range
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-28storagefilesuitetestgetfile/some.file?comp=range
     method: PUT
   response:
     body: ""
@@ -159,7 +159,7 @@ interactions:
       - somethingvalue
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-28storagefilesuitetestgetfile/some.file?comp=metadata
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-28storagefilesuitetestgetfile/some.file?comp=metadata
     method: PUT
   response:
     body: ""
@@ -198,7 +198,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:42 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-28storagefilesuitetestgetfile/some.file
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-28storagefilesuitetestgetfile/some.file
     method: GET
   response:
     body: !!binary |
@@ -269,7 +269,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:42 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-28storagefilesuitetestgetfile/some.file
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-28storagefilesuitetestgetfile/some.file
     method: GET
   response:
     body: !!binary |
@@ -328,7 +328,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:42 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-28storagefilesuitetestgetfile?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-28storagefilesuitetestgetfile?restype=share
     method: DELETE
   response:
     body: ""

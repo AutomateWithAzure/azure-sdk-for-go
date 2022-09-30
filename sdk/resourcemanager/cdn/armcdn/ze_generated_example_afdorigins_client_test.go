@@ -87,7 +87,7 @@ func ExampleAFDOriginsClient_BeginCreate() {
 		armcdn.AFDOrigin{
 			Properties: &armcdn.AFDOriginProperties{
 				EnabledState:     to.Ptr(armcdn.EnabledStateEnabled),
-				HostName:         to.Ptr("host1.blob.core.windows.net"),
+				HostName:         to.Ptr("host1.blob.core.usgovcloudapi.net"),
 				HTTPPort:         to.Ptr[int32](80),
 				HTTPSPort:        to.Ptr[int32](443),
 				OriginHostHeader: to.Ptr("host1.foo.com"),
@@ -124,7 +124,7 @@ func ExampleAFDOriginsClient_BeginUpdate() {
 		armcdn.AFDOriginUpdateParameters{
 			Properties: &armcdn.AFDOriginUpdatePropertiesParameters{
 				EnabledState: to.Ptr(armcdn.EnabledStateEnabled),
-				HostName:     to.Ptr("host1.blob.core.windows.net"),
+				HostName:     to.Ptr("host1.blob.core.usgovcloudapi.net"),
 				HTTPPort:     to.Ptr[int32](80),
 				HTTPSPort:    to.Ptr[int32](443),
 			},

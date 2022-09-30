@@ -23,7 +23,7 @@
       "ResponseBody": {
         "Tag": "Sanitized",
         "Tag2": "Value2",
-        "Tag3": "https://storageaccount.table.core.windows.net/"
+        "Tag3": "https://storageaccount.table.core.usgovcloudapi.net/"
       }
     }
   ],

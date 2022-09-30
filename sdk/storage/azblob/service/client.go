@@ -34,7 +34,7 @@ type ClientOptions struct {
 type Client base.Client[generated.ServiceClient]
 
 // NewClient creates a Client object using the specified URL, Azure AD credential, and options.
-// Example of serviceURL: https://<your_storage_account>.blob.core.windows.net
+// Example of serviceURL: https://<your_storage_account>.blob.core.usgovcloudapi.net
 func NewClient(serviceURL string, cred azcore.TokenCredential, options *ClientOptions) (*Client, error) {
 	authPolicy := runtime.NewBearerTokenPolicy(cred, []string{shared.TokenScope}, nil)
 	conOptions := shared.GetClientOptions(options)
@@ -45,7 +45,7 @@ func NewClient(serviceURL string, cred azcore.TokenCredential, options *ClientOp
 }
 
 // NewClientWithNoCredential creates a Client object using the specified URL and options.
-// Example of serviceURL: https://<your_storage_account>.blob.core.windows.net?<SAS token>
+// Example of serviceURL: https://<your_storage_account>.blob.core.usgovcloudapi.net?<SAS token>
 func NewClientWithNoCredential(serviceURL string, options *ClientOptions) (*Client, error) {
 	conOptions := shared.GetClientOptions(options)
 	pl := runtime.NewPipeline(exported.ModuleName, exported.ModuleVersion, runtime.PipelineOptions{}, &conOptions.ClientOptions)
@@ -54,7 +54,7 @@ func NewClientWithNoCredential(serviceURL string, options *ClientOptions) (*Clie
 }
 
 // NewClientWithSharedKeyCredential creates a Client object using the specified URL, shared key, and options.
-// Example of serviceURL: https://<your_storage_account>.blob.core.windows.net
+// Example of serviceURL: https://<your_storage_account>.blob.core.usgovcloudapi.net
 func NewClientWithSharedKeyCredential(serviceURL string, cred *SharedKeyCredential, options *ClientOptions) (*Client, error) {
 	authPolicy := exported.NewSharedKeyCredPolicy(cred)
 	conOptions := shared.GetClientOptions(options)

@@ -60,7 +60,7 @@ func ExampleDatabaseExtensionsClient_BeginCreateOrUpdate() {
 				OperationMode:  to.Ptr(armsql.OperationModePolybaseImport),
 				StorageKey:     to.Ptr("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"),
 				StorageKeyType: to.Ptr(armsql.StorageKeyTypeStorageAccessKey),
-				StorageURI:     to.Ptr("https://teststorage.blob.core.windows.net/testcontainer/Manifest.xml"),
+				StorageURI:     to.Ptr("https://teststorage.blob.core.usgovcloudapi.net/testcontainer/Manifest.xml"),
 			},
 		},
 		nil)

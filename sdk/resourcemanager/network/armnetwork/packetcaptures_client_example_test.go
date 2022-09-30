@@ -40,7 +40,7 @@ func ExamplePacketCapturesClient_BeginCreate() {
 			StorageLocation: &armnetwork.PacketCaptureStorageLocation{
 				FilePath:    to.Ptr("D:\\capture\\pc1.cap"),
 				StorageID:   to.Ptr("/subscriptions/subid/resourceGroups/rg2/providers/Microsoft.Storage/storageAccounts/pcstore"),
-				StoragePath: to.Ptr("https://mytestaccountname.blob.core.windows.net/capture/pc1.cap"),
+				StoragePath: to.Ptr("https://mytestaccountname.blob.core.usgovcloudapi.net/capture/pc1.cap"),
 			},
 			Target:               to.Ptr("/subscriptions/subid/resourceGroups/rg2/providers/Microsoft.Compute/virtualMachines/vm1"),
 			TimeLimitInSeconds:   to.Ptr[int32](100),

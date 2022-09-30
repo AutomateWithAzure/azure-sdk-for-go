@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:11 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44storageblobsuitetestsnapshotbl?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44storageblobsuitetestsnapshotbl?restype=container
     method: PUT
   response:
     body: ""
@@ -53,7 +53,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:11 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44storageblobsuitetestsnapshotbl/blob/44storageblobsuitetestsnapshotblobwithtimeout
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44storageblobsuitetestsnapshotbl/blob/44storageblobsuitetestsnapshotblobwithtimeout
     method: PUT
   response:
     body: ""
@@ -92,7 +92,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:11 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44storageblobsuitetestsnapshotbl/blob/44storageblobsuitetestsnapshotblobwithtimeout?comp=snapshot
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44storageblobsuitetestsnapshotbl/blob/44storageblobsuitetestsnapshotblobwithtimeout?comp=snapshot
     method: PUT
   response:
     body: ""
@@ -129,7 +129,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:11 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44storageblobsuitetestsnapshotbl?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44storageblobsuitetestsnapshotbl?restype=container
     method: DELETE
   response:
     body: ""

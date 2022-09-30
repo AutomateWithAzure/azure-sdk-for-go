@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobgetpagerangesifunmodifiedsincefalse?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobgetpagerangesifunmodifiedsincefalse?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobgetpagerangesifunmodifiedsincefalse/gotestblobblobgetpagerangesifunmodifiedsincefalse",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobgetpagerangesifunmodifiedsincefalse/gotestblobblobgetpagerangesifunmodifiedsincefalse",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -61,7 +61,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobgetpagerangesifunmodifiedsincefalse/gotestblobblobgetpagerangesifunmodifiedsincefalse?comp=page",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobgetpagerangesifunmodifiedsincefalse/gotestblobblobgetpagerangesifunmodifiedsincefalse?comp=page",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -95,7 +95,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobgetpagerangesifunmodifiedsincefalse/gotestblobblobgetpagerangesifunmodifiedsincefalse",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobgetpagerangesifunmodifiedsincefalse/gotestblobblobgetpagerangesifunmodifiedsincefalse",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -131,7 +131,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobgetpagerangesifunmodifiedsincefalse/gotestblobblobgetpagerangesifunmodifiedsincefalse?comp=pagelist",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobgetpagerangesifunmodifiedsincefalse/gotestblobblobgetpagerangesifunmodifiedsincefalse?comp=pagelist",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobgetpagerangesifunmodifiedsincefalse?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobgetpagerangesifunmodifiedsincefalse?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

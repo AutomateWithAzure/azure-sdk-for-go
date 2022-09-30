@@ -37,7 +37,7 @@ func Example_container_NewClient() {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
 	containerName := "testcontainer"
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/%s", accountName, containerName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s", accountName, containerName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -57,7 +57,7 @@ func Example_container_NewClientWithSharedKeyCredential() {
 		panic("AZURE_STORAGE_ACCOUNT_KEY could not be found")
 	}
 	containerName := "testcontainer"
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/%s", accountName, containerName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s", accountName, containerName)
 
 	cred, err := azblob.NewSharedKeyCredential(accountName, accountKey)
 	handleError(err)
@@ -76,7 +76,7 @@ func Example_container_NewClientWithNoCredential() {
 		panic("AZURE_STORAGE_SHARED_ACCESS_SIGNATURE could not be found")
 	}
 	containerName := "testcontainer"
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/%s?%s", accountName, containerName, sharedAccessSignature)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s?%s", accountName, containerName, sharedAccessSignature)
 
 	containerClient, err := container.NewClientWithNoCredential(containerURL, nil)
 	handleError(err)
@@ -101,7 +101,7 @@ func Example_container_ClientNewAppendBlobClient() {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
 	containerName := "testcontainer"
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/%s", accountName, containerName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s", accountName, containerName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -120,7 +120,7 @@ func Example_container_ClientNewBlobClient() {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
 	containerName := "testcontainer"
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/%s", accountName, containerName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s", accountName, containerName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -139,7 +139,7 @@ func Example_container_ClientNewBlockBlobClient() {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
 	containerName := "testcontainer"
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/%s", accountName, containerName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s", accountName, containerName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -158,7 +158,7 @@ func Example_container_ClientNewPageBlobClient() {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
 	containerName := "testcontainer"
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/%s", accountName, containerName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s", accountName, containerName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -177,7 +177,7 @@ func Example_container_ClientCreate() {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
 	containerName := "testcontainer"
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/%s", accountName, containerName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s", accountName, containerName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -198,7 +198,7 @@ func Example_container_ClientDelete() {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
 	containerName := "testcontainer"
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/%s", accountName, containerName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s", accountName, containerName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -217,7 +217,7 @@ func Example_container_ClientListBlobsFlat() {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
 	containerName := "testcontainer"
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/%s", accountName, containerName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s", accountName, containerName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -246,7 +246,7 @@ func Example_container_ClientListBlobsHierarchy() {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
 	containerName := "testcontainer"
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/%s", accountName, containerName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s", accountName, containerName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -277,7 +277,7 @@ func Example_container_ClientGetSASURL() {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
 	containerName := "testcontainer"
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/%s", accountName, containerName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s", accountName, containerName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -300,7 +300,7 @@ func Example_container_ClientSetAccessPolicy() {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
 	containerName := "testcontainer"
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/%s", accountName, containerName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s", accountName, containerName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -359,7 +359,7 @@ func Example_container_ClientSetMetadata() {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
 	containerName := "testcontainer"
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/%s", accountName, containerName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s", accountName, containerName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)

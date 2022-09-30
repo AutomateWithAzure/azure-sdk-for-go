@@ -37,7 +37,7 @@ func Example_lease_ContainerClient_AcquireLease() {
 	handleError(err)
 
 	// Create an containerClient object that wraps the container's URL and a default pipeline.
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/mycontainer", accountName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/mycontainer", accountName)
 	containerClient, err := container.NewClientWithSharedKeyCredential(containerURL, credential, nil)
 	handleError(err)
 

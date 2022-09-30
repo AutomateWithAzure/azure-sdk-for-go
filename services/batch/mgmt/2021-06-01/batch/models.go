@@ -916,7 +916,7 @@ type AzureBlobFileSystemConfiguration struct {
 // AzureFileShareConfiguration ...
 type AzureFileShareConfiguration struct {
 	AccountName *string `json:"accountName,omitempty"`
-	// AzureFileURL - This is of the form 'https://{account}.file.core.windows.net/'.
+	// AzureFileURL - This is of the form 'https://{account}.file.core.usgovcloudapi.net/'.
 	AzureFileURL *string `json:"azureFileUrl,omitempty"`
 	AccountKey   *string `json:"accountKey,omitempty"`
 	// RelativeMountPath - All file systems are mounted relative to the Batch mounts directory, accessible via the AZ_BATCH_NODE_MOUNTS_DIR environment variable.

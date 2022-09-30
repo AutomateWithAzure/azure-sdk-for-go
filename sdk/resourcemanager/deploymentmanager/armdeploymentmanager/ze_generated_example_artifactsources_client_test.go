@@ -38,7 +38,7 @@ func ExampleArtifactSourcesClient_CreateOrUpdate() {
 				Authentication: &armdeploymentmanager.SasAuthentication{
 					Type: to.Ptr("Sas"),
 					Properties: &armdeploymentmanager.SasProperties{
-						SasURI: to.Ptr("https://mystorageaccount.blob.core.windows.net/myartifactsource?st=2018-07-07T14%3A10%3A00Z&se=2019-12-31T15%3A10%3A00Z&sp=rl&sv=2017-04-17&sr=c&sig=Yh2SoJ1NhhLRwCLln7de%2Fkabcdefghijklmno5sWEIk%3D"),
+						SasURI: to.Ptr("https://mystorageaccount.blob.core.usgovcloudapi.net/myartifactsource?st=2018-07-07T14%3A10%3A00Z&se=2019-12-31T15%3A10%3A00Z&sp=rl&sv=2017-04-17&sr=c&sig=Yh2SoJ1NhhLRwCLln7de%2Fkabcdefghijklmno5sWEIk%3D"),
 					},
 				},
 				SourceType: to.Ptr("AzureStorage"),

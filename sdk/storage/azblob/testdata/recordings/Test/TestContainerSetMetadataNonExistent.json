@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccontainersetmetadatanonexistent?comp=metadata\u0026restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccontainersetmetadatanonexistent?comp=metadata\u0026restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",

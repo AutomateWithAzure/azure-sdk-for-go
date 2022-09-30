@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocputblockandputblocklistwithcpk?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocputblockandputblocklistwithcpk?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocputblockandputblocklistwithcpk/gotestblobputblockandputblocklistwithcpk?blockid=AAAAAA%3D%3D\u0026comp=block",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocputblockandputblocklistwithcpk/gotestblobputblockandputblocklistwithcpk?blockid=AAAAAA%3D%3D\u0026comp=block",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -62,7 +62,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocputblockandputblocklistwithcpk/gotestblobputblockandputblocklistwithcpk?blockid=AQAAAA%3D%3D\u0026comp=block",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocputblockandputblocklistwithcpk/gotestblobputblockandputblocklistwithcpk?blockid=AQAAAA%3D%3D\u0026comp=block",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -95,7 +95,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocputblockandputblocklistwithcpk/gotestblobputblockandputblocklistwithcpk?blockid=AgAAAA%3D%3D\u0026comp=block",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocputblockandputblocklistwithcpk/gotestblobputblockandputblocklistwithcpk?blockid=AgAAAA%3D%3D\u0026comp=block",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -128,7 +128,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocputblockandputblocklistwithcpk/gotestblobputblockandputblocklistwithcpk?comp=blocklist",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocputblockandputblocklistwithcpk/gotestblobputblockandputblocklistwithcpk?comp=blocklist",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -167,7 +167,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocputblockandputblocklistwithcpk/gotestblobputblockandputblocklistwithcpk",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocputblockandputblocklistwithcpk/gotestblobputblockandputblocklistwithcpk",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocputblockandputblocklistwithcpk/gotestblobputblockandputblocklistwithcpk",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocputblockandputblocklistwithcpk/gotestblobputblockandputblocklistwithcpk",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -238,7 +238,7 @@
       "ResponseBody": "QUFBIEJCQiBDQ0Mg"
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocputblockandputblocklistwithcpk?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocputblockandputblocklistwithcpk?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

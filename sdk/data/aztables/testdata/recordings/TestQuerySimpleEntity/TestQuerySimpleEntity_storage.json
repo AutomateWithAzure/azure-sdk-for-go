@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/Tables",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/Tables",
       "RequestMethod": "POST",
       "RequestHeaders": {
         ":method": "POST",
@@ -23,7 +23,7 @@
         "Cache-Control": "no-cache",
         "Content-Type": "application/json; odata=minimalmetadata; streaming=true; charset=utf-8",
         "Date": "Wed, 13 Apr 2022 19:25:25 GMT",
-        "Location": "https://fakeaccount.table.core.windows.net/Tables(\u0027tableName246899398\u0027)",
+        "Location": "https://fakeaccount.table.core.usgovcloudapi.net/Tables(\u0027tableName246899398\u0027)",
         "Server": [
           "Windows-Azure-Table/1.0",
           "Microsoft-HTTPAPI/2.0"
@@ -34,12 +34,12 @@
         "x-ms-version": "2019-02-02"
       },
       "ResponseBody": {
-        "odata.metadata": "https://fakeaccount.table.core.windows.net/$metadata#Tables/@Element",
+        "odata.metadata": "https://fakeaccount.table.core.usgovcloudapi.net/$metadata#Tables/@Element",
         "TableName": "tableName246899398"
       }
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/tableName246899398",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398",
       "RequestMethod": "POST",
       "RequestHeaders": {
         ":method": "POST",
@@ -66,10 +66,10 @@
       "ResponseHeaders": {
         "Cache-Control": "no-cache",
         "Content-Length": "0",
-        "DataServiceId": "https://fakeaccount.table.core.windows.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00271\u0027)",
+        "DataServiceId": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00271\u0027)",
         "Date": "Wed, 13 Apr 2022 19:25:25 GMT",
         "ETag": "W/\u0022datetime\u00272022-04-13T19%3A25%3A25.2603482Z\u0027\u0022",
-        "Location": "https://fakeaccount.table.core.windows.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00271\u0027)",
+        "Location": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00271\u0027)",
         "Preference-Applied": "return-no-content",
         "Server": [
           "Windows-Azure-Table/1.0",
@@ -82,7 +82,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/tableName246899398",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398",
       "RequestMethod": "POST",
       "RequestHeaders": {
         ":method": "POST",
@@ -109,10 +109,10 @@
       "ResponseHeaders": {
         "Cache-Control": "no-cache",
         "Content-Length": "0",
-        "DataServiceId": "https://fakeaccount.table.core.windows.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00272\u0027)",
+        "DataServiceId": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00272\u0027)",
         "Date": "Wed, 13 Apr 2022 19:25:25 GMT",
         "ETag": "W/\u0022datetime\u00272022-04-13T19%3A25%3A25.2853336Z\u0027\u0022",
-        "Location": "https://fakeaccount.table.core.windows.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00272\u0027)",
+        "Location": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00272\u0027)",
         "Preference-Applied": "return-no-content",
         "Server": [
           "Windows-Azure-Table/1.0",
@@ -125,7 +125,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/tableName246899398",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398",
       "RequestMethod": "POST",
       "RequestHeaders": {
         ":method": "POST",
@@ -152,10 +152,10 @@
       "ResponseHeaders": {
         "Cache-Control": "no-cache",
         "Content-Length": "0",
-        "DataServiceId": "https://fakeaccount.table.core.windows.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00273\u0027)",
+        "DataServiceId": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00273\u0027)",
         "Date": "Wed, 13 Apr 2022 19:25:25 GMT",
         "ETag": "W/\u0022datetime\u00272022-04-13T19%3A25%3A25.3133188Z\u0027\u0022",
-        "Location": "https://fakeaccount.table.core.windows.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00273\u0027)",
+        "Location": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00273\u0027)",
         "Preference-Applied": "return-no-content",
         "Server": [
           "Windows-Azure-Table/1.0",
@@ -168,7 +168,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/tableName246899398",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398",
       "RequestMethod": "POST",
       "RequestHeaders": {
         ":method": "POST",
@@ -195,10 +195,10 @@
       "ResponseHeaders": {
         "Cache-Control": "no-cache",
         "Content-Length": "0",
-        "DataServiceId": "https://fakeaccount.table.core.windows.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00274\u0027)",
+        "DataServiceId": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00274\u0027)",
         "Date": "Wed, 13 Apr 2022 19:25:25 GMT",
         "ETag": "W/\u0022datetime\u00272022-04-13T19%3A25%3A25.3463001Z\u0027\u0022",
-        "Location": "https://fakeaccount.table.core.windows.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00274\u0027)",
+        "Location": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00274\u0027)",
         "Preference-Applied": "return-no-content",
         "Server": [
           "Windows-Azure-Table/1.0",
@@ -211,7 +211,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/tableName246899398",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398",
       "RequestMethod": "POST",
       "RequestHeaders": {
         ":method": "POST",
@@ -238,10 +238,10 @@
       "ResponseHeaders": {
         "Cache-Control": "no-cache",
         "Content-Length": "0",
-        "DataServiceId": "https://fakeaccount.table.core.windows.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00275\u0027)",
+        "DataServiceId": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00275\u0027)",
         "Date": "Wed, 13 Apr 2022 19:25:25 GMT",
         "ETag": "W/\u0022datetime\u00272022-04-13T19%3A25%3A25.3732854Z\u0027\u0022",
-        "Location": "https://fakeaccount.table.core.windows.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00275\u0027)",
+        "Location": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398(PartitionKey=\u0027partition\u0027,RowKey=\u00275\u0027)",
         "Preference-Applied": "return-no-content",
         "Server": [
           "Windows-Azure-Table/1.0",
@@ -254,7 +254,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/tableName246899398()?%24filter=RowKey\u002Blt\u002B%275%27\u0026%24format=application%2Fjson%3Bodata%3Dminimalmetadata",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/tableName246899398()?%24filter=RowKey\u002Blt\u002B%275%27\u0026%24format=application%2Fjson%3Bodata%3Dminimalmetadata",
       "RequestMethod": "GET",
       "RequestHeaders": {
         ":method": "GET",
@@ -282,7 +282,7 @@
         "x-ms-version": "2019-02-02"
       },
       "ResponseBody": {
-        "odata.metadata": "https://fakeaccount.table.core.windows.net/$metadata#tableName246899398",
+        "odata.metadata": "https://fakeaccount.table.core.usgovcloudapi.net/$metadata#tableName246899398",
         "value": [
           {
             "odata.etag": "W/\u0022datetime\u00272022-04-13T19%3A25%3A25.2603482Z\u0027\u0022",
@@ -324,7 +324,7 @@
       }
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/Tables(\u0027tableName246899398\u0027)",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/Tables(\u0027tableName246899398\u0027)",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/json",

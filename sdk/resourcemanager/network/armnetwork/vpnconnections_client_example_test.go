@@ -173,7 +173,7 @@ func ExampleVPNConnectionsClient_BeginStopPacketCapture() {
 		LinkConnectionNames: []*string{
 			to.Ptr("vpnSiteLink1"),
 			to.Ptr("vpnSiteLink2")},
-		SasURL: to.Ptr("https://teststorage.blob.core.windows.net/?sv=2018-03-28&ss=bfqt&srt=sco&sp=rwdlacup&se=2019-09-13T07:44:05Z&st=2019-09-06T23:44:05Z&spr=https&sig=V1h9D1riltvZMI69d6ihENnFo%2FrCvTqGgjO2lf%2FVBhE%3D"),
+		SasURL: to.Ptr("https://teststorage.blob.core.usgovcloudapi.net/?sv=2018-03-28&ss=bfqt&srt=sco&sp=rwdlacup&se=2019-09-13T07:44:05Z&st=2019-09-06T23:44:05Z&spr=https&sig=V1h9D1riltvZMI69d6ihENnFo%2FrCvTqGgjO2lf%2FVBhE%3D"),
 	},
 	})
 	if err != nil {

@@ -25,7 +25,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:57 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
     body: ""
@@ -35,11 +35,11 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table54tablebatchsuitetestbatchi')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table54tablebatchsuitetestbatchi')
       Date:
       - Tue, 13 Apr 2021 15:57:56 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table54tablebatchsuitetestbatchi')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table54tablebatchsuitetestbatchi')
       Preference-Applied:
       - return-no-content
       Server:
@@ -56,10 +56,10 @@ interactions:
 - request:
     body: "--batch_646079c8-c155-4396-833c-9ef556ad28fa\r\nContent-Type: multipart/mixed;
       boundary=changeset_ea95571b-53fc-41f3-b2d0-40f8778c071b\r\n\r\n\r\n--changeset_ea95571b-53fc-41f3-b2d0-40f8778c071b\r\nContent-Transfer-Encoding:
-      binary\r\nContent-Type: application/http\r\n\r\nPUT https://golangrocksonazure.table.core.windows.net/table54tablebatchsuitetestbatchi%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
+      binary\r\nContent-Type: application/http\r\n\r\nPUT https://golangrocksonazure.table.core.usgovcloudapi.net/table54tablebatchsuitetestbatchi%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
       HTTP/1.1\r\nAccept: application/json;odata=minimalmetadata\r\nContent-Type:
       application/json\r\nPrefer: return-no-content\r\n\r\n{\"AmountDue\":\"200.23\",\"AmountDue@odata.type\":\"Edm.Double\",\"CustomerCode\":\"c9da6455-213d-42c9-9a79-3e9149a57833\",\"CustomerCode@odata.type\":\"Edm.Guid\",\"CustomerSince\":\"1992-12-20T21:55:00Z\",\"CustomerSince@odata.type\":\"Edm.DateTime\",\"IsActive\":true,\"NumberOfOrders\":\"255\",\"NumberOfOrders@odata.type\":\"Edm.Int64\",\"PartitionKey\":\"mypartitionkey\",\"RowKey\":\"myrowkey\"}\r\n--changeset_ea95571b-53fc-41f3-b2d0-40f8778c071b\r\nContent-Transfer-Encoding:
-      binary\r\nContent-Type: application/http\r\n\r\nPUT https://golangrocksonazure.table.core.windows.net/table54tablebatchsuitetestbatchi%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
+      binary\r\nContent-Type: application/http\r\n\r\nPUT https://golangrocksonazure.table.core.usgovcloudapi.net/table54tablebatchsuitetestbatchi%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
       HTTP/1.1\r\nAccept: application/json;odata=minimalmetadata\r\nContent-Type:
       application/json\r\nPrefer: return-no-content\r\n\r\n{\"AmountDue\":\"200.23\",\"AmountDue@odata.type\":\"Edm.Double\",\"CustomerCode\":\"c9da6455-213d-42c9-9a79-3e9149a57833\",\"CustomerCode@odata.type\":\"Edm.Guid\",\"CustomerSince\":\"1992-12-20T21:55:00Z\",\"CustomerSince@odata.type\":\"Edm.DateTime\",\"IsActive\":true,\"NumberOfOrders\":\"255\",\"NumberOfOrders@odata.type\":\"Edm.Int64\",\"PartitionKey\":\"mypartitionkey\",\"RowKey\":\"myrowkey\"}\r\n--changeset_ea95571b-53fc-41f3-b2d0-40f8778c071b--\r\n\r\n--batch_646079c8-c155-4396-833c-9ef556ad28fa--\r\n"
     form: {}
@@ -75,7 +75,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:57 GMT
       X-Ms-Version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/$batch
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/$batch
     method: POST
   response:
     body: "--batchresponse_e6ccdcb0-628b-4d74-8ea0-6a8a22d8cc3e\r\nContent-Type: multipart/mixed;
@@ -120,7 +120,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:57 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table54tablebatchsuitetestbatchi%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table54tablebatchsuitetestbatchi%27%29?timeout=30
     method: DELETE
   response:
     body: ""

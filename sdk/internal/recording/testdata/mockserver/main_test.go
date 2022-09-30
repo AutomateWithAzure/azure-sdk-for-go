@@ -35,5 +35,5 @@ func TestMain(t *testing.T) {
 	require.NoError(t, err)
 	require.Equal(t, unmarshalled["Tag"], "Value")
 	require.Equal(t, unmarshalled["Tag2"], "Value2")
-	require.Equal(t, unmarshalled["Tag3"], "https://storageaccount.table.core.windows.net/")
+	require.Equal(t, unmarshalled["Tag3"], "https://storageaccount.table.core.usgovcloudapi.net/")
 }

@@ -3378,7 +3378,7 @@ func NewManagedInstanceVulnerabilityAssessmentListResultPage(cur ManagedInstance
 // ManagedInstanceVulnerabilityAssessmentProperties properties of a managed instance vulnerability
 // assessment.
 type ManagedInstanceVulnerabilityAssessmentProperties struct {
-	// StorageContainerPath - A blob storage container path to hold the scan results (e.g. https://myStorage.blob.core.windows.net/VaScans/).
+	// StorageContainerPath - A blob storage container path to hold the scan results (e.g. https://myStorage.blob.core.usgovcloudapi.net/VaScans/).
 	StorageContainerPath *string `json:"storageContainerPath,omitempty"`
 	// StorageContainerSasKey - A shared access signature (SAS Key) that has read and write access to the blob container specified in 'storageContainerPath' parameter. If 'storageAccountAccessKey' isn't specified, StorageContainerSasKey is required.
 	StorageContainerSasKey *string `json:"storageContainerSasKey,omitempty"`
@@ -3826,7 +3826,7 @@ type SecurityAlertPolicyProperties struct {
 	EmailAddresses *[]string `json:"emailAddresses,omitempty"`
 	// EmailAccountAdmins - Specifies that the alert is sent to the account administrators.
 	EmailAccountAdmins *bool `json:"emailAccountAdmins,omitempty"`
-	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). This blob storage will hold all Threat Detection audit logs.
+	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). This blob storage will hold all Threat Detection audit logs.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 	// StorageAccountAccessKey - Specifies the identifier key of the Threat Detection audit storage account.
 	StorageAccountAccessKey *string `json:"storageAccountAccessKey,omitempty"`
@@ -4532,7 +4532,7 @@ func NewServerVulnerabilityAssessmentListResultPage(cur ServerVulnerabilityAsses
 
 // ServerVulnerabilityAssessmentProperties properties of a server Vulnerability Assessment.
 type ServerVulnerabilityAssessmentProperties struct {
-	// StorageContainerPath - A blob storage container path to hold the scan results (e.g. https://myStorage.blob.core.windows.net/VaScans/).
+	// StorageContainerPath - A blob storage container path to hold the scan results (e.g. https://myStorage.blob.core.usgovcloudapi.net/VaScans/).
 	StorageContainerPath *string `json:"storageContainerPath,omitempty"`
 	// StorageContainerSasKey - A shared access signature (SAS Key) that has read and write access to the blob container specified in 'storageContainerPath' parameter. If 'storageAccountAccessKey' isn't specified, StorageContainerSasKey is required.
 	StorageContainerSasKey *string `json:"storageContainerSasKey,omitempty"`

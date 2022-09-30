@@ -48,7 +48,7 @@ func parseConnectionString(connStr string) (string, *SharedKeyCredential, error)
 	var cred *SharedKeyCredential
 
 	defaultScheme := "https"
-	defaultSuffix := "core.windows.net"
+	defaultSuffix := "core.usgovcloudapi.net"
 
 	connStrMap, err := convertConnStrToMap(connStr)
 	if err != nil {

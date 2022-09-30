@@ -241,7 +241,7 @@ func ExampleDatabasesClient_BeginExport() {
 			},
 			StorageKey:     to.Ptr("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=="),
 			StorageKeyType: to.Ptr(armsql.StorageKeyTypeStorageAccessKey),
-			StorageURI:     to.Ptr("https://test.blob.core.windows.net/test.bacpac"),
+			StorageURI:     to.Ptr("https://test.blob.core.usgovcloudapi.net/test.bacpac"),
 		},
 		nil)
 	if err != nil {
@@ -305,7 +305,7 @@ func ExampleDatabasesClient_BeginImport() {
 			},
 			StorageKey:     to.Ptr("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=="),
 			StorageKeyType: to.Ptr(armsql.StorageKeyTypeStorageAccessKey),
-			StorageURI:     to.Ptr("https://test.blob.core.windows.net/test.bacpac"),
+			StorageURI:     to.Ptr("https://test.blob.core.usgovcloudapi.net/test.bacpac"),
 		},
 		nil)
 	if err != nil {

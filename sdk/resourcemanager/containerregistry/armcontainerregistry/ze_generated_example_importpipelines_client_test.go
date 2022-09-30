@@ -97,7 +97,7 @@ func ExampleImportPipelinesClient_BeginCreate() {
 				Source: &armcontainerregistry.ImportPipelineSourceProperties{
 					Type:        to.Ptr(armcontainerregistry.PipelineSourceTypeAzureStorageBlobContainer),
 					KeyVaultURI: to.Ptr("https://myvault.vault.azure.net/secrets/acrimportsas"),
-					URI:         to.Ptr("https://accountname.blob.core.windows.net/containername"),
+					URI:         to.Ptr("https://accountname.blob.core.usgovcloudapi.net/containername"),
 				},
 			},
 		},

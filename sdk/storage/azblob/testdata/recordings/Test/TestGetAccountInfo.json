@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/?comp=properties\u0026restype=account",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/?comp=properties\u0026restype=account",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",

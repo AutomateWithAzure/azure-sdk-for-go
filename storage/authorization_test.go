@@ -28,7 +28,7 @@ func (a *AuthorizationSuite) Test_addAuthorizationHeader(c *chk.C) {
 		headerXmsVersion:    "2015-02-21",
 		"Accept":            "application/json;odata=nometadata",
 	}
-	url := "https://golangrocksonazure.table.core.windows.net/tquery()"
+	url := "https://golangrocksonazure.table.core.usgovcloudapi.net/tquery()"
 	headers, err = tableCli.client.addAuthorizationHeader("", url, headers, tableCli.auth)
 	c.Assert(err, chk.IsNil)
 
@@ -48,7 +48,7 @@ func (a *AuthorizationSuite) Test_getSharedKey(c *chk.C) {
 		headerXmsVersion:    "2015-02-21",
 		"Accept":            "application/json;odata=nometadata",
 	}
-	url := "https://golangrocksonazure.table.core.windows.net/tquery()"
+	url := "https://golangrocksonazure.table.core.usgovcloudapi.net/tquery()"
 
 	key, err := cli.getSharedKey("", url, headers, sharedKeyLiteForTable)
 	c.Assert(err, chk.IsNil)
@@ -67,21 +67,21 @@ func (a *AuthorizationSuite) Test_buildCanonicalizedResource(c *chk.C) {
 	}
 	tests := []test{
 		// Shared Key
-		{"https://golangrocksonazure.blob.core.windows.net/path?a=b&c=d", sharedKey, "/golangrocksonazure/path\na:b\nc:d", false},
-		{"https://golangrocksonazure.blob.core.windows.net/?comp=list", sharedKey, "/golangrocksonazure/\ncomp:list", false},
-		{"https://golangrocksonazure.blob.core.windows.net/cnt/blob", sharedKey, "/golangrocksonazure/cnt/blob", false},
-		{"https://golangrocksonazure.blob.core.windows.net/cnt/bl ob", sharedKey, "/golangrocksonazure/cnt/bl%20ob", false},
-		{"https://golangrocksonazure.blob.core.windows.net/c nt/blob", sharedKey, "/golangrocksonazure/c%20nt/blob", false},
-		{"https://golangrocksonazure.blob.core.windows.net/cnt/blob%3F%23%5B%5D%21$&%27%28%29%2A blob", sharedKey, "/golangrocksonazure/cnt/blob%3F%23%5B%5D%21$&%27%28%29%2A%20blob", false},
-		{"https://golangrocksonazure.blob.core.windows.net/cnt/blob-._~:,@;+=blob", sharedKey, "/golangrocksonazure/cnt/blob-._~:,@;+=blob", false},
-		{"https://golangrocksonazure.blob.core.windows.net/c nt/blob-._~:%3F%23%5B%5D@%21$&%27%28%29%2A,;+=/blob", sharedKey, "/golangrocksonazure/c%20nt/blob-._~:%3F%23%5B%5D@%21$&%27%28%29%2A,;+=/blob", false},
+		{"https://golangrocksonazure.blob.core.usgovcloudapi.net/path?a=b&c=d", sharedKey, "/golangrocksonazure/path\na:b\nc:d", false},
+		{"https://golangrocksonazure.blob.core.usgovcloudapi.net/?comp=list", sharedKey, "/golangrocksonazure/\ncomp:list", false},
+		{"https://golangrocksonazure.blob.core.usgovcloudapi.net/cnt/blob", sharedKey, "/golangrocksonazure/cnt/blob", false},
+		{"https://golangrocksonazure.blob.core.usgovcloudapi.net/cnt/bl ob", sharedKey, "/golangrocksonazure/cnt/bl%20ob", false},
+		{"https://golangrocksonazure.blob.core.usgovcloudapi.net/c nt/blob", sharedKey, "/golangrocksonazure/c%20nt/blob", false},
+		{"https://golangrocksonazure.blob.core.usgovcloudapi.net/cnt/blob%3F%23%5B%5D%21$&%27%28%29%2A blob", sharedKey, "/golangrocksonazure/cnt/blob%3F%23%5B%5D%21$&%27%28%29%2A%20blob", false},
+		{"https://golangrocksonazure.blob.core.usgovcloudapi.net/cnt/blob-._~:,@;+=blob", sharedKey, "/golangrocksonazure/cnt/blob-._~:,@;+=blob", false},
+		{"https://golangrocksonazure.blob.core.usgovcloudapi.net/c nt/blob-._~:%3F%23%5B%5D@%21$&%27%28%29%2A,;+=/blob", sharedKey, "/golangrocksonazure/c%20nt/blob-._~:%3F%23%5B%5D@%21$&%27%28%29%2A,;+=/blob", false},
 		// Shared Key Lite for Table
-		{"https://golangrocksonazure.table.core.windows.net/mytable", sharedKeyLiteForTable, "/golangrocksonazure/mytable", false},
-		{"https://golangrocksonazure.table.core.windows.net/mytable?comp=acl", sharedKeyLiteForTable, "/golangrocksonazure/mytable?comp=acl", false},
-		{"https://golangrocksonazure.table.core.windows.net/mytable?comp=acl&timeout=10", sharedKeyForTable, "/golangrocksonazure/mytable?comp=acl", false},
-		{"https://golangrocksonazure.table.core.windows.net/mytable(PartitionKey='pkey',RowKey='rowkey%3D')", sharedKeyForTable, "/golangrocksonazure/mytable(PartitionKey='pkey',RowKey='rowkey%3D')", false},
+		{"https://golangrocksonazure.table.core.usgovcloudapi.net/mytable", sharedKeyLiteForTable, "/golangrocksonazure/mytable", false},
+		{"https://golangrocksonazure.table.core.usgovcloudapi.net/mytable?comp=acl", sharedKeyLiteForTable, "/golangrocksonazure/mytable?comp=acl", false},
+		{"https://golangrocksonazure.table.core.usgovcloudapi.net/mytable?comp=acl&timeout=10", sharedKeyForTable, "/golangrocksonazure/mytable?comp=acl", false},
+		{"https://golangrocksonazure.table.core.usgovcloudapi.net/mytable(PartitionKey='pkey',RowKey='rowkey%3D')", sharedKeyForTable, "/golangrocksonazure/mytable(PartitionKey='pkey',RowKey='rowkey%3D')", false},
 		// Canonicalized Resource with SAS
-		{"https://golangrocksonazure.blob.core.windows.net/cnt/blob", sharedKey, "/golangrocksonazure/cnt/blob", true},
+		{"https://golangrocksonazure.blob.core.usgovcloudapi.net/cnt/blob", sharedKey, "/golangrocksonazure/cnt/blob", true},
 	}
 
 	for _, t := range tests {

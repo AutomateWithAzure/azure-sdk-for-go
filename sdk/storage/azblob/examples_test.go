@@ -47,8 +47,8 @@ func Example() {
 	cred, err := azblob.NewSharedKeyCredential(accountName, accountKey)
 	handleError(err)
 
-	// The service URL for blob endpoints is usually in the form: http(s)://<account>.blob.core.windows.net/
-	client, err := azblob.NewClientWithSharedKeyCredential(fmt.Sprintf("https://%s.blob.core.windows.net/", accountName), cred, nil)
+	// The service URL for blob endpoints is usually in the form: http(s)://<account>.blob.core.usgovcloudapi.net/
+	client, err := azblob.NewClientWithSharedKeyCredential(fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName), cred, nil)
 	handleError(err)
 
 	// ===== 1. Create a container =====
@@ -117,7 +117,7 @@ func Example_client_NewClient() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	// https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/azidentity#DefaultAzureCredential
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
@@ -139,7 +139,7 @@ func Example_client_NewClientWithSharedKeyCredential() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_KEY could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	// shared key authentication requires the storage account name and access key
 	cred, err := azblob.NewSharedKeyCredential(accountName, accountKey)
@@ -163,7 +163,7 @@ func Example_client_NewClientFromConnectionString() {
 
 func Example_client_anonymous_NewClientWithNoCredential() {
 	// this example uses anonymous access to access a public blob
-	serviceClient, err := azblob.NewClientWithNoCredential("https://azurestoragesamples.blob.core.windows.net/samples/cloud.jpg", nil)
+	serviceClient, err := azblob.NewClientWithNoCredential("https://azurestoragesamples.blob.core.usgovcloudapi.net/samples/cloud.jpg", nil)
 	handleError(err)
 	fmt.Println(serviceClient.URL())
 }
@@ -173,7 +173,7 @@ func Example_client_CreateContainer() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -193,7 +193,7 @@ func Example_client_DeleteContainer() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -211,7 +211,7 @@ func Example_client_NewListContainersPager() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -260,7 +260,7 @@ func Example_client_UploadFile() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -295,7 +295,7 @@ func Example_client_DownloadFile() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -322,7 +322,7 @@ func Example_client_NewListBlobsPager() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -348,7 +348,7 @@ func Example_client_DeleteBlob() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -366,7 +366,7 @@ func Example_client_UploadStream() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -396,7 +396,7 @@ func Example_client_DownloadStream() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -417,7 +417,7 @@ func Example_client_DownloadStream() {
 // ---------------------------------------------------------------------------------------------------------------------
 
 func ExampleResponseError() {
-	contClient, err := container.NewClientWithNoCredential("https://myaccount.blob.core.windows.net/mycontainer", nil)
+	contClient, err := container.NewClientWithNoCredential("https://myaccount.blob.core.usgovcloudapi.net/mycontainer", nil)
 	handleError(err)
 	_, err = contClient.Create(context.TODO(), nil)
 	handleError(err)
@@ -429,7 +429,7 @@ func Example_blob_AccessConditions() {
 
 	credential, err := azblob.NewSharedKeyCredential(accountName, accountKey)
 	handleError(err)
-	blockBlob, err := blockblob.NewClientWithSharedKeyCredential(fmt.Sprintf("https://%s.blob.core.windows.net/mycontainer/Data.txt", accountName), credential, nil)
+	blockBlob, err := blockblob.NewClientWithSharedKeyCredential(fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/mycontainer/Data.txt", accountName), credential, nil)
 	handleError(err)
 
 	// This function displays the results of an operation
@@ -526,7 +526,7 @@ func Example_progressUploadDownload() {
 	handleError(err)
 
 	// From the Azure portal, get your Storage account blob service URL endpoint.
-	containerURL := fmt.Sprintf("https://%s.blob.core.windows.net/mycontainer", accountName)
+	containerURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/mycontainer", accountName)
 
 	// Create an serviceClient object that wraps the service URL and a request pipeline to making requests.
 	containerClient, err := container.NewClientWithSharedKeyCredential(containerURL, credential, nil)
@@ -582,7 +582,7 @@ func Example_blob_Client_Download() {
 	accountName, accountKey := os.Getenv("AZURE_STORAGE_ACCOUNT_NAME"), os.Getenv("AZURE_STORAGE_ACCOUNT_KEY")
 
 	// Create a blobClient object to a blob in the container (we assume the container & blob already exist).
-	blobURL := fmt.Sprintf("https://%s.blob.core.windows.net/mycontainer/BigBlob.bin", accountName)
+	blobURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/mycontainer/BigBlob.bin", accountName)
 	credential, err := azblob.NewSharedKeyCredential(accountName, accountKey)
 	handleError(err)
 	blobClient, err := blob.NewClientWithSharedKeyCredential(blobURL, credential, nil)

@@ -25,7 +25,7 @@ interactions:
       - Thu, 15 Apr 2021 14:41:07 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
     body: ""
@@ -35,11 +35,11 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table48storagetablesuitetestsetp')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table48storagetablesuitetestsetp')
       Date:
       - Thu, 15 Apr 2021 14:41:08 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table48storagetablesuitetestsetp')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table48storagetablesuitetestsetp')
       Preference-Applied:
       - return-no-content
       Server:
@@ -68,7 +68,7 @@ interactions:
       - Thu, 15 Apr 2021 14:41:08 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table48storagetablesuitetestsetp?comp=acl&timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table48storagetablesuitetestsetp?comp=acl&timeout=30
     method: PUT
   response:
     body: ""
@@ -103,7 +103,7 @@ interactions:
       - Thu, 15 Apr 2021 14:41:08 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table48storagetablesuitetestsetp%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table48storagetablesuitetestsetp%27%29?timeout=30
     method: DELETE
   response:
     body: ""

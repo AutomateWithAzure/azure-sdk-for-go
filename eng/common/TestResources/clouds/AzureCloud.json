@@ -4,5 +4,5 @@
     "communicationServicesEndpointSuffix": ".communication.azure.com",
     "keyVaultDomainSuffix": ".vault.azure.net",
     "keyVaultEndpointSuffix": ".vault.azure.net",
-    "storageEndpointSuffix": "core.windows.net"
+    "storageEndpointSuffix": "core.usgovcloudapi.net"
 }

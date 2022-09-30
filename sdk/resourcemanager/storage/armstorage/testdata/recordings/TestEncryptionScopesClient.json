@@ -171,12 +171,12 @@
           "provisioningState": "Succeeded",
           "creationTime": "2022-08-22T07:46:11.7392039Z",
           "primaryEndpoints": {
-            "dfs": "https://gotestaccount2.dfs.core.windows.net/",
-            "web": "https://gotestaccount2.z13.web.core.windows.net/",
-            "blob": "https://gotestaccount2.blob.core.windows.net/",
-            "queue": "https://gotestaccount2.queue.core.windows.net/",
-            "table": "https://gotestaccount2.table.core.windows.net/",
-            "file": "https://gotestaccount2.file.core.windows.net/"
+            "dfs": "https://gotestaccount2.dfs.core.usgovcloudapi.net/",
+            "web": "https://gotestaccount2.z13.web.core.usgovcloudapi.net/",
+            "blob": "https://gotestaccount2.blob.core.usgovcloudapi.net/",
+            "queue": "https://gotestaccount2.queue.core.usgovcloudapi.net/",
+            "table": "https://gotestaccount2.table.core.usgovcloudapi.net/",
+            "file": "https://gotestaccount2.file.core.usgovcloudapi.net/"
           },
           "primaryLocation": "eastus",
           "statusOfPrimary": "available",

@@ -860,7 +860,7 @@ type SecurityAlertPolicyProperties struct {
 	EmailAddresses *[]string `json:"emailAddresses,omitempty"`
 	// EmailAccountAdmins - Specifies that the alert is sent to the account administrators.
 	EmailAccountAdmins *bool `json:"emailAccountAdmins,omitempty"`
-	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). This blob storage will hold all Threat Detection audit logs.
+	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). This blob storage will hold all Threat Detection audit logs.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 	// StorageAccountAccessKey - Specifies the identifier key of the Threat Detection audit storage account.
 	StorageAccountAccessKey *string `json:"storageAccountAccessKey,omitempty"`

@@ -84,7 +84,7 @@ func (s *ServiceUnrecordedTestsSuite) TestServiceClientFromConnectionString() {
 
 	parsedConnStr, err := shared.ParseConnectionString(connectionString)
 	_require.Nil(err)
-	_require.Equal(parsedConnStr.ServiceURL, "https://"+accountName+".blob.core.windows.net/")
+	_require.Equal(parsedConnStr.ServiceURL, "https://"+accountName+".blob.core.usgovcloudapi.net/")
 
 	sharedKeyCred, err := azblob.NewSharedKeyCredential(parsedConnStr.AccountName, parsedConnStr.AccountKey)
 	_require.Nil(err)
@@ -501,7 +501,7 @@ func (s *ServiceUnrecordedTestsSuite) TestSASServiceClient() {
 	cred, err := azblob.NewSharedKeyCredential(accountName, accountKey)
 	_require.Nil(err)
 
-	serviceClient, err := service.NewClientWithSharedKeyCredential(fmt.Sprintf("https://%s.blob.core.windows.net/", accountName), cred, nil)
+	serviceClient, err := service.NewClientWithSharedKeyCredential(fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName), cred, nil)
 	_require.Nil(err)
 
 	containerName := testcommon.GenerateContainerName(testName)
@@ -545,7 +545,7 @@ func (s *ServiceUnrecordedTestsSuite) TestSASContainerClient() {
 	cred, err := azblob.NewSharedKeyCredential(accountName, accountKey)
 	_require.Nil(err)
 
-	serviceClient, err := service.NewClientWithSharedKeyCredential(fmt.Sprintf("https://%s.blob.core.windows.net/", accountName), cred, nil)
+	serviceClient, err := service.NewClientWithSharedKeyCredential(fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName), cred, nil)
 	_require.Nil(err)
 
 	containerName := testcommon.GenerateContainerName(testName)
@@ -577,7 +577,7 @@ func (s *ServiceUnrecordedTestsSuite) TestSASContainerClient2() {
 	cred, err := azblob.NewSharedKeyCredential(accountName, accountKey)
 	_require.Nil(err)
 
-	serviceClient, err := service.NewClientWithSharedKeyCredential(fmt.Sprintf("https://%s.blob.core.windows.net/", accountName), cred, nil)
+	serviceClient, err := service.NewClientWithSharedKeyCredential(fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName), cred, nil)
 	_require.Nil(err)
 
 	containerName := testcommon.GenerateContainerName(testName)
@@ -620,7 +620,7 @@ func (s *ServiceUnrecordedTestsSuite) TestSASContainerClient2() {
 	cred, err := azidentity.NewManagedIdentityCredential(&optsClientID)
 	_require.Nil(err)
 
-	svcClient, err := azblob.NewClient(fmt.Sprintf("https://%s.blob.core.windows.net/", accountName), cred, &azblob.ClientOptions{})
+	svcClient, err := azblob.NewClient(fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName), cred, &azblob.ClientOptions{})
 	_require.Nil(err)
 
 	// Set current and past time, create KeyInfo

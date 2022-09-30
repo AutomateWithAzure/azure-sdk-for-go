@@ -83,7 +83,7 @@ func ExamplePython2PackageClient_CreateOrUpdate() {
 						Algorithm: to.Ptr("sha265"),
 						Value:     to.Ptr("07E108A962B81DD9C9BAA89BB47C0F6EE52B29E83758B07795E408D258B2B87A"),
 					},
-					URI:     to.Ptr("https://teststorage.blob.core.windows.net/dsccomposite/OmsCompositeResources.zip"),
+					URI:     to.Ptr("https://teststorage.blob.core.usgovcloudapi.net/dsccomposite/OmsCompositeResources.zip"),
 					Version: to.Ptr("1.0.0.0"),
 				},
 			},

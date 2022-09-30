@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:55 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.queue.core.windows.net/queue-155storagequeuesuitetestsetpermissionsalltruewithtimeout
+    url: https://golangrocksonazure.queue.core.usgovcloudapi.net/queue-155storagequeuesuitetestsetpermissionsalltruewithtimeout
     method: PUT
   response:
     body: ""
@@ -47,7 +47,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:55 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.queue.core.windows.net/queue-155storagequeuesuitetestsetpermissionsalltruewithtimeout?comp=acl&timeout=30
+    url: https://golangrocksonazure.queue.core.usgovcloudapi.net/queue-155storagequeuesuitetestsetpermissionsalltruewithtimeout?comp=acl&timeout=30
     method: PUT
   response:
     body: ""
@@ -78,7 +78,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:55 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.queue.core.windows.net/queue-155storagequeuesuitetestsetpermissionsalltruewithtimeout
+    url: https://golangrocksonazure.queue.core.usgovcloudapi.net/queue-155storagequeuesuitetestsetpermissionsalltruewithtimeout
     method: DELETE
   response:
     body: ""

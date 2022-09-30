@@ -210,7 +210,7 @@ func ExampleReplicationProtectedItemsClient_BeginAddDisks() {
 					InstanceType: to.Ptr("A2A"),
 					VMDisks: []*armrecoveryservicessiterecovery.A2AVMDiskInputDetails{
 						{
-							DiskURI:                             to.Ptr("https://vmstorage.blob.core.windows.net/vhds/datadisk1.vhd"),
+							DiskURI:                             to.Ptr("https://vmstorage.blob.core.usgovcloudapi.net/vhds/datadisk1.vhd"),
 							PrimaryStagingAzureStorageAccountID: to.Ptr("/subscriptions/c183865e-6077-46f2-a3b1-deb0f4f4650a/resourcegroups/primaryResource/providers/Microsoft.Storage/storageAccounts/vmcachestorage"),
 							RecoveryAzureStorageAccountID:       to.Ptr("/subscriptions/c183865e-6077-46f2-a3b1-deb0f4f4650a/resourcegroups/recoveryResource/providers/Microsoft.Storage/storageAccounts/recoverystorage"),
 						}},
@@ -417,7 +417,7 @@ func ExampleReplicationProtectedItemsClient_BeginRemoveDisks() {
 				ProviderSpecificDetails: &armrecoveryservicessiterecovery.A2ARemoveDisksInput{
 					InstanceType: to.Ptr("A2A"),
 					VMDisksUris: []*string{
-						to.Ptr("https://vmstorage.blob.core.windows.net/vhds/datadisk1.vhd")},
+						to.Ptr("https://vmstorage.blob.core.usgovcloudapi.net/vhds/datadisk1.vhd")},
 				},
 			},
 		},

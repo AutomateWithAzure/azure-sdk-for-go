@@ -139,7 +139,7 @@ azlog.SetEvents(azidentity.EventAuthentication)
 If you have access to the VM, you can use `curl` to verify the managed identity endpoint is available.
 
 ```sh
-curl 'http://169.254.169.254/metadata/identity/oauth2/token?resource=https://management.core.windows.net&api-version=2018-02-01' -H "Metadata: true"
+curl 'http://169.254.169.254/metadata/identity/oauth2/token?resource=https://management.core.usgovcloudapi.net&api-version=2018-02-01' -H "Metadata: true"
 ```
 
 > This command's output will contain an access token and SHOULD NOT BE SHARED, to avoid compromising account security.
@@ -155,7 +155,7 @@ curl 'http://169.254.169.254/metadata/identity/oauth2/token?resource=https://man
 If you can SSH into the App Service, you can verify managed identity is available in the environment. First ensure the environment variables `IDENTITY_ENDPOINT` and `IDENTITY_SECRET` are set. Then you can verify the managed identity endpoint is available using `curl`.
 
 ```sh
-curl "$IDENTITY_ENDPOINT?resource=https://management.core.windows.net&api-version=2019-08-01" -H "X-IDENTITY-HEADER: $IDENTITY_HEADER"
+curl "$IDENTITY_ENDPOINT?resource=https://management.core.usgovcloudapi.net&api-version=2019-08-01" -H "X-IDENTITY-HEADER: $IDENTITY_HEADER"
 ```
 
 > This command's output will contain an access token and SHOULD NOT BE SHARED, to avoid compromising account security.
@@ -187,7 +187,7 @@ az account show
 Once you've verified the Azure CLI is using the correct account, you can validate that it's able to obtain tokens for that account.
 
 ```azurecli
-az account get-access-token --output json --resource https://management.core.windows.net
+az account get-access-token --output json --resource https://management.core.usgovcloudapi.net
 ```
 
 > This command's output will contain an access token and SHOULD NOT BE SHARED, to avoid compromising account security.

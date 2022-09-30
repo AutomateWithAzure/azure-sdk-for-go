@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:48 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/50leaseblobsuitetestacquirelease?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/50leaseblobsuitetestacquirelease?restype=container
     method: PUT
   response:
     body: ""
@@ -53,7 +53,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:48 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/50leaseblobsuitetestacquirelease/blob/50leaseblobsuitetestacquireleasewithproposedleaseid
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/50leaseblobsuitetestacquirelease/blob/50leaseblobsuitetestacquireleasewithproposedleaseid
     method: PUT
   response:
     body: ""
@@ -98,7 +98,7 @@ interactions:
       - dfe6dde8-68d5-4910-9248-c97c61768fea
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/50leaseblobsuitetestacquirelease/blob/50leaseblobsuitetestacquireleasewithproposedleaseid?comp=lease
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/50leaseblobsuitetestacquirelease/blob/50leaseblobsuitetestacquireleasewithproposedleaseid?comp=lease
     method: PUT
   response:
     body: ""
@@ -135,7 +135,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:48 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/50leaseblobsuitetestacquirelease?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/50leaseblobsuitetestacquirelease?restype=container
     method: DELETE
   response:
     body: ""

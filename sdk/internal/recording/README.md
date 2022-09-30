@@ -75,7 +75,7 @@ func TestSomething(t *testing.T) {
 		},
 	}
 
-    client, err := NewClient("https://mystorageaccount.table.core.windows.net", myCred, options)
+    client, err := NewClient("https://mystorageaccount.table.core.usgovcloudapi.net", myCred, options)
     require.NoError(t, err)
     // Continue test
 }

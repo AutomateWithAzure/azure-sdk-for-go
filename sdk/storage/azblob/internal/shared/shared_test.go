@@ -33,19 +33,19 @@ func TestParseConnectionStringInvalid(t *testing.T) {
 }
 
 func TestParseConnectionString(t *testing.T) {
-	connStr := "DefaultEndpointsProtocol=https;AccountName=dummyaccount;AccountKey=secretkeykey;EndpointSuffix=core.windows.net"
+	connStr := "DefaultEndpointsProtocol=https;AccountName=dummyaccount;AccountKey=secretkeykey;EndpointSuffix=core.usgovcloudapi.net"
 	parsed, err := ParseConnectionString(connStr)
 	require.NoError(t, err)
-	require.Equal(t, "https://dummyaccount.blob.core.windows.net", parsed.ServiceURL)
+	require.Equal(t, "https://dummyaccount.blob.core.usgovcloudapi.net", parsed.ServiceURL)
 	require.Equal(t, "dummyaccount", parsed.AccountName)
 	require.Equal(t, "secretkeykey", parsed.AccountKey)
 }
 
 func TestParseConnectionStringHTTP(t *testing.T) {
-	connStr := "DefaultEndpointsProtocol=http;AccountName=dummyaccount;AccountKey=secretkeykey;EndpointSuffix=core.windows.net"
+	connStr := "DefaultEndpointsProtocol=http;AccountName=dummyaccount;AccountKey=secretkeykey;EndpointSuffix=core.usgovcloudapi.net"
 	parsed, err := ParseConnectionString(connStr)
 	require.NoError(t, err)
-	require.Equal(t, "http://dummyaccount.blob.core.windows.net", parsed.ServiceURL)
+	require.Equal(t, "http://dummyaccount.blob.core.usgovcloudapi.net", parsed.ServiceURL)
 	require.Equal(t, "dummyaccount", parsed.AccountName)
 	require.Equal(t, "secretkeykey", parsed.AccountKey)
 }
@@ -54,7 +54,7 @@ func TestParseConnectionStringBasic(t *testing.T) {
 	connStr := "AccountName=dummyaccount;AccountKey=secretkeykey"
 	parsed, err := ParseConnectionString(connStr)
 	require.NoError(t, err)
-	require.Equal(t, "https://dummyaccount.blob.core.windows.net", parsed.ServiceURL)
+	require.Equal(t, "https://dummyaccount.blob.core.usgovcloudapi.net", parsed.ServiceURL)
 	require.Equal(t, "dummyaccount", parsed.AccountName)
 	require.Equal(t, "secretkeykey", parsed.AccountKey)
 }
@@ -72,7 +72,7 @@ func TestParseConnectionStringSAS(t *testing.T) {
 	connStr := "AccountName=dummyaccount;SharedAccessSignature=fakesharedaccesssignature;"
 	parsed, err := ParseConnectionString(connStr)
 	require.NoError(t, err)
-	require.Equal(t, "https://dummyaccount.blob.core.windows.net/?fakesharedaccesssignature", parsed.ServiceURL)
+	require.Equal(t, "https://dummyaccount.blob.core.usgovcloudapi.net/?fakesharedaccesssignature", parsed.ServiceURL)
 	require.Empty(t, parsed.AccountName)
 	require.Empty(t, parsed.AccountKey)
 }

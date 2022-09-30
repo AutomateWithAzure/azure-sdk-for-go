@@ -62,7 +62,7 @@ const (
 	fakeUsername   = "fake@user"
 )
 
-var liveTestScope = "https://management.core.windows.net//.default"
+var liveTestScope = "https://management.core.usgovcloudapi.net//.default"
 
 func init() {
 	if recording.GetRecordMode() == recording.PlaybackMode {

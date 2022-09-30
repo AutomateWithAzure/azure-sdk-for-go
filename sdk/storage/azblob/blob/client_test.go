@@ -3152,7 +3152,7 @@ func (s *BlobRecordedTestsSuite) TestBlobClientPartsSASQueryTimes() {
 
 	for i := 0; i < len(StartTimesInputs); i++ {
 		urlString :=
-			"https://myaccount.blob.core.windows.net/mycontainer/mydirectory/myfile.txt?" +
+			"https://myaccount.blob.core.usgovcloudapi.net/mycontainer/mydirectory/myfile.txt?" +
 				"se=" + url.QueryEscape(ExpiryTimesInputs[i]) + "&" +
 				"sig=NotASignature&" +
 				"sp=r&" +
@@ -3163,7 +3163,7 @@ func (s *BlobRecordedTestsSuite) TestBlobClientPartsSASQueryTimes() {
 
 		parts, _ := blob.ParseURL(urlString)
 		_require.Equal(parts.Scheme, "https")
-		_require.Equal(parts.Host, "myaccount.blob.core.windows.net")
+		_require.Equal(parts.Host, "myaccount.blob.core.usgovcloudapi.net")
 		_require.Equal(parts.ContainerName, "mycontainer")
 		_require.Equal(parts.BlobName, "mydirectory/myfile.txt")
 

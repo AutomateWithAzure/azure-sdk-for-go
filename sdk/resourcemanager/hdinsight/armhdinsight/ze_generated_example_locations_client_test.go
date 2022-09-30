@@ -209,7 +209,7 @@ func ExampleLocationsClient_ValidateClusterCreateRequest() {
 				StorageProfile: &armhdinsight.StorageProfile{
 					Storageaccounts: []*armhdinsight.StorageAccount{
 						{
-							Name:       to.Ptr("storagename.blob.core.windows.net"),
+							Name:       to.Ptr("storagename.blob.core.usgovcloudapi.net"),
 							Container:  to.Ptr("contianername"),
 							IsDefault:  to.Ptr(true),
 							Key:        to.Ptr("*******"),

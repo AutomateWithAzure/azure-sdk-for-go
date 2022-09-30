@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/?comp=properties\u0026restype=service",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/?comp=properties\u0026restype=service",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -31,7 +31,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/?comp=properties\u0026restype=service",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/?comp=properties\u0026restype=service",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",

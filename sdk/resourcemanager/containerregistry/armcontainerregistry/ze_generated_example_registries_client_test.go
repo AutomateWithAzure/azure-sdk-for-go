@@ -436,7 +436,7 @@ func ExampleRegistriesClient_BeginScheduleRun() {
 				Architecture: to.Ptr(armcontainerregistry.ArchitectureAmd64),
 				OS:           to.Ptr(armcontainerregistry.OSLinux),
 			},
-			SourceLocation: to.Ptr("https://myaccount.blob.core.windows.net/sascontainer/source.zip?sv=2015-04-05&st=2015-04-29T22%3A18%3A26Z&se=2015-04-30T02%3A23%3A26Z&sr=b&sp=rw&sip=168.1.5.60-168.1.5.70&spr=https&sig=Z%2FRHIX5Xcg0Mq2rqI3OlWTjEg2tYkboXr1P9ZUXDtkk%3D"),
+			SourceLocation: to.Ptr("https://myaccount.blob.core.usgovcloudapi.net/sascontainer/source.zip?sv=2015-04-05&st=2015-04-29T22%3A18%3A26Z&se=2015-04-30T02%3A23%3A26Z&sr=b&sp=rw&sip=168.1.5.60-168.1.5.70&spr=https&sig=Z%2FRHIX5Xcg0Mq2rqI3OlWTjEg2tYkboXr1P9ZUXDtkk%3D"),
 		},
 		nil)
 	if err != nil {

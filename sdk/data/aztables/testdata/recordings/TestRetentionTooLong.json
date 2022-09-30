@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/?comp=properties\u0026restype=service",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/?comp=properties\u0026restype=service",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",

@@ -272,7 +272,7 @@ func ExampleWatchersClient_BeginGetTroubleshooting() {
 	poller, err := client.BeginGetTroubleshooting(ctx, "rg1", "nw1", armnetwork.TroubleshootingParameters{
 		Properties: &armnetwork.TroubleshootingProperties{
 			StorageID:   to.Ptr("/subscriptions/subid/resourceGroups/rg1/providers/Microsoft.Storage/storageAccounts/st1"),
-			StoragePath: to.Ptr("https://st1.blob.core.windows.net/cn1"),
+			StoragePath: to.Ptr("https://st1.blob.core.usgovcloudapi.net/cn1"),
 		},
 		TargetResourceID: to.Ptr("/subscriptions/subid/resourceGroups/rg2/providers/Microsoft.Compute/virtualMachines/vm1"),
 	}, nil)

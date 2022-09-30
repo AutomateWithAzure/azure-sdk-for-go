@@ -66,7 +66,7 @@ func ExampleServerSecurityAlertPoliciesClient_BeginCreateOrUpdate() {
 				RetentionDays:           to.Ptr[int32](5),
 				State:                   to.Ptr(armpostgresql.ServerSecurityAlertPolicyStateEnabled),
 				StorageAccountAccessKey: to.Ptr("sdlfkjabc+sdlfkjsdlkfsjdfLDKFTERLKFDFKLjsdfksjdflsdkfD2342309432849328476458/3RSD=="),
-				StorageEndpoint:         to.Ptr("https://mystorage.blob.core.windows.net"),
+				StorageEndpoint:         to.Ptr("https://mystorage.blob.core.usgovcloudapi.net"),
 			},
 		},
 		nil)

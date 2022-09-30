@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakeaccount-secondary.table.core.windows.net/?comp=stats\u0026restype=service",
+      "RequestUri": "https://fakeaccount-secondary.table.core.usgovcloudapi.net/?comp=stats\u0026restype=service",
       "RequestMethod": "GET",
       "RequestHeaders": {
         ":method": "GET",

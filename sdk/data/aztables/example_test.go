@@ -27,7 +27,7 @@ func ExampleNewSharedKeyCredential() {
 	if !ok {
 		panic("TABLES_PRIMARY_STORAGE_ACCOUNT_KEY could not be found")
 	}
-	serviceURL := accountName + ".table.core.windows.net"
+	serviceURL := accountName + ".table.core.usgovcloudapi.net"
 
 	cred, err := aztables.NewSharedKeyCredential(accountName, accountKey)
 	if err != nil {
@@ -45,7 +45,7 @@ func ExampleNewServiceClient() {
 	if !ok {
 		panic("TABLES_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := accountName + ".table.core.windows.net"
+	serviceURL := accountName + ".table.core.usgovcloudapi.net"
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	if err != nil {
@@ -67,7 +67,7 @@ func ExampleNewServiceClientWithSharedKey() {
 	if !ok {
 		panic("TABLES_PRIMARY_STORAGE_ACCOUNT_KEY could not be found")
 	}
-	serviceURL := accountName + ".table.core.windows.net"
+	serviceURL := accountName + ".table.core.usgovcloudapi.net"
 
 	cred, err := aztables.NewSharedKeyCredential(accountName, accountKey)
 	if err != nil {
@@ -89,7 +89,7 @@ func ExampleNewServiceClientWithNoCredential() {
 	if !ok {
 		panic("TABLES_SHARED_ACCESS_SIGNATURE could not be found")
 	}
-	serviceURL := fmt.Sprintf("%s.table.core.windows.net/?%s", accountName, sharedAccessSignature)
+	serviceURL := fmt.Sprintf("%s.table.core.usgovcloudapi.net/?%s", accountName, sharedAccessSignature)
 
 	client, err := aztables.NewServiceClientWithNoCredential(serviceURL, nil)
 	if err != nil {
@@ -103,7 +103,7 @@ func ExampleServiceClient_GetAccountSASURL() {
 	if err != nil {
 		panic(err)
 	}
-	service, err := aztables.NewServiceClientWithSharedKey("https://<myAccountName>.table.core.windows.net", cred, nil)
+	service, err := aztables.NewServiceClientWithSharedKey("https://<myAccountName>.table.core.usgovcloudapi.net", cred, nil)
 	if err != nil {
 		panic(err)
 	}
@@ -117,7 +117,7 @@ func ExampleServiceClient_GetAccountSASURL() {
 		panic(err)
 	}
 
-	serviceURL := fmt.Sprintf("https://<myAccountName>.table.core.windows.net/?%s", sasURL)
+	serviceURL := fmt.Sprintf("https://<myAccountName>.table.core.usgovcloudapi.net/?%s", sasURL)
 	sasService, err := aztables.NewServiceClientWithNoCredential(serviceURL, nil)
 	if err != nil {
 		panic(err)
@@ -135,7 +135,7 @@ func ExampleClient_SubmitTransaction() {
 	if err != nil {
 		panic(err)
 	}
-	serviceURL := fmt.Sprintf("https://%s.table.core.windows.net/%s", "myAccountName", "tableName")
+	serviceURL := fmt.Sprintf("https://%s.table.core.usgovcloudapi.net/%s", "myAccountName", "tableName")
 	client, err := aztables.NewClient(serviceURL, cred, nil)
 	if err != nil {
 		panic(err)
@@ -186,7 +186,7 @@ func ExampleServiceClient_CreateTable() {
 	if !ok {
 		panic("TABLES_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.table.core.windows.net", accountName)
+	serviceURL := fmt.Sprintf("https://%s.table.core.usgovcloudapi.net", accountName)
 
 	service, err := aztables.NewServiceClient(serviceURL, cred, nil)
 	if err != nil {
@@ -209,7 +209,7 @@ func ExampleServiceClient_DeleteTable() {
 	if !ok {
 		panic("TABLES_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.table.core.windows.net", accountName)
+	serviceURL := fmt.Sprintf("https://%s.table.core.usgovcloudapi.net", accountName)
 
 	service, err := aztables.NewServiceClient(serviceURL, cred, nil)
 	if err != nil {
@@ -232,7 +232,7 @@ func ExampleClient_CreateTable() {
 	if !ok {
 		panic("TABLES_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.table.core.windows.net/%s", accountName, "fromTableClient")
+	serviceURL := fmt.Sprintf("https://%s.table.core.usgovcloudapi.net/%s", accountName, "fromTableClient")
 	client, err := aztables.NewClient(serviceURL, cred, nil)
 	if err != nil {
 		panic(err)
@@ -254,7 +254,7 @@ func ExampleClient_Delete() {
 	if !ok {
 		panic("TABLES_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.table.core.windows.net/%s", accountName, "fromTableClient")
+	serviceURL := fmt.Sprintf("https://%s.table.core.usgovcloudapi.net/%s", accountName, "fromTableClient")
 	client, err := aztables.NewClient(serviceURL, cred, nil)
 	if err != nil {
 		panic(err)
@@ -272,7 +272,7 @@ func ExampleNewClient() {
 	if !ok {
 		panic("TABLES_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.table.core.windows.net/%s", accountName, "myTableName")
+	serviceURL := fmt.Sprintf("https://%s.table.core.usgovcloudapi.net/%s", accountName, "myTableName")
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	if err != nil {
@@ -294,7 +294,7 @@ func ExampleNewClientWithSharedKey() {
 	if !ok {
 		panic("TABLES_PRIMARY_STORAGE_ACCOUNT_KEY could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.table.core.windows.net/%s", accountName, "myTableName")
+	serviceURL := fmt.Sprintf("https://%s.table.core.usgovcloudapi.net/%s", accountName, "myTableName")
 
 	cred, err := aztables.NewSharedKeyCredential(accountName, accountKey)
 	if err != nil {
@@ -324,7 +324,7 @@ func ExampleClient_UpsertEntity() {
 	if !ok {
 		panic("TABLES_PRIMARY_STORAGE_ACCOUNT_KEY could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.table.core.windows.net/%s", accountName, "myTable")
+	serviceURL := fmt.Sprintf("https://%s.table.core.usgovcloudapi.net/%s", accountName, "myTable")
 
 	cred, err := aztables.NewSharedKeyCredential(accountName, accountKey)
 	if err != nil {
@@ -392,7 +392,7 @@ func ExampleClient_DeleteEntity() {
 	if !ok {
 		panic("TABLES_PRIMARY_STORAGE_ACCOUNT_KEY could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.table.core.windows.net/%s", accountName, "myTable")
+	serviceURL := fmt.Sprintf("https://%s.table.core.usgovcloudapi.net/%s", accountName, "myTable")
 
 	cred, err := aztables.NewSharedKeyCredential(accountName, accountKey)
 	if err != nil {
@@ -419,7 +419,7 @@ func ExampleClient_NewListEntitiesPager() {
 	if !ok {
 		panic("TABLES_PRIMARY_STORAGE_ACCOUNT_KEY could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.table.core.windows.net/%s", accountName, "myTable")
+	serviceURL := fmt.Sprintf("https://%s.table.core.usgovcloudapi.net/%s", accountName, "myTable")
 
 	cred, err := aztables.NewSharedKeyCredential(accountName, accountKey)
 	if err != nil {
@@ -498,7 +498,7 @@ func ExampleServiceClient_NewListTablesPager() {
 	if !ok {
 		panic("TABLES_PRIMARY_STORAGE_ACCOUNT_KEY could not be found")
 	}
-	serviceURL := accountName + ".table.core.windows.net"
+	serviceURL := accountName + ".table.core.usgovcloudapi.net"
 
 	cred, err := aztables.NewSharedKeyCredential(accountName, accountKey)
 	if err != nil {
@@ -532,7 +532,7 @@ func ExampleServiceClient_SetProperties() {
 	if !ok {
 		panic("TABLES_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := accountName + ".table.core.windows.net"
+	serviceURL := accountName + ".table.core.usgovcloudapi.net"
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	if err != nil {
 		panic(err)

@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/foo%20bar?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/foo%20bar?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",

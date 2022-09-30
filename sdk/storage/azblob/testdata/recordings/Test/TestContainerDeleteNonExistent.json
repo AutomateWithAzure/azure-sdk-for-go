@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccontainerdeletenonexistent?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccontainerdeletenonexistent?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

@@ -14,7 +14,7 @@ interactions:
       - Thu, 15 Apr 2021 14:37:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-46storagesharesuitetestgetandsetshareproperties?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-46storagesharesuitetestgetandsetshareproperties?restype=share
     method: PUT
   response:
     body: ""
@@ -51,7 +51,7 @@ interactions:
       - "55"
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-46storagesharesuitetestgetandsetshareproperties?comp=properties&restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-46storagesharesuitetestgetandsetshareproperties?comp=properties&restype=share
     method: PUT
   response:
     body: ""
@@ -86,7 +86,7 @@ interactions:
       - Thu, 15 Apr 2021 14:37:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-46storagesharesuitetestgetandsetshareproperties?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-46storagesharesuitetestgetandsetshareproperties?restype=share
     method: HEAD
   response:
     body: ""
@@ -127,7 +127,7 @@ interactions:
       - Thu, 15 Apr 2021 14:37:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-46storagesharesuitetestgetandsetshareproperties?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-46storagesharesuitetestgetandsetshareproperties?restype=share
     method: DELETE
   response:
     body: ""

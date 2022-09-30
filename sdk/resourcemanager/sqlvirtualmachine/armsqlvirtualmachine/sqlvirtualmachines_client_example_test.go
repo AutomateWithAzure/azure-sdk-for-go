@@ -190,7 +190,7 @@ func ExampleSQLVirtualMachinesClient_BeginCreateOrUpdate_createsOrUpdatesASqlVir
 				Password:              to.Ptr("<Password>"),
 				RetentionPeriod:       to.Ptr[int32](17),
 				StorageAccessKey:      to.Ptr("<primary storage access key>"),
-				StorageAccountURL:     to.Ptr("https://teststorage.blob.core.windows.net/"),
+				StorageAccountURL:     to.Ptr("https://teststorage.blob.core.usgovcloudapi.net/"),
 				StorageContainerName:  to.Ptr("testcontainer"),
 			},
 			AutoPatchingSettings: &armsqlvirtualmachine.AutoPatchingSettings{
@@ -360,7 +360,7 @@ func ExampleSQLVirtualMachinesClient_BeginCreateOrUpdate_createsOrUpdatesASqlVir
 				Password:              to.Ptr("<Password>"),
 				RetentionPeriod:       to.Ptr[int32](17),
 				StorageAccessKey:      to.Ptr("<primary storage access key>"),
-				StorageAccountURL:     to.Ptr("https://teststorage.blob.core.windows.net/"),
+				StorageAccountURL:     to.Ptr("https://teststorage.blob.core.usgovcloudapi.net/"),
 				StorageContainerName:  to.Ptr("testcontainer"),
 			},
 			AutoPatchingSettings: &armsqlvirtualmachine.AutoPatchingSettings{

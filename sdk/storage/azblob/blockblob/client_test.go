@@ -2648,7 +2648,7 @@ func (s *BlockBlobUnrecordedTestsSuite) TestListBlobReturnsTags() {
 //	}
 //
 //	qp := sasQueryParams.Encode()
-//	urlToSendToSomeone := fmt.Sprintf("https://%s.blob.core.windows.net?%s", accountName, qp)
+//	urlToSendToSomeone := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net?%s", accountName, qp)
 //	u, _ := url.Parse(urlToSendToSomeone)
 //	serviceURL := NewServiceURL(*u, NewPipeline(NewAnonymousCredential(), PipelineOptions{}))
 //

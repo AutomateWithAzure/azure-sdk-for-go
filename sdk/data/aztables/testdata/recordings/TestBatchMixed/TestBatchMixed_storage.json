@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/Tables",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/Tables",
       "RequestMethod": "POST",
       "RequestHeaders": {
         ":method": "POST",
@@ -23,7 +23,7 @@
         "Cache-Control": "no-cache",
         "Content-Type": "application/json; odata=minimalmetadata; streaming=true; charset=utf-8",
         "Date": "Wed, 13 Apr 2022 19:29:02 GMT",
-        "Location": "https://fakeaccount.table.core.windows.net/Tables(\u0027tableName1678010654\u0027)",
+        "Location": "https://fakeaccount.table.core.usgovcloudapi.net/Tables(\u0027tableName1678010654\u0027)",
         "Server": [
           "Windows-Azure-Table/1.0",
           "Microsoft-HTTPAPI/2.0"
@@ -34,12 +34,12 @@
         "x-ms-version": "2019-02-02"
       },
       "ResponseBody": {
-        "odata.metadata": "https://fakeaccount.table.core.windows.net/$metadata#Tables/@Element",
+        "odata.metadata": "https://fakeaccount.table.core.usgovcloudapi.net/$metadata#Tables/@Element",
         "TableName": "tableName1678010654"
       }
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/$batch",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/$batch",
       "RequestMethod": "POST",
       "RequestHeaders": {
         ":method": "POST",
@@ -71,7 +71,7 @@
       "ResponseBody": "LS1iYXRjaHJlc3BvbnNlXzJjZDgyMmYxLWVkYzktNDE1Mi04ZWYwLThmZWExMWM5Zjk2Zg0KQ29udGVudC1UeXBlOiBtdWx0aXBhcnQvbWl4ZWQ7IGJvdW5kYXJ5PWNoYW5nZXNldHJlc3BvbnNlXzJkOTc3NjI3LTVkZjktNGEwMy04NjBmLTAwNjg5MjlmOWUxMg0KDQotLWNoYW5nZXNldHJlc3BvbnNlXzJkOTc3NjI3LTVkZjktNGEwMy04NjBmLTAwNjg5MjlmOWUxMg0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9odHRwDQpDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBiaW5hcnkNCg0KSFRUUC8xLjEgMjA0IE5vIENvbnRlbnQNClgtQ29udGVudC1UeXBlLU9wdGlvbnM6IG5vc25pZmYNCkNhY2hlLUNvbnRyb2w6IG5vLWNhY2hlDQpQcmVmZXJlbmNlLUFwcGxpZWQ6IHJldHVybi1uby1jb250ZW50DQpEYXRhU2VydmljZVZlcnNpb246IDMuMDsNCkxvY2F0aW9uOiBodHRwczovL2Zha2VhY2NvdW50LnRhYmxlLmNvcmUud2luZG93cy5uZXQvdGFibGVOYW1lMTY3ODAxMDY1NChQYXJ0aXRpb25LZXk9J3BhcnRpdGlvbicsUm93S2V5PScxJykNCkRhdGFTZXJ2aWNlSWQ6IGh0dHBzOi8vZmFrZWFjY291bnQudGFibGUuY29yZS53aW5kb3dzLm5ldC90YWJsZU5hbWUxNjc4MDEwNjU0KFBhcnRpdGlvbktleT0ncGFydGl0aW9uJyxSb3dLZXk9JzEnKQ0KRVRhZzogVy8iZGF0ZXRpbWUnMjAyMi0wNC0xM1QxOSUzQTI5JTNBMDIuOTk3OTkzMVonIg0KDQoNCi0tY2hhbmdlc2V0cmVzcG9uc2VfMmQ5Nzc2MjctNWRmOS00YTAzLTg2MGYtMDA2ODkyOWY5ZTEyDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2h0dHANCkNvbnRlbnQtVHJhbnNmZXItRW5jb2Rpbmc6IGJpbmFyeQ0KDQpIVFRQLzEuMSAyMDQgTm8gQ29udGVudA0KWC1Db250ZW50LVR5cGUtT3B0aW9uczogbm9zbmlmZg0KQ2FjaGUtQ29udHJvbDogbm8tY2FjaGUNClByZWZlcmVuY2UtQXBwbGllZDogcmV0dXJuLW5vLWNvbnRlbnQNCkRhdGFTZXJ2aWNlVmVyc2lvbjogMy4wOw0KTG9jYXRpb246IGh0dHBzOi8vZmFrZWFjY291bnQudGFibGUuY29yZS53aW5kb3dzLm5ldC90YWJsZU5hbWUxNjc4MDEwNjU0KFBhcnRpdGlvbktleT0ncGFydGl0aW9uJyxSb3dLZXk9JzInKQ0KRGF0YVNlcnZpY2VJZDogaHR0cHM6Ly9mYWtlYWNjb3VudC50YWJsZS5jb3JlLndpbmRvd3MubmV0L3RhYmxlTmFtZTE2NzgwMTA2NTQoUGFydGl0aW9uS2V5PSdwYXJ0aXRpb24nLFJvd0tleT0nMicpDQpFVGFnOiBXLyJkYXRldGltZScyMDIyLTA0LTEzVDE5JTNBMjklM0EwMi45OTc5OTMxWiciDQoNCg0KLS1jaGFuZ2VzZXRyZXNwb25zZV8yZDk3NzYyNy01ZGY5LTRhMDMtODYwZi0wMDY4OTI5ZjllMTINCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vaHR0cA0KQ29udGVudC1UcmFuc2Zlci1FbmNvZGluZzogYmluYXJ5DQoNCkhUVFAvMS4xIDIwNCBObyBDb250ZW50DQpYLUNvbnRlbnQtVHlwZS1PcHRpb25zOiBub3NuaWZmDQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KUHJlZmVyZW5jZS1BcHBsaWVkOiByZXR1cm4tbm8tY29udGVudA0KRGF0YVNlcnZpY2VWZXJzaW9uOiAzLjA7DQpMb2NhdGlvbjogaHR0cHM6Ly9mYWtlYWNjb3VudC50YWJsZS5jb3JlLndpbmRvd3MubmV0L3RhYmxlTmFtZTE2NzgwMTA2NTQoUGFydGl0aW9uS2V5PSdwYXJ0aXRpb24nLFJvd0tleT0nMycpDQpEYXRhU2VydmljZUlkOiBodHRwczovL2Zha2VhY2NvdW50LnRhYmxlLmNvcmUud2luZG93cy5uZXQvdGFibGVOYW1lMTY3ODAxMDY1NChQYXJ0aXRpb25LZXk9J3BhcnRpdGlvbicsUm93S2V5PSczJykNCkVUYWc6IFcvImRhdGV0aW1lJzIwMjItMDQtMTNUMTklM0EyOSUzQTAyLjk5Nzk5MzFaJyINCg0KDQotLWNoYW5nZXNldHJlc3BvbnNlXzJkOTc3NjI3LTVkZjktNGEwMy04NjBmLTAwNjg5MjlmOWUxMg0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9odHRwDQpDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBiaW5hcnkNCg0KSFRUUC8xLjEgMjA0IE5vIENvbnRlbnQNClgtQ29udGVudC1UeXBlLU9wdGlvbnM6IG5vc25pZmYNCkNhY2hlLUNvbnRyb2w6IG5vLWNhY2hlDQpQcmVmZXJlbmNlLUFwcGxpZWQ6IHJldHVybi1uby1jb250ZW50DQpEYXRhU2VydmljZVZlcnNpb246IDMuMDsNCkxvY2F0aW9uOiBodHRwczovL2Zha2VhY2NvdW50LnRhYmxlLmNvcmUud2luZG93cy5uZXQvdGFibGVOYW1lMTY3ODAxMDY1NChQYXJ0aXRpb25LZXk9J3BhcnRpdGlvbicsUm93S2V5PSc0JykNCkRhdGFTZXJ2aWNlSWQ6IGh0dHBzOi8vZmFrZWFjY291bnQudGFibGUuY29yZS53aW5kb3dzLm5ldC90YWJsZU5hbWUxNjc4MDEwNjU0KFBhcnRpdGlvbktleT0ncGFydGl0aW9uJyxSb3dLZXk9JzQnKQ0KRVRhZzogVy8iZGF0ZXRpbWUnMjAyMi0wNC0xM1QxOSUzQTI5JTNBMDIuOTk3OTkzMVonIg0KDQoNCi0tY2hhbmdlc2V0cmVzcG9uc2VfMmQ5Nzc2MjctNWRmOS00YTAzLTg2MGYtMDA2ODkyOWY5ZTEyDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2h0dHANCkNvbnRlbnQtVHJhbnNmZXItRW5jb2Rpbmc6IGJpbmFyeQ0KDQpIVFRQLzEuMSAyMDQgTm8gQ29udGVudA0KWC1Db250ZW50LVR5cGUtT3B0aW9uczogbm9zbmlmZg0KQ2FjaGUtQ29udHJvbDogbm8tY2FjaGUNClByZWZlcmVuY2UtQXBwbGllZDogcmV0dXJuLW5vLWNvbnRlbnQNCkRhdGFTZXJ2aWNlVmVyc2lvbjogMy4wOw0KTG9jYXRpb246IGh0dHBzOi8vZmFrZWFjY291bnQudGFibGUuY29yZS53aW5kb3dzLm5ldC90YWJsZU5hbWUxNjc4MDEwNjU0KFBhcnRpdGlvbktleT0ncGFydGl0aW9uJyxSb3dLZXk9JzUnKQ0KRGF0YVNlcnZpY2VJZDogaHR0cHM6Ly9mYWtlYWNjb3VudC50YWJsZS5jb3JlLndpbmRvd3MubmV0L3RhYmxlTmFtZTE2NzgwMTA2NTQoUGFydGl0aW9uS2V5PSdwYXJ0aXRpb24nLFJvd0tleT0nNScpDQpFVGFnOiBXLyJkYXRldGltZScyMDIyLTA0LTEzVDE5JTNBMjklM0EwMi45OTc5OTMxWiciDQoNCg0KLS1jaGFuZ2VzZXRyZXNwb25zZV8yZDk3NzYyNy01ZGY5LTRhMDMtODYwZi0wMDY4OTI5ZjllMTItLQ0KLS1iYXRjaHJlc3BvbnNlXzJjZDgyMmYxLWVkYzktNDE1Mi04ZWYwLThmZWExMWM5Zjk2Zi0tDQo="
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/tableName1678010654()?%24filter=RowKey\u002Beq\u002B%271%27\u0026%24format=application%2Fjson%3Bodata%3Dminimalmetadata",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/tableName1678010654()?%24filter=RowKey\u002Beq\u002B%271%27\u0026%24format=application%2Fjson%3Bodata%3Dminimalmetadata",
       "RequestMethod": "GET",
       "RequestHeaders": {
         ":method": "GET",
@@ -100,7 +100,7 @@
         "x-ms-version": "2019-02-02"
       },
       "ResponseBody": {
-        "odata.metadata": "https://fakeaccount.table.core.windows.net/$metadata#tableName1678010654",
+        "odata.metadata": "https://fakeaccount.table.core.usgovcloudapi.net/$metadata#tableName1678010654",
         "value": [
           {
             "odata.etag": "W/\u0022datetime\u00272022-04-13T19%3A29%3A02.9979931Z\u0027\u0022",
@@ -118,7 +118,7 @@
       }
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/$batch",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/$batch",
       "RequestMethod": "POST",
       "RequestHeaders": {
         ":method": "POST",
@@ -150,7 +150,7 @@
       "ResponseBody": "LS1iYXRjaHJlc3BvbnNlXzI2MjZkOTdjLTc5ZjgtNDI2Ny04YWUyLTkyOTNlYjQ1ZmNmOA0KQ29udGVudC1UeXBlOiBtdWx0aXBhcnQvbWl4ZWQ7IGJvdW5kYXJ5PWNoYW5nZXNldHJlc3BvbnNlX2RkMTA3ZjA1LTUzMTQtNGEzOC05MzZkLTc5YTE0YzA3NWIzOQ0KDQotLWNoYW5nZXNldHJlc3BvbnNlX2RkMTA3ZjA1LTUzMTQtNGEzOC05MzZkLTc5YTE0YzA3NWIzOQ0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9odHRwDQpDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBiaW5hcnkNCg0KSFRUUC8xLjEgMjA0IE5vIENvbnRlbnQNClgtQ29udGVudC1UeXBlLU9wdGlvbnM6IG5vc25pZmYNCkNhY2hlLUNvbnRyb2w6IG5vLWNhY2hlDQpEYXRhU2VydmljZVZlcnNpb246IDEuMDsNCkVUYWc6IFcvImRhdGV0aW1lJzIwMjItMDQtMTNUMTklM0EyOSUzQTAzLjEyNTU3MThaJyINCg0KDQotLWNoYW5nZXNldHJlc3BvbnNlX2RkMTA3ZjA1LTUzMTQtNGEzOC05MzZkLTc5YTE0YzA3NWIzOQ0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9odHRwDQpDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBiaW5hcnkNCg0KSFRUUC8xLjEgMjA0IE5vIENvbnRlbnQNClgtQ29udGVudC1UeXBlLU9wdGlvbnM6IG5vc25pZmYNCkNhY2hlLUNvbnRyb2w6IG5vLWNhY2hlDQpEYXRhU2VydmljZVZlcnNpb246IDEuMDsNCg0KDQotLWNoYW5nZXNldHJlc3BvbnNlX2RkMTA3ZjA1LTUzMTQtNGEzOC05MzZkLTc5YTE0YzA3NWIzOQ0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9odHRwDQpDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBiaW5hcnkNCg0KSFRUUC8xLjEgMjA0IE5vIENvbnRlbnQNClgtQ29udGVudC1UeXBlLU9wdGlvbnM6IG5vc25pZmYNCkNhY2hlLUNvbnRyb2w6IG5vLWNhY2hlDQpEYXRhU2VydmljZVZlcnNpb246IDEuMDsNCkVUYWc6IFcvImRhdGV0aW1lJzIwMjItMDQtMTNUMTklM0EyOSUzQTAzLjEyNTU3MThaJyINCg0KDQotLWNoYW5nZXNldHJlc3BvbnNlX2RkMTA3ZjA1LTUzMTQtNGEzOC05MzZkLTc5YTE0YzA3NWIzOQ0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9odHRwDQpDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBiaW5hcnkNCg0KSFRUUC8xLjEgMjA0IE5vIENvbnRlbnQNClgtQ29udGVudC1UeXBlLU9wdGlvbnM6IG5vc25pZmYNCkNhY2hlLUNvbnRyb2w6IG5vLWNhY2hlDQpEYXRhU2VydmljZVZlcnNpb246IDEuMDsNCkVUYWc6IFcvImRhdGV0aW1lJzIwMjItMDQtMTNUMTklM0EyOSUzQTAzLjEyNTU3MThaJyINCg0KDQotLWNoYW5nZXNldHJlc3BvbnNlX2RkMTA3ZjA1LTUzMTQtNGEzOC05MzZkLTc5YTE0YzA3NWIzOQ0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9odHRwDQpDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBiaW5hcnkNCg0KSFRUUC8xLjEgMjA0IE5vIENvbnRlbnQNClgtQ29udGVudC1UeXBlLU9wdGlvbnM6IG5vc25pZmYNCkNhY2hlLUNvbnRyb2w6IG5vLWNhY2hlDQpEYXRhU2VydmljZVZlcnNpb246IDEuMDsNCkVUYWc6IFcvImRhdGV0aW1lJzIwMjItMDQtMTNUMTklM0EyOSUzQTAzLjEyNTU3MThaJyINCg0KDQotLWNoYW5nZXNldHJlc3BvbnNlX2RkMTA3ZjA1LTUzMTQtNGEzOC05MzZkLTc5YTE0YzA3NWIzOS0tDQotLWJhdGNocmVzcG9uc2VfMjYyNmQ5N2MtNzlmOC00MjY3LThhZTItOTI5M2ViNDVmY2Y4LS0NCg=="
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/tableName1678010654()?%24filter=RowKey\u002Beq\u002B%271%27\u0026%24format=application%2Fjson%3Bodata%3Dminimalmetadata",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/tableName1678010654()?%24filter=RowKey\u002Beq\u002B%271%27\u0026%24format=application%2Fjson%3Bodata%3Dminimalmetadata",
       "RequestMethod": "GET",
       "RequestHeaders": {
         ":method": "GET",
@@ -179,7 +179,7 @@
         "x-ms-version": "2019-02-02"
       },
       "ResponseBody": {
-        "odata.metadata": "https://fakeaccount.table.core.windows.net/$metadata#tableName1678010654",
+        "odata.metadata": "https://fakeaccount.table.core.usgovcloudapi.net/$metadata#tableName1678010654",
         "value": [
           {
             "odata.etag": "W/\u0022datetime\u00272022-04-13T19%3A29%3A03.1255718Z\u0027\u0022",
@@ -198,7 +198,7 @@
       }
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/Tables(\u0027tableName1678010654\u0027)",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/Tables(\u0027tableName1678010654\u0027)",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/json",

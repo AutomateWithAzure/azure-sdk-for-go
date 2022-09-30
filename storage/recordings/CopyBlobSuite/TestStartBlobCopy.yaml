@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:39 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31copyblobsuiteteststartblobcopy?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31copyblobsuiteteststartblobcopy?restype=container
     method: PUT
   response:
     body: ""
@@ -65,7 +65,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:39 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31copyblobsuiteteststartblobcopy/blob/src31copyblobsuiteteststartblobcopy
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31copyblobsuiteteststartblobcopy/blob/src31copyblobsuiteteststartblobcopy
     method: PUT
   response:
     body: ""
@@ -101,12 +101,12 @@ interactions:
       - Go/go1.15.1 (amd64-windows) azure-storage-go/v52.6.0 api-version/2018-03-28
         blob
       x-ms-copy-source:
-      - https://golangrocksonazure.blob.core.windows.net/31copyblobsuiteteststartblobcopy/blob/src31copyblobsuiteteststartblobcopy
+      - https://golangrocksonazure.blob.core.usgovcloudapi.net/31copyblobsuiteteststartblobcopy/blob/src31copyblobsuiteteststartblobcopy
       x-ms-date:
       - Tue, 13 Apr 2021 15:57:39 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31copyblobsuiteteststartblobcopy/blob/dst31copyblobsuiteteststartblobcopy
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31copyblobsuiteteststartblobcopy/blob/dst31copyblobsuiteteststartblobcopy
     method: PUT
   response:
     body: ""
@@ -145,7 +145,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:39 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31copyblobsuiteteststartblobcopy/blob/src31copyblobsuiteteststartblobcopy
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31copyblobsuiteteststartblobcopy/blob/src31copyblobsuiteteststartblobcopy
     method: DELETE
   response:
     body: ""
@@ -178,7 +178,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:39 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31copyblobsuiteteststartblobcopy?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31copyblobsuiteteststartblobcopy?restype=container
     method: DELETE
   response:
     body: ""

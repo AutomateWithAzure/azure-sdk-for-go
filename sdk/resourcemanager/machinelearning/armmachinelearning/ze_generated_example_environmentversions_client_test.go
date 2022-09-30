@@ -121,7 +121,7 @@ func ExampleEnvironmentVersionsClient_CreateOrUpdate() {
 				},
 				IsAnonymous: to.Ptr(false),
 				Build: &armmachinelearning.BuildContext{
-					ContextURI:     to.Ptr("https://storage-account.blob.core.windows.net/azureml/DockerBuildContext/95ddede6b9b8c4e90472db3acd0a8d28/"),
+					ContextURI:     to.Ptr("https://storage-account.blob.core.usgovcloudapi.net/azureml/DockerBuildContext/95ddede6b9b8c4e90472db3acd0a8d28/"),
 					DockerfilePath: to.Ptr("prod/Dockerfile"),
 				},
 				CondaFile: to.Ptr("string"),

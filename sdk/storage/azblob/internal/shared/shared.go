@@ -51,7 +51,7 @@ func CopyOptions[T any](opts *T) *T {
 
 var errConnectionString = errors.New("connection string is either blank or malformed. The expected connection string " +
 	"should contain key value pairs separated by semicolons. For example 'DefaultEndpointsProtocol=https;AccountName=<accountName>;" +
-	"AccountKey=<accountKey>;EndpointSuffix=core.windows.net'")
+	"AccountKey=<accountKey>;EndpointSuffix=core.usgovcloudapi.net'")
 
 type ParsedConnectionString struct {
 	ServiceURL  string
@@ -62,7 +62,7 @@ type ParsedConnectionString struct {
 func ParseConnectionString(connectionString string) (ParsedConnectionString, error) {
 	const (
 		defaultScheme = "https"
-		defaultSuffix = "core.windows.net"
+		defaultSuffix = "core.usgovcloudapi.net"
 	)
 
 	connStrMap := make(map[string]string)

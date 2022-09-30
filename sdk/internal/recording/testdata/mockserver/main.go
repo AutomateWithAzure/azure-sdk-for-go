@@ -22,7 +22,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 	err := json.NewEncoder(w).Encode(map[string]string{
 		"Tag":  "Value",
 		"Tag2": "Value2",
-		"Tag3": "https://storageaccount.table.core.windows.net/",
+		"Tag3": "https://storageaccount.table.core.usgovcloudapi.net/",
 	})
 	if err != nil {
 		log.Fatalf("error writing the response")

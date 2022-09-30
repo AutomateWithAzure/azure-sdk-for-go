@@ -480,9 +480,9 @@ func (s *StorageEntitySuite) Test_entityMarshalJSON(c *chk.C) {
 
 func (s *StorageEntitySuite) Test_entityUnmarshalJSON(c *chk.C) {
 	input := `{
-        "odata.metadata":"https://azuregosdkstoragetests.table.core.windows.net/$metadata#SampleTable/@Element",
+        "odata.metadata":"https://azuregosdkstoragetests.table.core.usgovcloudapi.net/$metadata#SampleTable/@Element",
         "odata.type":"azuregosdkstoragetests.SampleTable",
-        "odata.id":"https://azuregosdkstoragetests.table.core.windows.net/SampleTable(PartitionKey=''mypartitionkey'',RowKey=''myrowkey'')",
+        "odata.id":"https://azuregosdkstoragetests.table.core.usgovcloudapi.net/SampleTable(PartitionKey=''mypartitionkey'',RowKey=''myrowkey'')",
         "odata.etag":"W/\"datetime''2017-01-27T01%3A01%3A44.151805Z''\"",
         "odata.editLink":"SampleTable(PartitionKey=''mypartitionkey'',RowKey=''myrowkey'')",
         "PartitionKey":"mypartitionkey",
@@ -519,9 +519,9 @@ func (s *StorageEntitySuite) Test_entityUnmarshalJSON(c *chk.C) {
 		"NumberOfOrders": int64(255),
 	}
 
-	c.Assert(entity.OdataMetadata, chk.Equals, "https://azuregosdkstoragetests.table.core.windows.net/$metadata#SampleTable/@Element")
+	c.Assert(entity.OdataMetadata, chk.Equals, "https://azuregosdkstoragetests.table.core.usgovcloudapi.net/$metadata#SampleTable/@Element")
 	c.Assert(entity.OdataType, chk.Equals, "azuregosdkstoragetests.SampleTable")
-	c.Assert(entity.OdataID, chk.Equals, "https://azuregosdkstoragetests.table.core.windows.net/SampleTable(PartitionKey=''mypartitionkey'',RowKey=''myrowkey'')")
+	c.Assert(entity.OdataID, chk.Equals, "https://azuregosdkstoragetests.table.core.usgovcloudapi.net/SampleTable(PartitionKey=''mypartitionkey'',RowKey=''myrowkey'')")
 	c.Assert(entity.OdataEtag, chk.Equals, "W/\"datetime''2017-01-27T01%3A01%3A44.151805Z''\"")
 	c.Assert(entity.OdataEditLink, chk.Equals, "SampleTable(PartitionKey=''mypartitionkey'',RowKey=''myrowkey'')")
 	c.Assert(entity.PartitionKey, chk.Equals, "mypartitionkey")

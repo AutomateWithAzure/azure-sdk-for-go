@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobputblobifmatchtrue?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobputblobifmatchtrue?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobputblobifmatchtrue/gotestblobblobputblobifmatchtrue",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobputblobifmatchtrue/gotestblobblobputblobifmatchtrue",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -63,7 +63,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobputblobifmatchtrue/gotestblobblobputblobifmatchtrue",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobputblobifmatchtrue/gotestblobblobputblobifmatchtrue",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -101,7 +101,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobputblobifmatchtrue/gotestblobblobputblobifmatchtrue",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobputblobifmatchtrue/gotestblobblobputblobifmatchtrue",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -135,7 +135,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobputblobifmatchtrue/gotestblobblobputblobifmatchtrue",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobputblobifmatchtrue/gotestblobblobputblobifmatchtrue",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -172,7 +172,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobputblobifmatchtrue?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobputblobifmatchtrue?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

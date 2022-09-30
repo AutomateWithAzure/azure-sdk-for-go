@@ -25,7 +25,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:42 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
     body: ""
@@ -35,11 +35,11 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table36storageentitysuitetestins')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table36storageentitysuitetestins')
       Date:
       - Tue, 13 Apr 2021 15:57:40 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table36storageentitysuitetestins')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table36storageentitysuitetestins')
       Preference-Applied:
       - return-no-content
       Server:
@@ -76,7 +76,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:42 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table36storageentitysuitetestins%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table36storageentitysuitetestins%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
     method: MERGE
   response:
     body: ""
@@ -125,7 +125,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:42 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table36storageentitysuitetestins%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table36storageentitysuitetestins%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
     method: MERGE
   response:
     body: ""
@@ -168,7 +168,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:42 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table36storageentitysuitetestins%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table36storageentitysuitetestins%27%29?timeout=30
     method: DELETE
   response:
     body: ""

@@ -25,7 +25,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:40 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
     body: ""
@@ -35,11 +35,11 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table46storageentitysuitetestexe')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table46storageentitysuitetestexe')
       Date:
       - Tue, 13 Apr 2021 15:57:39 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table46storageentitysuitetestexe')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table46storageentitysuitetestexe')
       Preference-Applied:
       - return-no-content
       Server:
@@ -76,10 +76,10 @@ interactions:
       - Tue, 13 Apr 2021 15:57:40 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe
     method: POST
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#table46storageentitysuitetestexe/@Element","odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r0'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.7052363Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r0'')","PartitionKey":"pkey","RowKey":"r0","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.7052363Z"}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#table46storageentitysuitetestexe/@Element","odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r0'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.7052363Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r0'')","PartitionKey":"pkey","RowKey":"r0","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.7052363Z"}'
     headers:
       Cache-Control:
       - no-cache
@@ -90,7 +90,7 @@ interactions:
       Etag:
       - W/"datetime'2021-04-13T15%3A57%3A40.7052363Z'"
       Location:
-      - https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey='pkey',RowKey='r0')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey='pkey',RowKey='r0')
       Preference-Applied:
       - return-content
       Server:
@@ -127,10 +127,10 @@ interactions:
       - Tue, 13 Apr 2021 15:57:40 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe
     method: POST
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#table46storageentitysuitetestexe/@Element","odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r1'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.7932989Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r1'')","PartitionKey":"pkey","RowKey":"r1","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.7932989Z"}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#table46storageentitysuitetestexe/@Element","odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r1'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.7932989Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r1'')","PartitionKey":"pkey","RowKey":"r1","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.7932989Z"}'
     headers:
       Cache-Control:
       - no-cache
@@ -141,7 +141,7 @@ interactions:
       Etag:
       - W/"datetime'2021-04-13T15%3A57%3A40.7932989Z'"
       Location:
-      - https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey='pkey',RowKey='r1')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey='pkey',RowKey='r1')
       Preference-Applied:
       - return-content
       Server:
@@ -178,10 +178,10 @@ interactions:
       - Tue, 13 Apr 2021 15:57:41 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe
     method: POST
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#table46storageentitysuitetestexe/@Element","odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r2'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.8803611Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r2'')","PartitionKey":"pkey","RowKey":"r2","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.8803611Z"}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#table46storageentitysuitetestexe/@Element","odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r2'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.8803611Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r2'')","PartitionKey":"pkey","RowKey":"r2","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.8803611Z"}'
     headers:
       Cache-Control:
       - no-cache
@@ -192,7 +192,7 @@ interactions:
       Etag:
       - W/"datetime'2021-04-13T15%3A57%3A40.8803611Z'"
       Location:
-      - https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey='pkey',RowKey='r2')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey='pkey',RowKey='r2')
       Preference-Applied:
       - return-content
       Server:
@@ -229,10 +229,10 @@ interactions:
       - Tue, 13 Apr 2021 15:57:41 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe
     method: POST
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#table46storageentitysuitetestexe/@Element","odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r3'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.96242Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r3'')","PartitionKey":"pkey","RowKey":"r3","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.96242Z"}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#table46storageentitysuitetestexe/@Element","odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r3'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.96242Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r3'')","PartitionKey":"pkey","RowKey":"r3","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.96242Z"}'
     headers:
       Cache-Control:
       - no-cache
@@ -243,7 +243,7 @@ interactions:
       Etag:
       - W/"datetime'2021-04-13T15%3A57%3A40.96242Z'"
       Location:
-      - https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey='pkey',RowKey='r3')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey='pkey',RowKey='r3')
       Preference-Applied:
       - return-content
       Server:
@@ -280,10 +280,10 @@ interactions:
       - Tue, 13 Apr 2021 15:57:41 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe
     method: POST
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#table46storageentitysuitetestexe/@Element","odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r4'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A41.0945131Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r4'')","PartitionKey":"pkey","RowKey":"r4","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:41.0945131Z"}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#table46storageentitysuitetestexe/@Element","odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r4'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A41.0945131Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r4'')","PartitionKey":"pkey","RowKey":"r4","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:41.0945131Z"}'
     headers:
       Cache-Control:
       - no-cache
@@ -294,7 +294,7 @@ interactions:
       Etag:
       - W/"datetime'2021-04-13T15%3A57%3A41.0945131Z'"
       Location:
-      - https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey='pkey',RowKey='r4')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey='pkey',RowKey='r4')
       Preference-Applied:
       - return-content
       Server:
@@ -323,10 +323,10 @@ interactions:
       - Tue, 13 Apr 2021 15:57:41 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe?%24top=2&timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe?%24top=2&timeout=30
     method: GET
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#table46storageentitysuitetestexe","value":[{"odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r0'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.7052363Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r0'')","PartitionKey":"pkey","RowKey":"r0","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.7052363Z"},{"odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r1'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.7932989Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r1'')","PartitionKey":"pkey","RowKey":"r1","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.7932989Z"}]}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#table46storageentitysuitetestexe","value":[{"odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r0'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.7052363Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r0'')","PartitionKey":"pkey","RowKey":"r0","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.7052363Z"},{"odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r1'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.7932989Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r1'')","PartitionKey":"pkey","RowKey":"r1","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.7932989Z"}]}'
     headers:
       Cache-Control:
       - no-cache
@@ -364,10 +364,10 @@ interactions:
       - Tue, 13 Apr 2021 15:57:41 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe?%24top=2&NextPartitionKey=1%218%21cGtleQ--&NextRowKey=1%214%21cjI-&timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe?%24top=2&NextPartitionKey=1%218%21cGtleQ--&NextRowKey=1%214%21cjI-&timeout=30
     method: GET
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#table46storageentitysuitetestexe","value":[{"odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r2'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.8803611Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r2'')","PartitionKey":"pkey","RowKey":"r2","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.8803611Z"},{"odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r3'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.96242Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r3'')","PartitionKey":"pkey","RowKey":"r3","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.96242Z"}]}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#table46storageentitysuitetestexe","value":[{"odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r2'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.8803611Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r2'')","PartitionKey":"pkey","RowKey":"r2","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.8803611Z"},{"odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r3'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.96242Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r3'')","PartitionKey":"pkey","RowKey":"r3","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.96242Z"}]}'
     headers:
       Cache-Control:
       - no-cache
@@ -405,10 +405,10 @@ interactions:
       - Tue, 13 Apr 2021 15:57:41 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe?%24top=2&NextPartitionKey=1%218%21cGtleQ--&NextRowKey=1%214%21cjQ-&timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe?%24top=2&NextPartitionKey=1%218%21cGtleQ--&NextRowKey=1%214%21cjQ-&timeout=30
     method: GET
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#table46storageentitysuitetestexe","value":[{"odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.windows.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r4'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A41.0945131Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r4'')","PartitionKey":"pkey","RowKey":"r4","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:41.0945131Z"}]}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#table46storageentitysuitetestexe","value":[{"odata.type":"golangrocksonazure.table46storageentitysuitetestexe","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r4'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A41.0945131Z''\"","odata.editLink":"table46storageentitysuitetestexe(PartitionKey=''pkey'',RowKey=''r4'')","PartitionKey":"pkey","RowKey":"r4","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:41.0945131Z"}]}'
     headers:
       Cache-Control:
       - no-cache
@@ -444,7 +444,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:41 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table46storageentitysuitetestexe%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table46storageentitysuitetestexe%27%29?timeout=30
     method: DELETE
   response:
     body: ""

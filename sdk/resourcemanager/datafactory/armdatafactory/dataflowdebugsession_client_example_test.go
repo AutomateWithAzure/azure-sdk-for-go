@@ -170,7 +170,7 @@ func ExampleDataFlowDebugSessionClient_AddDataFlow() {
 					Type:        to.Ptr("AzureBlobStorage"),
 					Annotations: []interface{}{},
 					TypeProperties: &armdatafactory.AzureBlobStorageLinkedServiceTypeProperties{
-						ConnectionString:    "DefaultEndpointsProtocol=https;AccountName=<storageName>;EndpointSuffix=core.windows.net;",
+						ConnectionString:    "DefaultEndpointsProtocol=https;AccountName=<storageName>;EndpointSuffix=core.usgovcloudapi.net;",
 						EncryptedCredential: to.Ptr("<credential>"),
 					},
 				},

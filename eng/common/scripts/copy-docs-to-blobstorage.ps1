@@ -189,7 +189,7 @@ function Upload-Blobs
         [Parameter(Mandatory=$true)] [String]$DocVersion,
         [Parameter(Mandatory=$false)] [String]$ReleaseTag
     )
-    #eg : $BlobName = "https://azuresdkdocs.blob.core.windows.net"
+    #eg : $BlobName = "https://azuresdkdocs.blob.core.usgovcloudapi.net"
     $DocDest = "$($BlobName)/`$web/$($Language)"
 
     LogDebug "DocDest $($DocDest)"

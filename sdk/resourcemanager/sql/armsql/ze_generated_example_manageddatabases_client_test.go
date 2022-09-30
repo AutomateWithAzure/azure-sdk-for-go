@@ -89,7 +89,7 @@ func ExampleManagedDatabasesClient_BeginCreateOrUpdate() {
 				CreateMode:               to.Ptr(armsql.ManagedDatabaseCreateModeRestoreExternalBackup),
 				LastBackupName:           to.Ptr("last_backup_name"),
 				StorageContainerSasToken: to.Ptr("sv=2015-12-11&sr=c&sp=rl&sig=1234"),
-				StorageContainerURI:      to.Ptr("https://myaccountname.blob.core.windows.net/backups"),
+				StorageContainerURI:      to.Ptr("https://myaccountname.blob.core.usgovcloudapi.net/backups"),
 			},
 		},
 		nil)

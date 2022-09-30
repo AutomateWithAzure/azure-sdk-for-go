@@ -787,7 +787,7 @@ type DatabaseBlobAuditingPolicyProperties struct {
 	// Specifies the blob storage subscription Id.
 	StorageAccountSubscriptionID *string `json:"storageAccountSubscriptionId,omitempty"`
 
-	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). If state is Enabled, storageEndpoint
+	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). If state is Enabled, storageEndpoint
 	// or isAzureMonitorTargetEnabled is required.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 }
@@ -1545,7 +1545,7 @@ type DatabaseVulnerabilityAssessmentProperties struct {
 	// isn't specified, storageAccountAccessKey is required.
 	StorageAccountAccessKey *string `json:"storageAccountAccessKey,omitempty"`
 
-	// A blob storage container path to hold the scan results (e.g. https://myStorage.blob.core.windows.net/VaScans/). It is required
+	// A blob storage container path to hold the scan results (e.g. https://myStorage.blob.core.usgovcloudapi.net/VaScans/). It is required
 	// if server level vulnerability assessment policy doesn't set
 	StorageContainerPath *string `json:"storageContainerPath,omitempty"`
 
@@ -1603,7 +1603,7 @@ type DatabaseVulnerabilityAssessmentRuleBaselinesClientGetOptions struct {
 
 // DatabaseVulnerabilityAssessmentScanExportProperties - Properties of the export operation's result.
 type DatabaseVulnerabilityAssessmentScanExportProperties struct {
-	// READ-ONLY; Location of the exported report (e.g. https://myStorage.blob.core.windows.net/VaScans/scans/serverName/databaseName/scan_scanId.xlsx).
+	// READ-ONLY; Location of the exported report (e.g. https://myStorage.blob.core.usgovcloudapi.net/VaScans/scans/serverName/databaseName/scan_scanId.xlsx).
 	ExportedReportLocation *string `json:"exportedReportLocation,omitempty" azure:"ro"`
 }
 
@@ -2701,7 +2701,7 @@ type ExtendedDatabaseBlobAuditingPolicyProperties struct {
 	// Specifies the blob storage subscription Id.
 	StorageAccountSubscriptionID *string `json:"storageAccountSubscriptionId,omitempty"`
 
-	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). If state is Enabled, storageEndpoint
+	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). If state is Enabled, storageEndpoint
 	// or isAzureMonitorTargetEnabled is required.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 }
@@ -2834,7 +2834,7 @@ type ExtendedServerBlobAuditingPolicyProperties struct {
 	// Specifies the blob storage subscription Id.
 	StorageAccountSubscriptionID *string `json:"storageAccountSubscriptionId,omitempty"`
 
-	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). If state is Enabled, storageEndpoint
+	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). If state is Enabled, storageEndpoint
 	// or isAzureMonitorTargetEnabled is required.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 }
@@ -6196,7 +6196,7 @@ type ManagedInstanceVulnerabilityAssessmentListResult struct {
 
 // ManagedInstanceVulnerabilityAssessmentProperties - Properties of a managed instance vulnerability assessment.
 type ManagedInstanceVulnerabilityAssessmentProperties struct {
-	// REQUIRED; A blob storage container path to hold the scan results (e.g. https://myStorage.blob.core.windows.net/VaScans/).
+	// REQUIRED; A blob storage container path to hold the scan results (e.g. https://myStorage.blob.core.usgovcloudapi.net/VaScans/).
 	StorageContainerPath *string `json:"storageContainerPath,omitempty"`
 
 	// The recurring scans settings
@@ -7642,7 +7642,7 @@ type SecurityAlertPolicyProperties struct {
 	// Specifies the identifier key of the Threat Detection audit storage account.
 	StorageAccountAccessKey *string `json:"storageAccountAccessKey,omitempty"`
 
-	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). This blob storage will hold all Threat
+	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). This blob storage will hold all Threat
 	// Detection audit logs.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 
@@ -7672,7 +7672,7 @@ type SecurityAlertsPolicyProperties struct {
 	// Specifies the identifier key of the Threat Detection audit storage account.
 	StorageAccountAccessKey *string `json:"storageAccountAccessKey,omitempty"`
 
-	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). This blob storage will hold all Threat
+	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). This blob storage will hold all Threat
 	// Detection audit logs.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 
@@ -8225,7 +8225,7 @@ type ServerBlobAuditingPolicyProperties struct {
 	// Specifies the blob storage subscription Id.
 	StorageAccountSubscriptionID *string `json:"storageAccountSubscriptionId,omitempty"`
 
-	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). If state is Enabled, storageEndpoint
+	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). If state is Enabled, storageEndpoint
 	// or isAzureMonitorTargetEnabled is required.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 }
@@ -8466,7 +8466,7 @@ type ServerDevOpsAuditSettingsProperties struct {
 	// Specifies the blob storage subscription Id.
 	StorageAccountSubscriptionID *string `json:"storageAccountSubscriptionId,omitempty"`
 
-	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). If state is Enabled, storageEndpoint
+	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). If state is Enabled, storageEndpoint
 	// or isAzureMonitorTargetEnabled is required.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 }
@@ -8990,7 +8990,7 @@ type ServerVulnerabilityAssessmentListResult struct {
 
 // ServerVulnerabilityAssessmentProperties - Properties of a server Vulnerability Assessment.
 type ServerVulnerabilityAssessmentProperties struct {
-	// REQUIRED; A blob storage container path to hold the scan results (e.g. https://myStorage.blob.core.windows.net/VaScans/).
+	// REQUIRED; A blob storage container path to hold the scan results (e.g. https://myStorage.blob.core.usgovcloudapi.net/VaScans/).
 	StorageContainerPath *string `json:"storageContainerPath,omitempty"`
 
 	// The recurring scans settings

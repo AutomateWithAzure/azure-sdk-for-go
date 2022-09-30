@@ -25,7 +25,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:57 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
     body: ""
@@ -35,11 +35,11 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table58tablebatchsuitetestbatchi')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table58tablebatchsuitetestbatchi')
       Date:
       - Tue, 13 Apr 2021 15:57:56 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table58tablebatchsuitetestbatchi')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table58tablebatchsuitetestbatchi')
       Preference-Applied:
       - return-no-content
       Server:
@@ -56,7 +56,7 @@ interactions:
 - request:
     body: "--batch_463728a9-8c32-4302-8ef2-4340a51407c5\r\nContent-Type: multipart/mixed;
       boundary=changeset_64f00e67-85fa-4deb-9a4f-99546b070285\r\n\r\n\r\n--changeset_64f00e67-85fa-4deb-9a4f-99546b070285\r\nContent-Transfer-Encoding:
-      binary\r\nContent-Type: application/http\r\n\r\nPUT https://golangrocksonazure.table.core.windows.net/table58tablebatchsuitetestbatchi%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
+      binary\r\nContent-Type: application/http\r\n\r\nPUT https://golangrocksonazure.table.core.usgovcloudapi.net/table58tablebatchsuitetestbatchi%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
       HTTP/1.1\r\nAccept: application/json;odata=minimalmetadata\r\nContent-Type:
       application/json\r\nPrefer: return-no-content\r\n\r\n{\"AmountDue\":\"200.23\",\"AmountDue@odata.type\":\"Edm.Double\",\"CustomerCode\":\"c9da6455-213d-42c9-9a79-3e9149a57833\",\"CustomerCode@odata.type\":\"Edm.Guid\",\"CustomerSince\":\"1992-12-20T21:55:00Z\",\"CustomerSince@odata.type\":\"Edm.DateTime\",\"IsActive\":true,\"NumberOfOrders\":\"255\",\"NumberOfOrders@odata.type\":\"Edm.Int64\",\"PartitionKey\":\"mypartitionkey\",\"RowKey\":\"myrowkey\"}\r\n--changeset_64f00e67-85fa-4deb-9a4f-99546b070285--\r\n\r\n--batch_463728a9-8c32-4302-8ef2-4340a51407c5--\r\n"
     form: {}
@@ -72,7 +72,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:58 GMT
       X-Ms-Version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/$batch
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/$batch
     method: POST
   response:
     body: "--batchresponse_6e7f4a82-1402-485d-a925-74658ada2379\r\nContent-Type: multipart/mixed;
@@ -113,10 +113,10 @@ interactions:
       - Tue, 13 Apr 2021 15:57:58 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table58tablebatchsuitetestbatchi?%24top=2&timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table58tablebatchsuitetestbatchi?%24top=2&timeout=30
     method: GET
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#table58tablebatchsuitetestbatchi","value":[{"odata.type":"golangrocksonazure.table58tablebatchsuitetestbatchi","odata.id":"https://golangrocksonazure.table.core.windows.net/table58tablebatchsuitetestbatchi(PartitionKey=''mypartitionkey'',RowKey=''myrowkey'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A57.838362Z''\"","odata.editLink":"table58tablebatchsuitetestbatchi(PartitionKey=''mypartitionkey'',RowKey=''myrowkey'')","PartitionKey":"mypartitionkey","RowKey":"myrowkey","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:57.838362Z","AmountDue":200.23,"CustomerCode@odata.type":"Edm.Guid","CustomerCode":"c9da6455-213d-42c9-9a79-3e9149a57833","CustomerSince@odata.type":"Edm.DateTime","CustomerSince":"1992-12-20T21:55:00Z","IsActive":true,"NumberOfOrders@odata.type":"Edm.Int64","NumberOfOrders":"255"}]}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#table58tablebatchsuitetestbatchi","value":[{"odata.type":"golangrocksonazure.table58tablebatchsuitetestbatchi","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/table58tablebatchsuitetestbatchi(PartitionKey=''mypartitionkey'',RowKey=''myrowkey'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A57.838362Z''\"","odata.editLink":"table58tablebatchsuitetestbatchi(PartitionKey=''mypartitionkey'',RowKey=''myrowkey'')","PartitionKey":"mypartitionkey","RowKey":"myrowkey","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:57.838362Z","AmountDue":200.23,"CustomerCode@odata.type":"Edm.Guid","CustomerCode":"c9da6455-213d-42c9-9a79-3e9149a57833","CustomerSince@odata.type":"Edm.DateTime","CustomerSince":"1992-12-20T21:55:00Z","IsActive":true,"NumberOfOrders@odata.type":"Edm.Int64","NumberOfOrders":"255"}]}'
     headers:
       Cache-Control:
       - no-cache
@@ -138,7 +138,7 @@ interactions:
 - request:
     body: "--batch_7cde8db8-8c64-4377-a794-3984f72bcbdf\r\nContent-Type: multipart/mixed;
       boundary=changeset_1d5598c0-9095-4552-8733-ed059bc4738b\r\n\r\n\r\n--changeset_1d5598c0-9095-4552-8733-ed059bc4738b\r\nContent-Transfer-Encoding:
-      binary\r\nContent-Type: application/http\r\n\r\nDELETE https://golangrocksonazure.table.core.windows.net/table58tablebatchsuitetestbatchi%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
+      binary\r\nContent-Type: application/http\r\n\r\nDELETE https://golangrocksonazure.table.core.usgovcloudapi.net/table58tablebatchsuitetestbatchi%28PartitionKey=%27mypartitionkey%27,RowKey=%27myrowkey%27%29
       HTTP/1.1\r\nAccept: application/json;odata=minimalmetadata\r\nContent-Type:
       application/json\r\nIf-Match: *\r\nPrefer: return-no-content\r\n\r\n\r\n--changeset_1d5598c0-9095-4552-8733-ed059bc4738b--\r\n\r\n--batch_7cde8db8-8c64-4377-a794-3984f72bcbdf--\r\n"
     form: {}
@@ -154,7 +154,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:58 GMT
       X-Ms-Version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/$batch
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/$batch
     method: POST
   response:
     body: "--batchresponse_e1d0d4c4-2873-44f3-a80b-f70dc5641d64\r\nContent-Type: multipart/mixed;
@@ -195,10 +195,10 @@ interactions:
       - Tue, 13 Apr 2021 15:57:58 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table58tablebatchsuitetestbatchi?%24top=2&timeout=15
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table58tablebatchsuitetestbatchi?%24top=2&timeout=15
     method: GET
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#table58tablebatchsuitetestbatchi","value":[]}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#table58tablebatchsuitetestbatchi","value":[]}'
     headers:
       Cache-Control:
       - no-cache
@@ -234,7 +234,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:58 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table58tablebatchsuitetestbatchi%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table58tablebatchsuitetestbatchi%27%29?timeout=30
     method: DELETE
   response:
     body: ""

@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:38 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/26copyblobsuitetestblobcopy?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/26copyblobsuitetestblobcopy?restype=container
     method: PUT
   response:
     body: ""
@@ -65,7 +65,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:38 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/26copyblobsuitetestblobcopy/blob/src26copyblobsuitetestblobcopy
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/26copyblobsuitetestblobcopy/blob/src26copyblobsuitetestblobcopy
     method: PUT
   response:
     body: ""
@@ -101,12 +101,12 @@ interactions:
       - Go/go1.15.1 (amd64-windows) azure-storage-go/v52.6.0 api-version/2018-03-28
         blob
       x-ms-copy-source:
-      - https://golangrocksonazure.blob.core.windows.net/26copyblobsuitetestblobcopy/blob/src26copyblobsuitetestblobcopy
+      - https://golangrocksonazure.blob.core.usgovcloudapi.net/26copyblobsuitetestblobcopy/blob/src26copyblobsuitetestblobcopy
       x-ms-date:
       - Tue, 13 Apr 2021 15:57:38 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/26copyblobsuitetestblobcopy/blob/dst26copyblobsuitetestblobcopy
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/26copyblobsuitetestblobcopy/blob/dst26copyblobsuitetestblobcopy
     method: PUT
   response:
     body: ""
@@ -145,7 +145,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:38 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/26copyblobsuitetestblobcopy/blob/dst26copyblobsuitetestblobcopy
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/26copyblobsuitetestblobcopy/blob/dst26copyblobsuitetestblobcopy
     method: HEAD
   response:
     body: ""
@@ -179,7 +179,7 @@ interactions:
       X-Ms-Copy-Progress:
       - 1024/1024
       X-Ms-Copy-Source:
-      - https://golangrocksonazure.blob.core.windows.net/26copyblobsuitetestblobcopy/blob/src26copyblobsuitetestblobcopy
+      - https://golangrocksonazure.blob.core.usgovcloudapi.net/26copyblobsuitetestblobcopy/blob/src26copyblobsuitetestblobcopy
       X-Ms-Copy-Status:
       - success
       X-Ms-Creation-Time:
@@ -210,7 +210,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:38 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/26copyblobsuitetestblobcopy/blob/dst26copyblobsuitetestblobcopy
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/26copyblobsuitetestblobcopy/blob/dst26copyblobsuitetestblobcopy
     method: GET
   response:
     body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat
@@ -252,7 +252,7 @@ interactions:
       X-Ms-Copy-Progress:
       - 1024/1024
       X-Ms-Copy-Source:
-      - https://golangrocksonazure.blob.core.windows.net/26copyblobsuitetestblobcopy/blob/src26copyblobsuitetestblobcopy
+      - https://golangrocksonazure.blob.core.usgovcloudapi.net/26copyblobsuitetestblobcopy/blob/src26copyblobsuitetestblobcopy
       X-Ms-Copy-Status:
       - success
       X-Ms-Creation-Time:
@@ -283,7 +283,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:38 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/26copyblobsuitetestblobcopy/blob/dst26copyblobsuitetestblobcopy
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/26copyblobsuitetestblobcopy/blob/dst26copyblobsuitetestblobcopy
     method: DELETE
   response:
     body: ""
@@ -316,7 +316,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:39 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/26copyblobsuitetestblobcopy/blob/src26copyblobsuitetestblobcopy
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/26copyblobsuitetestblobcopy/blob/src26copyblobsuitetestblobcopy
     method: DELETE
   response:
     body: ""
@@ -349,7 +349,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:39 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/26copyblobsuitetestblobcopy?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/26copyblobsuitetestblobcopy?restype=container
     method: DELETE
   response:
     body: ""

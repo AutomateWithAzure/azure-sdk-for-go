@@ -35,7 +35,7 @@ func Example_service_Client_NewClient() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -53,7 +53,7 @@ func Example_service_Client_NewClientWithSharedKeyCredential() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_KEY could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := service.NewSharedKeyCredential(accountName, accountKey)
 	handleError(err)
@@ -71,7 +71,7 @@ func Example_service_Client_NewClientWithNoCredential() {
 	if !ok {
 		panic("AZURE_STORAGE_SHARED_ACCESS_SIGNATURE could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/?%s", accountName, sharedAccessSignature)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/?%s", accountName, sharedAccessSignature)
 
 	serviceClient, err := service.NewClientWithNoCredential(serviceURL, nil)
 	handleError(err)
@@ -95,7 +95,7 @@ func Example_service_Client_CreateContainer() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -120,7 +120,7 @@ func Example_service_Client_DeleteContainer() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -136,7 +136,7 @@ func Example_service_Client_RestoreContainer() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -170,7 +170,7 @@ func Example_service_Client_ListContainers() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -199,7 +199,7 @@ func Example_service_Client_ListContainers() {
 func Example_service_Client_GetSASURL() {
 	cred, err := azblob.NewSharedKeyCredential("myAccountName", "myAccountKey")
 	handleError(err)
-	serviceClient, err := service.NewClientWithSharedKeyCredential("https://<myAccountName>.blob.core.windows.net", cred, nil)
+	serviceClient, err := service.NewClientWithSharedKeyCredential("https://<myAccountName>.blob.core.usgovcloudapi.net", cred, nil)
 	handleError(err)
 
 	resources := sas.AccountResourceTypes{Service: true}
@@ -209,7 +209,7 @@ func Example_service_Client_GetSASURL() {
 	sasURL, err := serviceClient.GetSASURL(resources, permission, sas.AccountServices{Blob: true}, start, expiry)
 	handleError(err)
 
-	serviceURL := fmt.Sprintf("https://<myAccountName>.blob.core.windows.net/?%s", sasURL)
+	serviceURL := fmt.Sprintf("https://<myAccountName>.blob.core.usgovcloudapi.net/?%s", sasURL)
 	serviceClientWithSAS, err := service.NewClientWithNoCredential(serviceURL, nil)
 	handleError(err)
 	_ = serviceClientWithSAS
@@ -220,7 +220,7 @@ func Example_service_Client_SetProperties() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -242,7 +242,7 @@ func Example_service_Client_GetProperties() {
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -272,7 +272,7 @@ func Example_service_SASSignatureValues_Sign() {
 	}.SignWithSharedKey(credential)
 	handleError(err)
 
-	sasURL := fmt.Sprintf("https://%s.blob.core.windows.net/?%s", accountName, sasQueryParams.Encode())
+	sasURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/?%s", accountName, sasQueryParams.Encode())
 
 	// This URL can be used to authenticate requests now
 	serviceClient, err := service.NewClientWithNoCredential(sasURL, nil)
@@ -295,7 +295,7 @@ func Example_service_Client_NewClientWithUserDelegationCredential() {
 	handleError(err)
 	clientOptionsService := service.ClientOptions{} // Same as azcore.ClientOptions using service instead
 
-	svcClient, err := service.NewClient(fmt.Sprintf("https://%s.blob.core.windows.net/", accountName), cred, &clientOptionsService)
+	svcClient, err := service.NewClient(fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName), cred, &clientOptionsService)
 	handleError(err)
 
 	// Set current and past time and create key
@@ -321,7 +321,7 @@ func Example_service_Client_NewClientWithUserDelegationCredential() {
 	}.SignWithUserDelegation(udc)
 	handleError(err)
 
-	sasURL := fmt.Sprintf("https://%s.blob.core.windows.net/?%s", accountName, sasQueryParams.Encode())
+	sasURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/?%s", accountName, sasQueryParams.Encode())
 
 	// This URL can be used to authenticate requests now
 	serviceClient, err := service.NewClientWithNoCredential(sasURL, nil)
@@ -353,7 +353,7 @@ func Example_service_Client_NewClientWithUserDelegationCredential() {
 	}.SignWithUserDelegation(udc)
 	handleError(err)
 
-	sasURL = fmt.Sprintf("https://%s.blob.core.windows.net/?%s", accountName, sasQueryParams.Encode())
+	sasURL = fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/?%s", accountName, sasQueryParams.Encode())
 
 	// This URL can be used to authenticate requests now
 	serviceClient, err = service.NewClientWithNoCredential(sasURL, nil)

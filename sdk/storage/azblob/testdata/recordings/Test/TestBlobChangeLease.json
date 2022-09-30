@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobchangelease?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobchangelease?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobchangelease/gotestblobblobchangelease",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobchangelease/gotestblobblobchangelease",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -63,7 +63,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobchangelease/gotestblobblobchangelease?comp=lease",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobchangelease/gotestblobblobchangelease?comp=lease",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -95,7 +95,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobchangelease/gotestblobblobchangelease?comp=lease",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobchangelease/gotestblobblobchangelease?comp=lease",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -127,7 +127,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobchangelease/gotestblobblobchangelease?comp=lease",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobchangelease/gotestblobblobchangelease?comp=lease",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -158,7 +158,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobchangelease/gotestblobblobchangelease?comp=lease",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobchangelease/gotestblobblobchangelease?comp=lease",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -188,7 +188,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobchangelease?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobchangelease?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

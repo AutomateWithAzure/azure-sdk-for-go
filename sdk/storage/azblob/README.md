@@ -49,7 +49,7 @@ cred, err := azidentity.NewDefaultAzureCredential(nil)
 // TODO: handle err
 
 // create an azblob.Client for the specified storage account that uses the above credential
-client, err := azblob.NewClient("https://MYSTORAGEACCOUNT.blob.core.windows.net/", cred, nil)
+client, err := azblob.NewClient("https://MYSTORAGEACCOUNT.blob.core.usgovcloudapi.net/", cred, nil)
 // TODO: handle err
 ```
 
@@ -98,7 +98,7 @@ Blob metadata name/value pairs are valid HTTP headers and should adhere to all r
 
 ```go
 const (
-	account       = "https://MYSTORAGEACCOUNT.blob.core.windows.net/"
+	account       = "https://MYSTORAGEACCOUNT.blob.core.usgovcloudapi.net/"
 	containerName = "sample-container"
 	blobName      = "sample-blob"
 	sampleFile    = "path/to/sample/file"
@@ -126,7 +126,7 @@ _, err = client.UploadFile(context.TODO(), containerName, blobName, file, nil)
 
 ```go
 // this example accesses a public blob via anonymous access, so no credentials are required
-client, err := azblob.NewClientWithNoCredential("https://azurestoragesamples.blob.core.windows.net/", nil)
+client, err := azblob.NewClientWithNoCredential("https://azurestoragesamples.blob.core.usgovcloudapi.net/", nil)
 // TODO: handle error
 
 // create or open a local file where we can download the blob
@@ -143,7 +143,7 @@ _, err = client.DownloadFile(context.TODO(), "samples", "cloud.jpg", file, nil)
 
 ```go
 const (
-	account       = "https://MYSTORAGEACCOUNT.blob.core.windows.net/"
+	account       = "https://MYSTORAGEACCOUNT.blob.core.usgovcloudapi.net/"
 	containerName = "sample-container"
 )
 

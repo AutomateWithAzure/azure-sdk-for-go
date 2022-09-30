@@ -46,7 +46,7 @@ Use the key as the credential parameter to authenticate the client:
 		panic("AZURE_STORAGE_ACCOUNT_KEY could not be found")
 	}
 
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azblob.NewSharedKeyCredential(accountName, accountKey)
 	handle(err)
@@ -62,7 +62,7 @@ Depending on your use case and authorization method, you may prefer to initializ
 To do this, pass the connection string to the service client's `NewServiceClientFromConnectionString` method.
 The connection string can be found in your storage account in the Azure Portal under the "Access Keys" section.
 
-	connStr := "DefaultEndpointsProtocol=https;AccountName=<my_account_name>;AccountKey=<my_account_key>;EndpointSuffix=core.windows.net"
+	connStr := "DefaultEndpointsProtocol=https;AccountName=<my_account_name>;AccountKey=<my_account_key>;EndpointSuffix=core.usgovcloudapi.net"
 	serviceClient, err := azblob.NewServiceClientFromConnectionString(connStr, nil)
 
 Using a Shared Access Signature (SAS) Token
@@ -78,7 +78,7 @@ You can generate a SAS token from the Azure Portal under Shared Access Signature
 	if !ok {
 		panic("AZURE_STORAGE_ACCOUNT_KEY could not be found")
 	}
-	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
+	serviceURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName)
 
 	cred, err := azblob.NewSharedKeyCredential(accountName, accountKey)
 	handle(err)
@@ -134,8 +134,8 @@ Examples
 	cred, err := azblob.NewSharedKeyCredential(accountName, accountKey)
 	handle(err)
 
-	// The service URL for blob endpoints is usually in the form: http(s)://<account>.blob.core.windows.net/
-	serviceClient, err := azblob.NewServiceClientWithSharedKey(fmt.Sprintf("https://%s.blob.core.windows.net/", accountName), cred, nil)
+	// The service URL for blob endpoints is usually in the form: http(s)://<account>.blob.core.usgovcloudapi.net/
+	serviceClient, err := azblob.NewServiceClientWithSharedKey(fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/", accountName), cred, nil)
 	handle(err)
 
 	// ===== 1. Create a container =====

@@ -14,7 +14,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:41 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges?restype=share
     method: PUT
   response:
     body: ""
@@ -53,7 +53,7 @@ interactions:
       - file
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file1.txt
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file1.txt
     method: PUT
   response:
     body: ""
@@ -90,7 +90,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:41 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file1.txt?comp=rangelist
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file1.txt?comp=rangelist
     method: GET
   response:
     body: "\uFEFF\x3C\x3F\x78\x6D\x6C\x20\x76\x65\x72\x73\x69\x6F\x6E\x3D\"\x31\x2E\x30\"\x20\x65\x6E\x63\x6F\x64\x69\x6E\x67\x3D\"\x75\x74\x66\x2D\x38\"\x3F\x3E\x3C\x52\x61\x6E\x67\x65\x73\x20\x2F\x3E"
@@ -131,7 +131,7 @@ interactions:
       - file
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file2.txt
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file2.txt
     method: PUT
   response:
     body: ""
@@ -225,7 +225,7 @@ interactions:
       - "2018-03-28"
       x-ms-write:
       - update
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file2.txt?comp=range
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file2.txt?comp=range
     method: PUT
   response:
     body: ""
@@ -264,7 +264,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:42 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file2.txt?comp=rangelist
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file2.txt?comp=rangelist
     method: GET
   response:
     body: "\uFEFF\x3C\x3F\x78\x6D\x6C\x20\x76\x65\x72\x73\x69\x6F\x6E\x3D\"\x31\x2E\x30\"\x20\x65\x6E\x63\x6F\x64\x69\x6E\x67\x3D\"\x75\x74\x66\x2D\x38\"\x3F\x3E\x3C\x52\x61\x6E\x67\x65\x73\x3E\x3C\x52\x61\x6E\x67\x65\x3E\x3C\x53\x74\x61\x72\x74\x3E\x30\x3C\x2F\x53\x74\x61\x72\x74\x3E\x3C\x45\x6E\x64\x3E\x34\x30\x39\x35\x3C\x2F\x45\x6E\x64\x3E\x3C\x2F\x52\x61\x6E\x67\x65\x3E\x3C\x2F\x52\x61\x6E\x67\x65\x73\x3E"
@@ -305,7 +305,7 @@ interactions:
       - file
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file3.txt
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file3.txt
     method: PUT
   response:
     body: ""
@@ -399,7 +399,7 @@ interactions:
       - "2018-03-28"
       x-ms-write:
       - update
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file3.txt?comp=range
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file3.txt?comp=range
     method: PUT
   response:
     body: ""
@@ -444,7 +444,7 @@ interactions:
       - "2018-03-28"
       x-ms-write:
       - clear
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file3.txt?comp=range
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file3.txt?comp=range
     method: PUT
   response:
     body: ""
@@ -479,7 +479,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:42 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file3.txt?comp=rangelist
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file3.txt?comp=rangelist
     method: GET
   response:
     body: "\uFEFF\x3C\x3F\x78\x6D\x6C\x20\x76\x65\x72\x73\x69\x6F\x6E\x3D\"\x31\x2E\x30\"\x20\x65\x6E\x63\x6F\x64\x69\x6E\x67\x3D\"\x75\x74\x66\x2D\x38\"\x3F\x3E\x3C\x52\x61\x6E\x67\x65\x73\x20\x2F\x3E"
@@ -520,7 +520,7 @@ interactions:
       - file
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file4.txt
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file4.txt
     method: PUT
   response:
     body: ""
@@ -569,7 +569,7 @@ interactions:
       - "2018-03-28"
       x-ms-write:
       - update
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file4.txt?comp=range
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file4.txt?comp=range
     method: PUT
   response:
     body: ""
@@ -620,7 +620,7 @@ interactions:
       - "2018-03-28"
       x-ms-write:
       - update
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file4.txt?comp=range
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file4.txt?comp=range
     method: PUT
   response:
     body: ""
@@ -671,7 +671,7 @@ interactions:
       - "2018-03-28"
       x-ms-write:
       - update
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file4.txt?comp=range
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file4.txt?comp=range
     method: PUT
   response:
     body: ""
@@ -722,7 +722,7 @@ interactions:
       - "2018-03-28"
       x-ms-write:
       - update
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file4.txt?comp=range
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file4.txt?comp=range
     method: PUT
   response:
     body: ""
@@ -761,7 +761,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:42 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file4.txt?comp=rangelist
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file4.txt?comp=rangelist
     method: GET
   response:
     body: "\uFEFF\x3C\x3F\x78\x6D\x6C\x20\x76\x65\x72\x73\x69\x6F\x6E\x3D\"\x31\x2E\x30\"\x20\x65\x6E\x63\x6F\x64\x69\x6E\x67\x3D\"\x75\x74\x66\x2D\x38\"\x3F\x3E\x3C\x52\x61\x6E\x67\x65\x73\x3E\x3C\x52\x61\x6E\x67\x65\x3E\x3C\x53\x74\x61\x72\x74\x3E\x30\x3C\x2F\x53\x74\x61\x72\x74\x3E\x3C\x45\x6E\x64\x3E\x35\x31\x31\x3C\x2F\x45\x6E\x64\x3E\x3C\x2F\x52\x61\x6E\x67\x65\x3E\x3C\x52\x61\x6E\x67\x65\x3E\x3C\x53\x74\x61\x72\x74\x3E\x31\x30\x32\x34\x3C\x2F\x53\x74\x61\x72\x74\x3E\x3C\x45\x6E\x64\x3E\x31\x35\x33\x35\x3C\x2F\x45\x6E\x64\x3E\x3C\x2F\x52\x61\x6E\x67\x65\x3E\x3C\x52\x61\x6E\x67\x65\x3E\x3C\x53\x74\x61\x72\x74\x3E\x32\x30\x34\x38\x3C\x2F\x53\x74\x61\x72\x74\x3E\x3C\x45\x6E\x64\x3E\x32\x35\x35\x39\x3C\x2F\x45\x6E\x64\x3E\x3C\x2F\x52\x61\x6E\x67\x65\x3E\x3C\x52\x61\x6E\x67\x65\x3E\x3C\x53\x74\x61\x72\x74\x3E\x33\x30\x37\x32\x3C\x2F\x53\x74\x61\x72\x74\x3E\x3C\x45\x6E\x64\x3E\x33\x35\x38\x33\x3C\x2F\x45\x6E\x64\x3E\x3C\x2F\x52\x61\x6E\x67\x65\x3E\x3C\x2F\x52\x61\x6E\x67\x65\x73\x3E"
@@ -800,7 +800,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:42 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file4.txt?comp=rangelist
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file4.txt?comp=rangelist
     method: GET
   response:
     body: "\uFEFF\x3C\x3F\x78\x6D\x6C\x20\x76\x65\x72\x73\x69\x6F\x6E\x3D\"\x31\x2E\x30\"\x20\x65\x6E\x63\x6F\x64\x69\x6E\x67\x3D\"\x75\x74\x66\x2D\x38\"\x3F\x3E\x3C\x52\x61\x6E\x67\x65\x73\x3E\x3C\x52\x61\x6E\x67\x65\x3E\x3C\x53\x74\x61\x72\x74\x3E\x31\x30\x32\x34\x3C\x2F\x53\x74\x61\x72\x74\x3E\x3C\x45\x6E\x64\x3E\x31\x35\x33\x35\x3C\x2F\x45\x6E\x64\x3E\x3C\x2F\x52\x61\x6E\x67\x65\x3E\x3C\x52\x61\x6E\x67\x65\x3E\x3C\x53\x74\x61\x72\x74\x3E\x32\x30\x34\x38\x3C\x2F\x53\x74\x61\x72\x74\x3E\x3C\x45\x6E\x64\x3E\x32\x35\x35\x39\x3C\x2F\x45\x6E\x64\x3E\x3C\x2F\x52\x61\x6E\x67\x65\x3E\x3C\x2F\x52\x61\x6E\x67\x65\x73\x3E"
@@ -841,7 +841,7 @@ interactions:
       - file
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file5.txt
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file5.txt
     method: PUT
   response:
     body: ""
@@ -935,7 +935,7 @@ interactions:
       - "2018-03-28"
       x-ms-write:
       - update
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file5.txt?comp=range
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file5.txt?comp=range
     method: PUT
   response:
     body: ""
@@ -980,7 +980,7 @@ interactions:
       - "2018-03-28"
       x-ms-write:
       - clear
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file5.txt?comp=range
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file5.txt?comp=range
     method: PUT
   response:
     body: ""
@@ -1021,7 +1021,7 @@ interactions:
       - "2018-03-28"
       x-ms-write:
       - clear
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file5.txt?comp=range
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file5.txt?comp=range
     method: PUT
   response:
     body: ""
@@ -1056,7 +1056,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:42 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges/file5.txt?comp=rangelist
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges/file5.txt?comp=rangelist
     method: GET
   response:
     body: "\uFEFF\x3C\x3F\x78\x6D\x6C\x20\x76\x65\x72\x73\x69\x6F\x6E\x3D\"\x31\x2E\x30\"\x20\x65\x6E\x63\x6F\x64\x69\x6E\x67\x3D\"\x75\x74\x66\x2D\x38\"\x3F\x3E\x3C\x52\x61\x6E\x67\x65\x73\x3E\x3C\x52\x61\x6E\x67\x65\x3E\x3C\x53\x74\x61\x72\x74\x3E\x35\x31\x32\x3C\x2F\x53\x74\x61\x72\x74\x3E\x3C\x45\x6E\x64\x3E\x32\x30\x34\x37\x3C\x2F\x45\x6E\x64\x3E\x3C\x2F\x52\x61\x6E\x67\x65\x3E\x3C\x52\x61\x6E\x67\x65\x3E\x3C\x53\x74\x61\x72\x74\x3E\x32\x35\x36\x30\x3C\x2F\x53\x74\x61\x72\x74\x3E\x3C\x45\x6E\x64\x3E\x34\x30\x39\x35\x3C\x2F\x45\x6E\x64\x3E\x3C\x2F\x52\x61\x6E\x67\x65\x3E\x3C\x2F\x52\x61\x6E\x67\x65\x73\x3E"
@@ -1093,7 +1093,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:42 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-31storagefilesuitetestfileranges?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-31storagefilesuitetestfileranges?restype=share
     method: DELETE
   response:
     body: ""

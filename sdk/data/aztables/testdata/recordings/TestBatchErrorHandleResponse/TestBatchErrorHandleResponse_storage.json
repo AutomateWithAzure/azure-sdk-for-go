@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/Tables",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/Tables",
       "RequestMethod": "POST",
       "RequestHeaders": {
         ":method": "POST",
@@ -23,7 +23,7 @@
         "Cache-Control": "no-cache",
         "Content-Type": "application/json; odata=minimalmetadata; streaming=true; charset=utf-8",
         "Date": "Wed, 13 Apr 2022 19:29:05 GMT",
-        "Location": "https://fakeaccount.table.core.windows.net/Tables(\u0027tableName416662822\u0027)",
+        "Location": "https://fakeaccount.table.core.usgovcloudapi.net/Tables(\u0027tableName416662822\u0027)",
         "Server": [
           "Windows-Azure-Table/1.0",
           "Microsoft-HTTPAPI/2.0"
@@ -34,12 +34,12 @@
         "x-ms-version": "2019-02-02"
       },
       "ResponseBody": {
-        "odata.metadata": "https://fakeaccount.table.core.windows.net/$metadata#Tables/@Element",
+        "odata.metadata": "https://fakeaccount.table.core.usgovcloudapi.net/$metadata#Tables/@Element",
         "TableName": "tableName416662822"
       }
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/$batch",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/$batch",
       "RequestMethod": "POST",
       "RequestHeaders": {
         ":method": "POST",
@@ -71,7 +71,7 @@
       "ResponseBody": "LS1iYXRjaHJlc3BvbnNlXzE0YjUxNzE0LTZkYTYtNGEwYS1hMGU1LTM1ZTdhM2VhOTkzYg0KQ29udGVudC1UeXBlOiBtdWx0aXBhcnQvbWl4ZWQ7IGJvdW5kYXJ5PWNoYW5nZXNldHJlc3BvbnNlXzQ5MWUwN2ZjLTcxZmQtNGM0Yy1hNDIxLTdmNjAyNWE0MTY4Mw0KDQotLWNoYW5nZXNldHJlc3BvbnNlXzQ5MWUwN2ZjLTcxZmQtNGM0Yy1hNDIxLTdmNjAyNWE0MTY4Mw0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9odHRwDQpDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBiaW5hcnkNCg0KSFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpYLUNvbnRlbnQtVHlwZS1PcHRpb25zOiBub3NuaWZmDQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KUHJlZmVyZW5jZS1BcHBsaWVkOiByZXR1cm4tbm8tY29udGVudA0KRGF0YVNlcnZpY2VWZXJzaW9uOiAzLjA7DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb247b2RhdGE9bWluaW1hbG1ldGFkYXRhO3N0cmVhbWluZz10cnVlO2NoYXJzZXQ9dXRmLTgNCg0KeyJvZGF0YS5lcnJvciI6eyJjb2RlIjoiSW52YWxpZER1cGxpY2F0ZVJvdyIsIm1lc3NhZ2UiOnsibGFuZyI6ImVuLVVTIiwidmFsdWUiOiIzOlRoZSBiYXRjaCByZXF1ZXN0IGNvbnRhaW5zIG11bHRpcGxlIGNoYW5nZXMgd2l0aCBzYW1lIHJvdyBrZXkuIEFuIGVudGl0eSBjYW4gYXBwZWFyIG9ubHkgb25jZSBpbiBhIGJhdGNoIHJlcXVlc3QuXG5SZXF1ZXN0SWQ6MTIzZWNhNzEtZDAwMi0wMGE5LTYwNmMtNGYzNGMzMDAwMDAwXG5UaW1lOjIwMjItMDQtMTNUMTk6Mjk6MDUuMzgzNjYzOFoifX19DQotLWNoYW5nZXNldHJlc3BvbnNlXzQ5MWUwN2ZjLTcxZmQtNGM0Yy1hNDIxLTdmNjAyNWE0MTY4My0tDQotLWJhdGNocmVzcG9uc2VfMTRiNTE3MTQtNmRhNi00YTBhLWEwZTUtMzVlN2EzZWE5OTNiLS0NCg=="
     },
     {
-      "RequestUri": "https://fakeaccount.table.core.windows.net/Tables(\u0027tableName416662822\u0027)",
+      "RequestUri": "https://fakeaccount.table.core.usgovcloudapi.net/Tables(\u0027tableName416662822\u0027)",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/json",

@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:09 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/42storageblobsuitetestgetandsetb?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/42storageblobsuitetestgetandsetb?restype=container
     method: PUT
   response:
     body: ""
@@ -53,7 +53,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:09 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/42storageblobsuitetestgetandsetb/blob/142storageblobsuitetestgetandsetblobmetadata
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/42storageblobsuitetestgetandsetb/blob/142storageblobsuitetestgetandsetblobmetadata
     method: PUT
   response:
     body: ""
@@ -92,7 +92,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:09 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/42storageblobsuitetestgetandsetb/blob/142storageblobsuitetestgetandsetblobmetadata?comp=metadata
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/42storageblobsuitetestgetandsetb/blob/142storageblobsuitetestgetandsetblobmetadata?comp=metadata
     method: GET
   response:
     body: ""
@@ -131,7 +131,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:09 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/42storageblobsuitetestgetandsetb/blob/242storageblobsuitetestgetandsetblobmetadata
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/42storageblobsuitetestgetandsetb/blob/242storageblobsuitetestgetandsetblobmetadata
     method: PUT
   response:
     body: ""
@@ -174,7 +174,7 @@ interactions:
       - waz qux
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/42storageblobsuitetestgetandsetb/blob/242storageblobsuitetestgetandsetblobmetadata?comp=metadata
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/42storageblobsuitetestgetandsetb/blob/242storageblobsuitetestgetandsetblobmetadata?comp=metadata
     method: PUT
   response:
     body: ""
@@ -211,7 +211,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:10 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/42storageblobsuitetestgetandsetb/blob/242storageblobsuitetestgetandsetblobmetadata?comp=metadata
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/42storageblobsuitetestgetandsetb/blob/242storageblobsuitetestgetandsetblobmetadata?comp=metadata
     method: GET
   response:
     body: ""
@@ -250,7 +250,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:10 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/42storageblobsuitetestgetandsetb?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/42storageblobsuitetestgetandsetb?restype=container
     method: DELETE
   response:
     body: ""

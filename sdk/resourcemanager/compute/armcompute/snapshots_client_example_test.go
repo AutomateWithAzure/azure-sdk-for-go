@@ -36,7 +36,7 @@ func ExampleSnapshotsClient_BeginCreateOrUpdate() {
 			Properties: &armcompute.SnapshotProperties{
 				CreationData: &armcompute.CreationData{
 					CreateOption:     to.Ptr(armcompute.DiskCreateOptionImport),
-					SourceURI:        to.Ptr("https://mystorageaccount.blob.core.windows.net/osimages/osimage.vhd"),
+					SourceURI:        to.Ptr("https://mystorageaccount.blob.core.usgovcloudapi.net/osimages/osimage.vhd"),
 					StorageAccountID: to.Ptr("subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/myStorageAccount"),
 				},
 			},

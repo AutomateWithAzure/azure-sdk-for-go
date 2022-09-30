@@ -2069,7 +2069,7 @@ type ExtendedServerBlobAuditingPolicyProperties struct {
 	PredicateExpression *string `json:"predicateExpression,omitempty"`
 	// State - Specifies the state of the policy. If state is Enabled, storageEndpoint or isAzureMonitorTargetEnabled are required. Possible values include: 'BlobAuditingPolicyStateEnabled', 'BlobAuditingPolicyStateDisabled'
 	State BlobAuditingPolicyState `json:"state,omitempty"`
-	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). If state is Enabled, storageEndpoint or isAzureMonitorTargetEnabled is required.
+	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). If state is Enabled, storageEndpoint or isAzureMonitorTargetEnabled is required.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 	// StorageAccountAccessKey - Specifies the identifier key of the auditing storage account.
 	// If state is Enabled and storageEndpoint is specified, not specifying the storageAccountAccessKey will use SQL server system-assigned managed identity to access the storage.
@@ -2405,7 +2405,7 @@ type ExtendedSQLPoolBlobAuditingPolicyProperties struct {
 	PredicateExpression *string `json:"predicateExpression,omitempty"`
 	// State - Specifies the state of the policy. If state is Enabled, storageEndpoint or isAzureMonitorTargetEnabled are required. Possible values include: 'BlobAuditingPolicyStateEnabled', 'BlobAuditingPolicyStateDisabled'
 	State BlobAuditingPolicyState `json:"state,omitempty"`
-	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). If state is Enabled, storageEndpoint or isAzureMonitorTargetEnabled is required.
+	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). If state is Enabled, storageEndpoint or isAzureMonitorTargetEnabled is required.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 	// StorageAccountAccessKey - Specifies the identifier key of the auditing storage account.
 	// If state is Enabled and storageEndpoint is specified, not specifying the storageAccountAccessKey will use SQL server system-assigned managed identity to access the storage.
@@ -8591,7 +8591,7 @@ type SecurityAlertPolicyProperties struct {
 	EmailAddresses *[]string `json:"emailAddresses,omitempty"`
 	// EmailAccountAdmins - Specifies that the alert is sent to the account administrators.
 	EmailAccountAdmins *bool `json:"emailAccountAdmins,omitempty"`
-	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). This blob storage will hold all Threat Detection audit logs.
+	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). This blob storage will hold all Threat Detection audit logs.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 	// StorageAccountAccessKey - Specifies the identifier key of the Threat Detection audit storage account.
 	StorageAccountAccessKey *string `json:"storageAccountAccessKey,omitempty"`
@@ -9598,7 +9598,7 @@ func NewServerBlobAuditingPolicyListResultPage(cur ServerBlobAuditingPolicyListR
 type ServerBlobAuditingPolicyProperties struct {
 	// State - Specifies the state of the policy. If state is Enabled, storageEndpoint or isAzureMonitorTargetEnabled are required. Possible values include: 'BlobAuditingPolicyStateEnabled', 'BlobAuditingPolicyStateDisabled'
 	State BlobAuditingPolicyState `json:"state,omitempty"`
-	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). If state is Enabled, storageEndpoint or isAzureMonitorTargetEnabled is required.
+	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). If state is Enabled, storageEndpoint or isAzureMonitorTargetEnabled is required.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 	// StorageAccountAccessKey - Specifies the identifier key of the auditing storage account.
 	// If state is Enabled and storageEndpoint is specified, not specifying the storageAccountAccessKey will use SQL server system-assigned managed identity to access the storage.
@@ -9938,7 +9938,7 @@ type ServerSecurityAlertPolicyProperties struct {
 	EmailAddresses *[]string `json:"emailAddresses,omitempty"`
 	// EmailAccountAdmins - Specifies that the alert is sent to the account administrators.
 	EmailAccountAdmins *bool `json:"emailAccountAdmins,omitempty"`
-	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). This blob storage will hold all Threat Detection audit logs.
+	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). This blob storage will hold all Threat Detection audit logs.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 	// StorageAccountAccessKey - Specifies the identifier key of the Threat Detection audit storage account.
 	StorageAccountAccessKey *string `json:"storageAccountAccessKey,omitempty"`
@@ -10408,7 +10408,7 @@ func NewServerVulnerabilityAssessmentListResultPage(cur ServerVulnerabilityAsses
 
 // ServerVulnerabilityAssessmentProperties properties of a server Vulnerability Assessment.
 type ServerVulnerabilityAssessmentProperties struct {
-	// StorageContainerPath - A blob storage container path to hold the scan results (e.g. https://myStorage.blob.core.windows.net/VaScans/).
+	// StorageContainerPath - A blob storage container path to hold the scan results (e.g. https://myStorage.blob.core.usgovcloudapi.net/VaScans/).
 	StorageContainerPath *string `json:"storageContainerPath,omitempty"`
 	// StorageContainerSasKey - A shared access signature (SAS Key) that has read and write access to the blob container specified in 'storageContainerPath' parameter. If 'storageAccountAccessKey' isn't specified, StorageContainerSasKey is required.
 	StorageContainerSasKey *string `json:"storageContainerSasKey,omitempty"`
@@ -10803,7 +10803,7 @@ func NewSQLPoolBlobAuditingPolicyListResultPage(cur SQLPoolBlobAuditingPolicyLis
 type SQLPoolBlobAuditingPolicyProperties struct {
 	// State - Specifies the state of the policy. If state is Enabled, storageEndpoint or isAzureMonitorTargetEnabled are required. Possible values include: 'BlobAuditingPolicyStateEnabled', 'BlobAuditingPolicyStateDisabled'
 	State BlobAuditingPolicyState `json:"state,omitempty"`
-	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). If state is Enabled, storageEndpoint is required.
+	// StorageEndpoint - Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). If state is Enabled, storageEndpoint is required.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 	// StorageAccountAccessKey - Specifies the identifier key of the auditing storage account. If state is Enabled and storageEndpoint is specified, storageAccountAccessKey is required.
 	StorageAccountAccessKey *string `json:"storageAccountAccessKey,omitempty"`
@@ -12878,7 +12878,7 @@ func NewSQLPoolVulnerabilityAssessmentListResultPage(cur SQLPoolVulnerabilityAss
 
 // SQLPoolVulnerabilityAssessmentProperties properties of a Sql pool Vulnerability Assessment.
 type SQLPoolVulnerabilityAssessmentProperties struct {
-	// StorageContainerPath - A blob storage container path to hold the scan results (e.g. https://myStorage.blob.core.windows.net/VaScans/).  It is required if server level vulnerability assessment policy doesn't set
+	// StorageContainerPath - A blob storage container path to hold the scan results (e.g. https://myStorage.blob.core.usgovcloudapi.net/VaScans/).  It is required if server level vulnerability assessment policy doesn't set
 	StorageContainerPath *string `json:"storageContainerPath,omitempty"`
 	// StorageContainerSasKey - A shared access signature (SAS Key) that has write access to the blob container specified in 'storageContainerPath' parameter. If 'storageAccountAccessKey' isn't specified, StorageContainerSasKey is required.
 	StorageContainerSasKey *string `json:"storageContainerSasKey,omitempty"`
@@ -12977,7 +12977,7 @@ type SQLPoolVulnerabilityAssessmentRuleBaselineProperties struct {
 
 // SQLPoolVulnerabilityAssessmentScanExportProperties properties of the export operation's result.
 type SQLPoolVulnerabilityAssessmentScanExportProperties struct {
-	// ExportedReportLocation - READ-ONLY; Location of the exported report (e.g. https://myStorage.blob.core.windows.net/VaScans/scans/serverName/databaseName/scan_scanId.xlsx).
+	// ExportedReportLocation - READ-ONLY; Location of the exported report (e.g. https://myStorage.blob.core.usgovcloudapi.net/VaScans/scans/serverName/databaseName/scan_scanId.xlsx).
 	ExportedReportLocation *string `json:"exportedReportLocation,omitempty"`
 }
 

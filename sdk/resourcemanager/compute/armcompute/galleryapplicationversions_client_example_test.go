@@ -53,7 +53,7 @@ func ExampleGalleryApplicationVersionsClient_BeginCreateOrUpdate() {
 						Remove:  to.Ptr("del C:\\package "),
 					},
 					Source: &armcompute.UserArtifactSource{
-						MediaLink: to.Ptr("https://mystorageaccount.blob.core.windows.net/mycontainer/package.zip?{sasKey}"),
+						MediaLink: to.Ptr("https://mystorageaccount.blob.core.usgovcloudapi.net/mycontainer/package.zip?{sasKey}"),
 					},
 				},
 			},
@@ -103,7 +103,7 @@ func ExampleGalleryApplicationVersionsClient_BeginUpdate() {
 						Remove:  to.Ptr("del C:\\package "),
 					},
 					Source: &armcompute.UserArtifactSource{
-						MediaLink: to.Ptr("https://mystorageaccount.blob.core.windows.net/mycontainer/package.zip?{sasKey}"),
+						MediaLink: to.Ptr("https://mystorageaccount.blob.core.usgovcloudapi.net/mycontainer/package.zip?{sasKey}"),
 					},
 				},
 			},

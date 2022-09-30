@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:11 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/42storageblobsuitetestsetpageblo?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/42storageblobsuitetestsetpageblo?restype=container
     method: PUT
   response:
     body: ""
@@ -55,7 +55,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:11 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/42storageblobsuitetestsetpageblo/blob/42storageblobsuitetestsetpageblobproperties
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/42storageblobsuitetestsetpageblo/blob/42storageblobsuitetestsetpageblobproperties
     method: PUT
   response:
     body: ""
@@ -94,7 +94,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:11 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/42storageblobsuitetestsetpageblo/blob/42storageblobsuitetestsetpageblobproperties?comp=properties&timeout=30
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/42storageblobsuitetestsetpageblo/blob/42storageblobsuitetestsetpageblobproperties?comp=properties&timeout=30
     method: PUT
   response:
     body: ""
@@ -131,7 +131,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:11 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/42storageblobsuitetestsetpageblo?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/42storageblobsuitetestsetpageblo?restype=container
     method: DELETE
   response:
     body: ""

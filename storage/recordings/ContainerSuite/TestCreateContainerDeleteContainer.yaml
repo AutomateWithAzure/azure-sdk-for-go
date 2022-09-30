@@ -14,7 +14,7 @@ interactions:
       - Thu, 15 Apr 2021 14:35:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/49containersuitetestcreatecontai?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/49containersuitetestcreatecontai?restype=container
     method: PUT
   response:
     body: ""
@@ -49,7 +49,7 @@ interactions:
       - Thu, 15 Apr 2021 14:35:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/49containersuitetestcreatecontai?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/49containersuitetestcreatecontai?restype=container
     method: DELETE
   response:
     body: ""

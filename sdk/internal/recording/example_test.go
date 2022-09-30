@@ -110,8 +110,8 @@ func ExampleStart_second() {
 		}()
 
 		// Add single test recordings here if necessary
-		accountURL := recording.GetEnvVariable("TABLES_ACCOUNT_URL", "https://fakeurl.tables.core.windows.net")
-		err = recording.AddURISanitizer(accountURL, "https://fakeurl.tables.core.windows.net", nil)
+		accountURL := recording.GetEnvVariable("TABLES_ACCOUNT_URL", "https://fakeurl.tables.core.usgovcloudapi.net")
+		err = recording.AddURISanitizer(accountURL, "https://fakeurl.tables.core.usgovcloudapi.net", nil)
 		if err != nil {
 			panic(err)
 		}

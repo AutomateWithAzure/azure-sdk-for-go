@@ -25,7 +25,7 @@ func (s *QueueSASURISuite) TestGetQueueSASURI(c *chk.C) {
 
 	expectedParts := url.URL{
 		Scheme: "https",
-		Host:   "foo.queue.core.windows.net",
+		Host:   "foo.queue.core.usgovcloudapi.net",
 		Path:   "name",
 		RawQuery: url.Values{
 			"sv":  {oldAPIVer},
@@ -54,7 +54,7 @@ func (s *QueueSASURISuite) TestGetQueueSASURIWithSignedIPValidAPIVersionPassed(c
 
 	expectedParts := url.URL{
 		Scheme: "https",
-		Host:   "foo.queue.core.windows.net",
+		Host:   "foo.queue.core.usgovcloudapi.net",
 		Path:   "/name",
 		RawQuery: url.Values{
 			"sv":  {newerAPIVer},
@@ -87,7 +87,7 @@ func (s *QueueSASURISuite) TestGetQueueSASURIWithSignedIPUsingOldAPIVersion(c *c
 
 	expectedParts := url.URL{
 		Scheme: "https",
-		Host:   "foo.queue.core.windows.net",
+		Host:   "foo.queue.core.usgovcloudapi.net",
 		Path:   "/name",
 		RawQuery: url.Values{
 			"sv":  {oldAPIVer},

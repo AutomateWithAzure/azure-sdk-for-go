@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:51 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31pageblobsuitetestputpagesclear?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31pageblobsuitetestputpagesclear?restype=container
     method: PUT
   response:
     body: ""
@@ -55,7 +55,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:51 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31pageblobsuitetestputpagesclear/blob/31pageblobsuitetestputpagesclear
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31pageblobsuitetestputpagesclear/blob/31pageblobsuitetestputpagesclear
     method: PUT
   response:
     body: ""
@@ -125,7 +125,7 @@ interactions:
       - bytes=0-2047
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31pageblobsuitetestputpagesclear/blob/31pageblobsuitetestputpagesclear?comp=page
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31pageblobsuitetestputpagesclear/blob/31pageblobsuitetestputpagesclear?comp=page
     method: PUT
   response:
     body: ""
@@ -174,7 +174,7 @@ interactions:
       - bytes=512-1023
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31pageblobsuitetestputpagesclear/blob/31pageblobsuitetestputpagesclear?comp=page
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31pageblobsuitetestputpagesclear/blob/31pageblobsuitetestputpagesclear?comp=page
     method: PUT
   response:
     body: ""
@@ -213,7 +213,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:51 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31pageblobsuitetestputpagesclear/blob/31pageblobsuitetestputpagesclear
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31pageblobsuitetestputpagesclear/blob/31pageblobsuitetestputpagesclear
     method: GET
   response:
     body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat
@@ -285,7 +285,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:51 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31pageblobsuitetestputpagesclear?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31pageblobsuitetestputpagesclear?restype=container
     method: DELETE
   response:
     body: ""

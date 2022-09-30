@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccopyunsealedblob?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccopyunsealedblob?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccopyunsealedblob/gotestblobcopyunsealedblob",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccopyunsealedblob/gotestblobcopyunsealedblob",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -60,7 +60,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccopyunsealedblob/copygotestblobcopyunsealedblob",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccopyunsealedblob/copygotestblobcopyunsealedblob",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -68,7 +68,7 @@
         "Authorization": "Sanitized",
         "Content-Length": "0",
         "User-Agent": "azsdk-go-azblob/v0.5.0 (go1.19; Windows_NT)",
-        "x-ms-copy-source": "https://fakestorage.blob.core.windows.net/goccopyunsealedblob/gotestblobcopyunsealedblob",
+        "x-ms-copy-source": "https://fakestorage.blob.core.usgovcloudapi.net/goccopyunsealedblob/gotestblobcopyunsealedblob",
         "X-Ms-Date": "Thu, 11 Aug 2022 15:08:09 GMT",
         "x-ms-seal-blob": "true",
         "x-ms-version": "2020-10-02"
@@ -93,7 +93,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccopyunsealedblob/copygotestblobcopyunsealedblob",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccopyunsealedblob/copygotestblobcopyunsealedblob",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -121,7 +121,7 @@
         "x-ms-copy-completion-time": "Thu, 11 Aug 2022 15:08:09 GMT",
         "x-ms-copy-id": "feff819c-aaf1-4cb8-a415-f558da575468",
         "x-ms-copy-progress": "0/0",
-        "x-ms-copy-source": "https://fakestorage.blob.core.windows.net/goccopyunsealedblob/gotestblobcopyunsealedblob",
+        "x-ms-copy-source": "https://fakestorage.blob.core.usgovcloudapi.net/goccopyunsealedblob/gotestblobcopyunsealedblob",
         "x-ms-copy-status": "success",
         "x-ms-creation-time": "Thu, 11 Aug 2022 15:08:09 GMT",
         "x-ms-is-current-version": "true",
@@ -135,7 +135,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/goccopyunsealedblob?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/goccopyunsealedblob?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

@@ -1468,9 +1468,9 @@ type KubernetesIPConfiguration struct {
 // on-premises Kubernetes clusters using the Azure Portal, command line tools, and APIs.
 // 3. Easily configure Persistent Volumes using SMB and NFS shares for storing container data. For more information, refer
 // to the document here:
-// https://databoxupdatepackages.blob.core.windows.net/documentation/Microsoft-Azure-Stack-Edge-K8-Cloud-Management-20210323.pdf
+// https://databoxupdatepackages.blob.core.usgovcloudapi.net/documentation/Microsoft-Azure-Stack-Edge-K8-Cloud-Management-20210323.pdf
 // Or Demo:
-// https://databoxupdatepackages.blob.core.windows.net/documentation/Microsoft-Azure-Stack-Edge-K8S-Cloud-Management-20210323.mp4
+// https://databoxupdatepackages.blob.core.usgovcloudapi.net/documentation/Microsoft-Azure-Stack-Edge-K8S-Cloud-Management-20210323.mp4
 // By using this feature, you agree to the preview legal terms. See the
 // https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/
 type KubernetesRole struct {

@@ -420,9 +420,9 @@ func newSASClient(accountName, baseURL string, sasToken url.Values) Client {
 
 func newSASClientFromURL(u *url.URL) (Client, error) {
 	// the host name will look something like this
-	// - foo.blob.core.windows.net
+	// - foo.blob.core.usgovcloudapi.net
 	// "foo" is the account name
-	// "core.windows.net" is the baseURL
+	// "core.usgovcloudapi.net" is the baseURL
 
 	// find the first dot to get account name
 	i1 := strings.IndexByte(u.Host, '.')

@@ -73,7 +73,7 @@ func ExampleEncryptionScopesClient_Patch() {
 	res, err := client.Patch(ctx, "resource-group-name", "{storage-account-name}", "{encryption-scope-name}", armstorage.EncryptionScope{
 		EncryptionScopeProperties: &armstorage.EncryptionScopeProperties{
 			KeyVaultProperties: &armstorage.EncryptionScopeKeyVaultProperties{
-				KeyURI: to.Ptr("https://testvault.vault.core.windows.net/keys/key1/863425f1358359c"),
+				KeyURI: to.Ptr("https://testvault.vault.core.usgovcloudapi.net/keys/key1/863425f1358359c"),
 			},
 			Source: to.Ptr(armstorage.EncryptionScopeSourceMicrosoftKeyVault),
 		},

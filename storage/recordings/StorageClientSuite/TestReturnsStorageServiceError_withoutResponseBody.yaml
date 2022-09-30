@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:13 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/non-existing-container/non-existing-blob
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/non-existing-container/non-existing-blob
     method: HEAD
   response:
     body: ""

@@ -67,7 +67,7 @@ func ExampleVirtualMachineScaleSetsClient_BeginCreateOrUpdate() {
 					DiagnosticsProfile: &armcompute.DiagnosticsProfile{
 						BootDiagnostics: &armcompute.BootDiagnostics{
 							Enabled:    to.Ptr(true),
-							StorageURI: to.Ptr("http://{existing-storage-account-name}.blob.core.windows.net"),
+							StorageURI: to.Ptr("http://{existing-storage-account-name}.blob.core.usgovcloudapi.net"),
 						},
 					},
 					ExtensionProfile: &armcompute.VirtualMachineScaleSetExtensionProfile{
@@ -215,7 +215,7 @@ func ExampleVirtualMachineScaleSetsClient_BeginUpdate() {
 					DiagnosticsProfile: &armcompute.DiagnosticsProfile{
 						BootDiagnostics: &armcompute.BootDiagnostics{
 							Enabled:    to.Ptr(true),
-							StorageURI: to.Ptr("http://{existing-storage-account-name}.blob.core.windows.net"),
+							StorageURI: to.Ptr("http://{existing-storage-account-name}.blob.core.usgovcloudapi.net"),
 						},
 					},
 					ExtensionProfile: &armcompute.VirtualMachineScaleSetExtensionProfile{
@@ -401,7 +401,7 @@ func ExampleVirtualMachineScaleSetsClient_BeginUpdate() {
 							Caching:    to.Ptr(armcompute.CachingTypesReadWrite),
 							DiskSizeGB: to.Ptr[int32](6),
 							Image: &armcompute.VirtualHardDisk{
-								URI: to.Ptr("http://{existing-storage-account-name}.blob.core.windows.net/{existing-container-name}/myDisk.vhd"),
+								URI: to.Ptr("http://{existing-storage-account-name}.blob.core.usgovcloudapi.net/{existing-container-name}/myDisk.vhd"),
 							},
 							ManagedDisk: &armcompute.VirtualMachineScaleSetManagedDiskParameters{
 								DiskEncryptionSet: &armcompute.DiskEncryptionSetParameters{

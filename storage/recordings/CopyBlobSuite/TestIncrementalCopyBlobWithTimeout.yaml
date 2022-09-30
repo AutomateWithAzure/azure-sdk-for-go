@@ -16,7 +16,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:39 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/48copyblobsuitetestincrementalco?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/48copyblobsuitetestincrementalco?restype=container
     method: PUT
   response:
     body: ""
@@ -57,7 +57,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:39 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/48copyblobsuitetestincrementalco/blob/src48copyblobsuitetestincrementalcopyblobwithtimeout
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/48copyblobsuitetestincrementalco/blob/src48copyblobsuitetestincrementalcopyblobwithtimeout
     method: PUT
   response:
     body: ""
@@ -94,7 +94,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:39 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/48copyblobsuitetestincrementalco/blob/src48copyblobsuitetestincrementalcopyblobwithtimeout?comp=snapshot
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/48copyblobsuitetestincrementalco/blob/src48copyblobsuitetestincrementalcopyblobwithtimeout?comp=snapshot
     method: PUT
   response:
     body: ""
@@ -128,12 +128,12 @@ interactions:
       - Go/go1.15.1 (amd64-windows) azure-storage-go/v52.6.0 api-version/2018-03-28
         blob
       x-ms-copy-source:
-      - https://golangrocksonazure.blob.core.windows.net/48copyblobsuitetestincrementalco/blob/src48copyblobsuitetestincrementalcopyblobwithtimeout?snapshot=2021-04-13T15:57:39.0075295Z
+      - https://golangrocksonazure.blob.core.usgovcloudapi.net/48copyblobsuitetestincrementalco/blob/src48copyblobsuitetestincrementalcopyblobwithtimeout?snapshot=2021-04-13T15:57:39.0075295Z
       x-ms-date:
       - Tue, 13 Apr 2021 15:57:39 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/48copyblobsuitetestincrementalco/blob/dst48copyblobsuitetestincrementalcopyblobwithtimeout?comp=incrementalcopy&timeout=30
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/48copyblobsuitetestincrementalco/blob/dst48copyblobsuitetestincrementalcopyblobwithtimeout?comp=incrementalcopy&timeout=30
     method: PUT
   response:
     body: ""
@@ -172,7 +172,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:39 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/48copyblobsuitetestincrementalco?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/48copyblobsuitetestincrementalco?restype=container
     method: DELETE
   response:
     body: ""

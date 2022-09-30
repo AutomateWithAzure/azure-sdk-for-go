@@ -38,8 +38,8 @@ func ExampleServiceUnitsClient_BeginCreateOrUpdate() {
 			Tags:     map[string]*string{},
 			Properties: &armdeploymentmanager.ServiceUnitResourceProperties{
 				Artifacts: &armdeploymentmanager.ServiceUnitArtifacts{
-					ParametersURI: to.Ptr("https://mystorageaccount.blob.core.windows.net/myartifactsource/parameter/myTopologyUnit.parameters.json?st=2018-07-07T14%3A10%3A00Z&se=2019-12-31T15%3A10%3A00Z&sp=rl&sv=2017-04-17&sr=c&sig=Yh2SoJ1NhhLRwCLln7de%2Fkabcdefghijklmno5sWEIk%3D"),
-					TemplateURI:   to.Ptr("https://mystorageaccount.blob.core.windows.net/myartifactsource/templates/myTopologyUnit.template.json?st=2018-07-07T14%3A10%3A00Z&se=2019-12-31T15%3A10%3A00Z&sp=rl&sv=2017-04-17&sr=c&sig=Yh2SoJ1NhhLRwCLln7de%2Fkabcdefghijklmno5sWEIk%3D"),
+					ParametersURI: to.Ptr("https://mystorageaccount.blob.core.usgovcloudapi.net/myartifactsource/parameter/myTopologyUnit.parameters.json?st=2018-07-07T14%3A10%3A00Z&se=2019-12-31T15%3A10%3A00Z&sp=rl&sv=2017-04-17&sr=c&sig=Yh2SoJ1NhhLRwCLln7de%2Fkabcdefghijklmno5sWEIk%3D"),
+					TemplateURI:   to.Ptr("https://mystorageaccount.blob.core.usgovcloudapi.net/myartifactsource/templates/myTopologyUnit.template.json?st=2018-07-07T14%3A10%3A00Z&se=2019-12-31T15%3A10%3A00Z&sp=rl&sv=2017-04-17&sr=c&sig=Yh2SoJ1NhhLRwCLln7de%2Fkabcdefghijklmno5sWEIk%3D"),
 				},
 				DeploymentMode:      to.Ptr(armdeploymentmanager.DeploymentModeIncremental),
 				TargetResourceGroup: to.Ptr("myDeploymentResourceGroup"),

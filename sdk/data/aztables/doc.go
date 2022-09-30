@@ -24,7 +24,7 @@ URL and a credential that allows you to access the account.
 
 	cred, err := aztables.NewSharedKeyCredential("myAccountName", "myAccountKey")
 	handle(err)
-	serviceClient, err := aztables.NewServiceClient("https://<my_account_name>.table.core.windows.net/", cred, nil)
+	serviceClient, err := aztables.NewServiceClient("https://<my_account_name>.table.core.usgovcloudapi.net/", cred, nil)
 	handle(err)
 
 # Types of Credentials
@@ -42,14 +42,14 @@ Use the key as the credential parameter to authenticate the client:
 
 	cred, err := aztables.NewSharedKeyCredential("myAccountName", "myAccountKey")
 	handle(err)
-	serviceClient, err := aztables.NewServiceClient("https://<my_account_name>.table.core.windows.net/", cred, nil)
+	serviceClient, err := aztables.NewServiceClient("https://<my_account_name>.table.core.usgovcloudapi.net/", cred, nil)
 	handle(err)
 
 Using a Connection String
 Depending on your use case and authorization method, you may prefer to initialize a client instance with a connection string instead of providing the account URL and credential separately. To do this, pass the
 connection string to the client's `from_connection_string` class method. The connection string can be found in your storage account in the [Azure Portal][azure_portal_account_url] under the "Access Keys" section or with the following Azure CLI command:
 
-	connStr := "DefaultEndpointsProtocol=https;AccountName=<my_account_name>;AccountKey=<my_account_key>;EndpointSuffix=core.windows.net"
+	connStr := "DefaultEndpointsProtocol=https;AccountName=<my_account_name>;AccountKey=<my_account_key>;EndpointSuffix=core.usgovcloudapi.net"
 	serviceClient, err := aztables.NewServiceClientFromConnectionString(connStr, nil)
 
 Using a Shared Access Signature
@@ -59,7 +59,7 @@ ServiceClient.GetAccountSASToken or Client.GetTableSASToken() functions.
 
 	cred, err := aztables.NewSharedKeyCredential("myAccountName", "myAccountKey")
 	handle(err)
-	service, err := aztables.NewServiceClient("https://<my_account_name>.table.core.windows.net", cred, nil)
+	service, err := aztables.NewServiceClient("https://<my_account_name>.table.core.usgovcloudapi.net", cred, nil)
 	handle(err)
 
 	resources := aztables.AccountSASResourceTypes{Service: true}
@@ -134,7 +134,7 @@ Create a table in your account and get a `Client` to perform operations on the n
 
 	cred, err := aztables.NewSharedKeyCredential("myAccountName", "myAccountKey")
 	handle(err)
-	service, err := aztables.NewServiceClient("https://<my_account_name>.table.core.windows.net", cred, nil)
+	service, err := aztables.NewServiceClient("https://<my_account_name>.table.core.usgovcloudapi.net", cred, nil)
 	handle(err)
 	resp, err := service.CreateTable("myTable")
 
@@ -142,7 +142,7 @@ Creating Entities
 
 	cred, err := aztables.NewSharedKeyCredential("myAccountName", "myAccountKey")
 	handle(err)
-	service, err := aztables.NewServiceClient("https://<my_account_name>.table.core.windows.net", cred, nil)
+	service, err := aztables.NewServiceClient("https://<my_account_name>.table.core.usgovcloudapi.net", cred, nil)
 	handle(err)
 
 	myEntity := aztables.EDMEntity{
@@ -173,7 +173,7 @@ Querying entities
 
 	cred, err := aztables.NewSharedKeyCredential("myAccountName", "myAccountKey")
 	handle(err)
-	client, err := aztables.NewClient("https://myAccountName.table.core.windows.net/myTableName", cred, nil)
+	client, err := aztables.NewClient("https://myAccountName.table.core.usgovcloudapi.net/myTableName", cred, nil)
 	handle(err)
 
 	filter := "PartitionKey eq 'markers' or RowKey eq 'id-001'"

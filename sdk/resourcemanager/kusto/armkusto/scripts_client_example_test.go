@@ -75,7 +75,7 @@ func ExampleScriptsClient_BeginCreateOrUpdate() {
 		Properties: &armkusto.ScriptProperties{
 			ContinueOnErrors:  to.Ptr(true),
 			ForceUpdateTag:    to.Ptr("2bcf3c21-ffd1-4444-b9dd-e52e00ee53fe"),
-			ScriptURL:         to.Ptr("https://mysa.blob.core.windows.net/container/script.txt"),
+			ScriptURL:         to.Ptr("https://mysa.blob.core.usgovcloudapi.net/container/script.txt"),
 			ScriptURLSasToken: to.Ptr("?sv=2019-02-02&st=2019-04-29T22%3A18%3A26Z&se=2019-04-30T02%3A23%3A26Z&sr=b&sp=rw&sip=168.1.5.60-168.1.5.70&spr=https&sig=********************************"),
 		},
 	}, nil)
@@ -105,7 +105,7 @@ func ExampleScriptsClient_BeginUpdate() {
 		Properties: &armkusto.ScriptProperties{
 			ContinueOnErrors:  to.Ptr(true),
 			ForceUpdateTag:    to.Ptr("2bcf3c21-ffd1-4444-b9dd-e52e00ee53fe"),
-			ScriptURL:         to.Ptr("https://mysa.blob.core.windows.net/container/script.txt"),
+			ScriptURL:         to.Ptr("https://mysa.blob.core.usgovcloudapi.net/container/script.txt"),
 			ScriptURLSasToken: to.Ptr("?sv=2019-02-02&st=2019-04-29T22%3A18%3A26Z&se=2019-04-30T02%3A23%3A26Z&sr=b&sp=rw&sip=168.1.5.60-168.1.5.70&spr=https&sig=********************************"),
 		},
 	}, nil)

@@ -59,7 +59,7 @@ func ExampleLedgerDigestUploadsClient_BeginCreateOrUpdate() {
 		armsql.LedgerDigestUploadsNameCurrent,
 		armsql.LedgerDigestUploads{
 			Properties: &armsql.LedgerDigestUploadsProperties{
-				DigestStorageEndpoint: to.Ptr("https://MyAccount.blob.core.windows.net"),
+				DigestStorageEndpoint: to.Ptr("https://MyAccount.blob.core.usgovcloudapi.net"),
 			},
 		},
 		nil)

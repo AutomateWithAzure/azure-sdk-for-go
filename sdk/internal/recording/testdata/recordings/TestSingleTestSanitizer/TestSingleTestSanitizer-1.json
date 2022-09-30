@@ -7,7 +7,7 @@
         ":method": "POST",
         "Accept-Encoding": "gzip",
         "Content-Length": "0",
-        "fakestoragelocation": "https://fakeaccount.blob.core.windows.net",
+        "fakestoragelocation": "https://fakeaccount.blob.core.usgovcloudapi.net",
         "User-Agent": "Go-http-client/2.0"
       },
       "RequestBody": null,

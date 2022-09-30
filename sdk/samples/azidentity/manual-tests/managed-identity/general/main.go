@@ -15,7 +15,7 @@ import (
 var c = flag.String("c", "", "optional client ID of a user assigned identity. Mutually exclusive with r.")
 var p = flag.Bool("p", false, "print the acquired token")
 var r = flag.String("r", "", "optional resource ID of a user assigned identity. Mutually exclusive with c.")
-var s = flag.String("s", "https://management.core.windows.net//.default", "optional scope for access token")
+var s = flag.String("s", "https://management.core.usgovcloudapi.net//.default", "optional scope for access token")
 
 func main() {
 	flag.Parse()

@@ -16,10 +16,10 @@ func getAccountKey(cred *SharedKeyCredential) string {
 }
 
 func TestConnectionStringParser(t *testing.T) {
-	connStr := "DefaultEndpointsProtocol=https;AccountName=dummyaccount;AccountKey=secretkeykey;EndpointSuffix=core.windows.net"
+	connStr := "DefaultEndpointsProtocol=https;AccountName=dummyaccount;AccountKey=secretkeykey;EndpointSuffix=core.usgovcloudapi.net"
 	serviceURL, cred, err := parseConnectionString(connStr)
 	require.NoError(t, err)
-	require.Equal(t, serviceURL, "https://dummyaccount.table.core.windows.net")
+	require.Equal(t, serviceURL, "https://dummyaccount.table.core.usgovcloudapi.net")
 	require.NotNil(t, cred)
 
 	require.Equal(t, cred.accountName, "dummyaccount")
@@ -32,14 +32,14 @@ func TestConnectionStringParser(t *testing.T) {
 	require.Equal(t, client.cred.accountName, "dummyaccount")
 	require.Equal(t, getAccountKey(client.cred), "secretkeykey")
 	require.True(t, strings.HasPrefix(client.con.Endpoint(), "https://"))
-	require.True(t, strings.Contains(client.con.Endpoint(), "core.windows.net"))
+	require.True(t, strings.Contains(client.con.Endpoint(), "core.usgovcloudapi.net"))
 }
 
 func TestConnectionStringParserHTTP(t *testing.T) {
-	connStr := "DefaultEndpointsProtocol=http;AccountName=dummyaccount;AccountKey=secretkeykey;EndpointSuffix=core.windows.net"
+	connStr := "DefaultEndpointsProtocol=http;AccountName=dummyaccount;AccountKey=secretkeykey;EndpointSuffix=core.usgovcloudapi.net"
 	serviceURL, cred, err := parseConnectionString(connStr)
 	require.NoError(t, err)
-	require.Equal(t, serviceURL, "http://dummyaccount.table.core.windows.net")
+	require.Equal(t, serviceURL, "http://dummyaccount.table.core.usgovcloudapi.net")
 	require.NotNil(t, cred)
 
 	require.Equal(t, cred.accountName, "dummyaccount")
@@ -52,14 +52,14 @@ func TestConnectionStringParserHTTP(t *testing.T) {
 	require.Equal(t, client.cred.accountName, "dummyaccount")
 	require.Equal(t, getAccountKey(client.cred), "secretkeykey")
 	require.True(t, strings.HasPrefix(client.con.Endpoint(), "http://"))
-	require.True(t, strings.Contains(client.con.Endpoint(), "core.windows.net"))
+	require.True(t, strings.Contains(client.con.Endpoint(), "core.usgovcloudapi.net"))
 }
 
 func TestConnectionStringParserBasic(t *testing.T) {
 	connStr := "AccountName=dummyaccount;AccountKey=secretkeykey"
 	serviceURL, cred, err := parseConnectionString(connStr)
 	require.NoError(t, err)
-	require.Equal(t, serviceURL, "https://dummyaccount.table.core.windows.net")
+	require.Equal(t, serviceURL, "https://dummyaccount.table.core.usgovcloudapi.net")
 	require.NotNil(t, cred)
 
 	require.Equal(t, cred.accountName, "dummyaccount")
@@ -72,7 +72,7 @@ func TestConnectionStringParserBasic(t *testing.T) {
 	require.Equal(t, client.cred.accountName, "dummyaccount")
 	require.Equal(t, getAccountKey(client.cred), "secretkeykey")
 	require.True(t, strings.HasPrefix(client.con.Endpoint(), "https://"))
-	require.True(t, strings.Contains(client.con.Endpoint(), "core.windows.net"))
+	require.True(t, strings.Contains(client.con.Endpoint(), "core.usgovcloudapi.net"))
 }
 
 func TestConnectionStringParserCustomDomain(t *testing.T) {
@@ -118,14 +118,14 @@ func TestConnectionStringSAS(t *testing.T) {
 	connStr := "AccountName=dummyaccount;SharedAccessSignature=fakesharedaccesssignature;"
 	serviceURL, cred, err := parseConnectionString(connStr)
 	require.NoError(t, err)
-	require.Equal(t, serviceURL, "https://dummyaccount.table.core.windows.net/?fakesharedaccesssignature")
+	require.Equal(t, serviceURL, "https://dummyaccount.table.core.usgovcloudapi.net/?fakesharedaccesssignature")
 	require.Nil(t, cred)
 
 	client, err := NewServiceClientFromConnectionString(connStr, nil)
 	require.NoError(t, err)
 	require.NotNil(t, client)
 	require.True(t, strings.HasPrefix(client.con.Endpoint(), "https://"))
-	require.True(t, strings.Contains(client.con.Endpoint(), "core.windows.net"))
+	require.True(t, strings.Contains(client.con.Endpoint(), "core.usgovcloudapi.net"))
 }
 
 func TestConnectionStringCosmos(t *testing.T) {

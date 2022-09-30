@@ -68,7 +68,7 @@ func ExampleWorkspaceManagedSQLServerExtendedBlobAuditingPoliciesClient_BeginCre
 				State:                        to.Ptr(armsynapse.BlobAuditingPolicyStateEnabled),
 				StorageAccountAccessKey:      to.Ptr("sdlfkjabc+sdlfkjsdlkfsjdfLDKFTERLKFDFKLjsdfksjdflsdkfD2342309432849328476458/3RSD=="),
 				StorageAccountSubscriptionID: to.Ptr("00000000-1234-0000-5678-000000000000"),
-				StorageEndpoint:              to.Ptr("https://mystorage.blob.core.windows.net"),
+				StorageEndpoint:              to.Ptr("https://mystorage.blob.core.usgovcloudapi.net"),
 			},
 		},
 		nil)

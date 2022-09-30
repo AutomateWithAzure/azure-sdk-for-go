@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:08 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/137authorizationsuitetestallshar?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/137authorizationsuitetestallshar?restype=container
     method: PUT
   response:
     body: ""
@@ -49,7 +49,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:08 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/137authorizationsuitetestallshar?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/137authorizationsuitetestallshar?restype=container
     method: DELETE
   response:
     body: ""
@@ -91,7 +91,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:08 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
     body: ""
@@ -101,11 +101,11 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table137authorizationsuitetestal')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table137authorizationsuitetestal')
       Date:
       - Tue, 13 Apr 2021 15:57:07 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table137authorizationsuitetestal')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table137authorizationsuitetestal')
       Preference-Applied:
       - return-no-content
       Server:
@@ -136,7 +136,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:09 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table137authorizationsuitetestal%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table137authorizationsuitetestal%27%29?timeout=30
     method: DELETE
   response:
     body: ""
@@ -171,7 +171,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:09 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/237authorizationsuitetestallshar?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/237authorizationsuitetestallshar?restype=container
     method: PUT
   response:
     body: ""
@@ -206,7 +206,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:09 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/237authorizationsuitetestallshar?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/237authorizationsuitetestallshar?restype=container
     method: DELETE
   response:
     body: ""
@@ -248,7 +248,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:09 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
     body: ""
@@ -258,11 +258,11 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table237authorizationsuitetestal')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table237authorizationsuitetestal')
       Date:
       - Tue, 13 Apr 2021 15:57:08 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table237authorizationsuitetestal')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table237authorizationsuitetestal')
       Preference-Applied:
       - return-no-content
       Server:
@@ -293,7 +293,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:09 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table237authorizationsuitetestal%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table237authorizationsuitetestal%27%29?timeout=30
     method: DELETE
   response:
     body: ""

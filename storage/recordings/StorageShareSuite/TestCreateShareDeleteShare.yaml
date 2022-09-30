@@ -14,7 +14,7 @@ interactions:
       - Thu, 15 Apr 2021 14:37:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-44storagesharesuitetestcreatesharedeleteshare?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-44storagesharesuitetestcreatesharedeleteshare?restype=share
     method: PUT
   response:
     body: ""
@@ -49,7 +49,7 @@ interactions:
       - Thu, 15 Apr 2021 14:37:33 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-44storagesharesuitetestcreatesharedeleteshare?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-44storagesharesuitetestcreatesharedeleteshare?restype=share
     method: DELETE
   response:
     body: ""

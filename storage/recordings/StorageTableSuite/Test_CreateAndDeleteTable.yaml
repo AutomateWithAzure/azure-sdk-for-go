@@ -25,7 +25,7 @@ interactions:
       - Thu, 15 Apr 2021 14:41:08 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
     body: ""
@@ -35,11 +35,11 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table143storagetablesuitetestcre')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table143storagetablesuitetestcre')
       Date:
       - Thu, 15 Apr 2021 14:41:08 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table143storagetablesuitetestcre')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table143storagetablesuitetestcre')
       Preference-Applied:
       - return-no-content
       Server:
@@ -77,10 +77,10 @@ interactions:
       - Thu, 15 Apr 2021 14:41:08 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#Tables/@Element","odata.type":"golangrocksonazure.Tables","odata.id":"https://golangrocksonazure.table.core.windows.net/Tables(''table243storagetablesuitetestcre'')","odata.editLink":"Tables(''table243storagetablesuitetestcre'')","TableName":"table243storagetablesuitetestcre"}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#Tables/@Element","odata.type":"golangrocksonazure.Tables","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/Tables(''table243storagetablesuitetestcre'')","odata.editLink":"Tables(''table243storagetablesuitetestcre'')","TableName":"table243storagetablesuitetestcre"}'
     headers:
       Cache-Control:
       - no-cache
@@ -89,7 +89,7 @@ interactions:
       Date:
       - Thu, 15 Apr 2021 14:41:08 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table243storagetablesuitetestcre')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table243storagetablesuitetestcre')
       Preference-Applied:
       - return-content
       Server:
@@ -120,7 +120,7 @@ interactions:
       - Thu, 15 Apr 2021 14:41:08 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table143storagetablesuitetestcre%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table143storagetablesuitetestcre%27%29?timeout=30
     method: DELETE
   response:
     body: ""
@@ -159,7 +159,7 @@ interactions:
       - Thu, 15 Apr 2021 14:41:08 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table243storagetablesuitetestcre%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table243storagetablesuitetestcre%27%29?timeout=30
     method: DELETE
   response:
     body: ""

@@ -24,7 +24,7 @@ type PageBlobClient struct {
 }
 
 // NewPageBlobClient creates a ServiceClient object using the specified URL, Azure AD credential, and options.
-// Example of serviceURL: https://<your_storage_account>.blob.core.windows.net
+// Example of serviceURL: https://<your_storage_account>.blob.core.usgovcloudapi.net
 func NewPageBlobClient(blobURL string, cred azcore.TokenCredential, options *ClientOptions) (*PageBlobClient, error) {
 	authPolicy := runtime.NewBearerTokenPolicy(cred, []string{tokenScope}, nil)
 	conOptions := getConnectionOptions(options)
@@ -40,7 +40,7 @@ func NewPageBlobClient(blobURL string, cred azcore.TokenCredential, options *Cli
 }
 
 // NewPageBlobClientWithNoCredential creates a ServiceClient object using the specified URL and options.
-// Example of serviceURL: https://<your_storage_account>.blob.core.windows.net?<SAS token>
+// Example of serviceURL: https://<your_storage_account>.blob.core.usgovcloudapi.net?<SAS token>
 func NewPageBlobClientWithNoCredential(blobURL string, options *ClientOptions) (*PageBlobClient, error) {
 	conOptions := getConnectionOptions(options)
 	conn := newConnection(blobURL, conOptions)
@@ -54,7 +54,7 @@ func NewPageBlobClientWithNoCredential(blobURL string, options *ClientOptions) (
 }
 
 // NewPageBlobClientWithSharedKey creates a ServiceClient object using the specified URL, shared key, and options.
-// Example of serviceURL: https://<your_storage_account>.blob.core.windows.net
+// Example of serviceURL: https://<your_storage_account>.blob.core.usgovcloudapi.net
 func NewPageBlobClientWithSharedKey(blobURL string, cred *SharedKeyCredential, options *ClientOptions) (*PageBlobClient, error) {
 	authPolicy := newSharedKeyCredPolicy(cred)
 	conOptions := getConnectionOptions(options)

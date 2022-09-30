@@ -15,7 +15,7 @@ import (
 
 func TestParseURL(t *testing.T) {
 	testStorageAccount := "fakestorageaccount"
-	host := fmt.Sprintf("%s.blob.core.windows.net", testStorageAccount)
+	host := fmt.Sprintf("%s.blob.core.usgovcloudapi.net", testStorageAccount)
 	testContainer := "fakecontainer"
 	fileNames := []string{"/._.TESTT.txt", "/.gitignore/dummyfile1"}
 
@@ -24,7 +24,7 @@ func TestParseURL(t *testing.T) {
 	for _, fileName := range fileNames {
 		snapshotID, versionID := "", "2021-10-25T05:41:32.5526810Z"
 		sasWithVersionID := "?versionId=" + versionID + "&" + sasStr
-		urlWithVersion := fmt.Sprintf("https://%s.blob.core.windows.net/%s%s%s", testStorageAccount, testContainer, fileName, sasWithVersionID)
+		urlWithVersion := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s%s%s", testStorageAccount, testContainer, fileName, sasWithVersionID)
 		blobURLParts, err := ParseURL(urlWithVersion)
 		require.NoError(t, err)
 
@@ -40,7 +40,7 @@ func TestParseURL(t *testing.T) {
 	for _, fileName := range fileNames {
 		snapshotID, versionID := "2011-03-09T01:42:34Z", ""
 		sasWithSnapshotID := "?snapshot=" + snapshotID + "&" + sasStr
-		urlWithVersion := fmt.Sprintf("https://%s.blob.core.windows.net/%s%s%s", testStorageAccount, testContainer, fileName, sasWithSnapshotID)
+		urlWithVersion := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/%s%s%s", testStorageAccount, testContainer, fileName, sasWithSnapshotID)
 		blobURLParts, err := ParseURL(urlWithVersion)
 		require.NoError(t, err)
 

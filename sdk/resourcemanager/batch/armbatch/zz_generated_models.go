@@ -514,7 +514,7 @@ type AzureFileShareConfiguration struct {
 	// REQUIRED; The Azure Storage account name.
 	AccountName *string `json:"accountName,omitempty"`
 
-	// REQUIRED; This is of the form 'https://{account}.file.core.windows.net/'.
+	// REQUIRED; This is of the form 'https://{account}.file.core.usgovcloudapi.net/'.
 	AzureFileURL *string `json:"azureFileUrl,omitempty"`
 
 	// REQUIRED; All file systems are mounted relative to the Batch mounts directory, accessible via the AZBATCHNODEMOUNTSDIR

@@ -79,7 +79,7 @@ func main() {
     if !ok {
         panic("TABLES_STORAGE_ACCOUNT_NAME could not be found")
     }
-    serviceURL := fmt.Sprintf("https://%s.table.core.windows.net", accountName)
+    serviceURL := fmt.Sprintf("https://%s.table.core.usgovcloudapi.net", accountName)
 
     cred, err := azidentity.NewDefaultAzureCredential(nil)
     if err != nil {
@@ -130,7 +130,7 @@ import (
 )
 
 func main() {
-    connStr := "DefaultEndpointsProtocol=https;AccountName=<myAccountName>;AccountKey=<myAccountKey>;EndpointSuffix=core.windows.net"
+    connStr := "DefaultEndpointsProtocol=https;AccountName=<myAccountName>;AccountKey=<myAccountKey>;EndpointSuffix=core.usgovcloudapi.net"
     serviceClient, err := aztables.NewServiceClientFromConnectionString(connStr, nil)
     if err != nil {
         panic(err)
@@ -154,7 +154,7 @@ func main() {
     if err != nil {
         panic(err)
     }
-    service, err := aztables.NewServiceClientWithSharedKey("https://<myAccountName>.table.core.windows.net", cred, nil)
+    service, err := aztables.NewServiceClientWithSharedKey("https://<myAccountName>.table.core.usgovcloudapi.net", cred, nil)
 
     resources := aztables.AccountSASResourceTypes{Service: true}
     permission := aztables.AccountSASPermissions{Read: true}
@@ -165,7 +165,7 @@ func main() {
         panic(err)
     }
 
-    serviceURL := fmt.Sprintf("https://<myAccountName>.table.core.windows.net/?%s", sasURL)
+    serviceURL := fmt.Sprintf("https://<myAccountName>.table.core.usgovcloudapi.net/?%s", sasURL)
     sasService, err := aztables.NewServiceClientWithNoCredential(serviceURL, nil)
     if err != nil {
         panic(err)
@@ -270,7 +270,7 @@ func main() {
     if !ok {
         panic("TABLES_STORAGE_ACCOUNT_NAME could not be found")
     }
-    serviceURL := fmt.Sprintf("https://%s.table.core.windows.net", accountName)
+    serviceURL := fmt.Sprintf("https://%s.table.core.usgovcloudapi.net", accountName)
 
     service, err := aztables.NewServiceClient(serviceURL, cred, nil)
     if err != nil {
@@ -309,7 +309,7 @@ func main() {
         panic(err)
     }
 
-    service, err := aztables.NewServiceClient("https://<myAccountName>.table.core.windows.net", cred, nil)
+    service, err := aztables.NewServiceClient("https://<myAccountName>.table.core.usgovcloudapi.net", cred, nil)
     if err != nil {
         panic(err)
     }
@@ -370,7 +370,7 @@ func main() {
     if err != nil {
         panic(err)
     }
-    client, err := aztables.NewClient("https://myAccountName.table.core.windows.net/myTable", cred, nil)
+    client, err := aztables.NewClient("https://myAccountName.table.core.usgovcloudapi.net/myTable", cred, nil)
     if err != nil {
         panic(err)
     }
@@ -488,7 +488,7 @@ func main() {
     if err != nil {
         panic(err)
     }
-    client, err := aztables.NewClient("https://myAccountName.table.core.windows.net/myTable", cred, nil)
+    client, err := aztables.NewClient("https://myAccountName.table.core.usgovcloudapi.net/myTable", cred, nil)
     if err != nil {
         panic(err)
     }

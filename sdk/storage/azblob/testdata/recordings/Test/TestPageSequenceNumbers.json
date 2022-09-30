@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocpagesequencenumbers?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocpagesequencenumbers?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocpagesequencenumbers/gotestblobpagesequencenumbers",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocpagesequencenumbers/gotestblobpagesequencenumbers",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -61,7 +61,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocpagesequencenumbers/gotestblobpagesequencenumbers?comp=properties",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocpagesequencenumbers/gotestblobpagesequencenumbers?comp=properties",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -91,7 +91,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocpagesequencenumbers/gotestblobpagesequencenumbers?comp=properties",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocpagesequencenumbers/gotestblobpagesequencenumbers?comp=properties",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -122,7 +122,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocpagesequencenumbers/gotestblobpagesequencenumbers?comp=properties",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocpagesequencenumbers/gotestblobpagesequencenumbers?comp=properties",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -153,7 +153,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocpagesequencenumbers?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocpagesequencenumbers?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

@@ -25,7 +25,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:44 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
     body: ""
@@ -35,11 +35,11 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table45storageentitysuitetestins')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table45storageentitysuitetestins')
       Date:
       - Tue, 13 Apr 2021 15:57:42 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table45storageentitysuitetestins')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table45storageentitysuitetestins')
       Preference-Applied:
       - return-no-content
       Server:
@@ -76,7 +76,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:44 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table45storageentitysuitetestins
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table45storageentitysuitetestins
     method: POST
   response:
     body: ""
@@ -86,13 +86,13 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/table45storageentitysuitetestins(PartitionKey='mypartitionkey',RowKey='100')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/table45storageentitysuitetestins(PartitionKey='mypartitionkey',RowKey='100')
       Date:
       - Tue, 13 Apr 2021 15:57:43 GMT
       Etag:
       - W/"datetime'2021-04-13T15%3A57%3A43.9945766Z'"
       Location:
-      - https://golangrocksonazure.table.core.windows.net/table45storageentitysuitetestins(PartitionKey='mypartitionkey',RowKey='100')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/table45storageentitysuitetestins(PartitionKey='mypartitionkey',RowKey='100')
       Preference-Applied:
       - return-no-content
       Server:
@@ -129,7 +129,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:44 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table45storageentitysuitetestins
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table45storageentitysuitetestins
     method: POST
   response:
     body: ""
@@ -139,13 +139,13 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/table45storageentitysuitetestins(PartitionKey='mypartitionkey',RowKey='200')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/table45storageentitysuitetestins(PartitionKey='mypartitionkey',RowKey='200')
       Date:
       - Tue, 13 Apr 2021 15:57:43 GMT
       Etag:
       - W/"datetime'2021-04-13T15%3A57%3A44.0816397Z'"
       Location:
-      - https://golangrocksonazure.table.core.windows.net/table45storageentitysuitetestins(PartitionKey='mypartitionkey',RowKey='200')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/table45storageentitysuitetestins(PartitionKey='mypartitionkey',RowKey='200')
       Preference-Applied:
       - return-no-content
       Server:
@@ -174,10 +174,10 @@ interactions:
       - Tue, 13 Apr 2021 15:57:44 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table45storageentitysuitetestins?%24filter=RowKey+eq+%27200%27&timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table45storageentitysuitetestins?%24filter=RowKey+eq+%27200%27&timeout=30
     method: GET
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#table45storageentitysuitetestins","value":[{"odata.type":"golangrocksonazure.table45storageentitysuitetestins","odata.id":"https://golangrocksonazure.table.core.windows.net/table45storageentitysuitetestins(PartitionKey=''mypartitionkey'',RowKey=''200'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A44.0816397Z''\"","odata.editLink":"table45storageentitysuitetestins(PartitionKey=''mypartitionkey'',RowKey=''200'')","PartitionKey":"mypartitionkey","RowKey":"200","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:44.0816397Z","FamilyName":"Skywalker","HasCoolWeapon":true,"Name":"Luke"}]}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#table45storageentitysuitetestins","value":[{"odata.type":"golangrocksonazure.table45storageentitysuitetestins","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/table45storageentitysuitetestins(PartitionKey=''mypartitionkey'',RowKey=''200'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A44.0816397Z''\"","odata.editLink":"table45storageentitysuitetestins(PartitionKey=''mypartitionkey'',RowKey=''200'')","PartitionKey":"mypartitionkey","RowKey":"200","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:44.0816397Z","FamilyName":"Skywalker","HasCoolWeapon":true,"Name":"Luke"}]}'
     headers:
       Cache-Control:
       - no-cache
@@ -213,7 +213,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:44 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table45storageentitysuitetestins%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table45storageentitysuitetestins%27%29?timeout=30
     method: DELETE
   response:
     body: ""

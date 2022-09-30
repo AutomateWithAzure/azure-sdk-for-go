@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:08 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/33appendblobsuitetestputappendbl?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/33appendblobsuitetestputappendbl?restype=container
     method: PUT
   response:
     body: ""
@@ -51,7 +51,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:08 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/33appendblobsuitetestputappendbl/blob/33appendblobsuitetestputappendblob
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/33appendblobsuitetestputappendbl/blob/33appendblobsuitetestputappendblob
     method: PUT
   response:
     body: ""
@@ -88,7 +88,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:08 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/33appendblobsuitetestputappendbl/blob/33appendblobsuitetestputappendblob
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/33appendblobsuitetestputappendbl/blob/33appendblobsuitetestputappendblob
     method: HEAD
   response:
     body: ""
@@ -139,7 +139,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:08 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/33appendblobsuitetestputappendbl?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/33appendblobsuitetestputappendbl?restype=container
     method: DELETE
   response:
     body: ""

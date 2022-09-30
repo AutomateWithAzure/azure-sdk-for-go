@@ -39,7 +39,7 @@ func (s ServiceClient) URL() string {
 }
 
 // NewServiceClient creates a ServiceClient object using the specified URL, Azure AD credential, and options.
-// Example of serviceURL: https://<your_storage_account>.blob.core.windows.net
+// Example of serviceURL: https://<your_storage_account>.blob.core.usgovcloudapi.net
 func NewServiceClient(serviceURL string, cred azcore.TokenCredential, options *ClientOptions) (*ServiceClient, error) {
 	authPolicy := runtime.NewBearerTokenPolicy(cred, []string{tokenScope}, nil)
 	conOptions := getConnectionOptions(options)
@@ -52,7 +52,7 @@ func NewServiceClient(serviceURL string, cred azcore.TokenCredential, options *C
 }
 
 // NewServiceClientWithNoCredential creates a ServiceClient object using the specified URL and options.
-// Example of serviceURL: https://<your_storage_account>.blob.core.windows.net?<SAS token>
+// Example of serviceURL: https://<your_storage_account>.blob.core.usgovcloudapi.net?<SAS token>
 func NewServiceClientWithNoCredential(serviceURL string, options *ClientOptions) (*ServiceClient, error) {
 	conOptions := getConnectionOptions(options)
 	conn := newConnection(serviceURL, conOptions)
@@ -63,7 +63,7 @@ func NewServiceClientWithNoCredential(serviceURL string, options *ClientOptions)
 }
 
 // NewServiceClientWithSharedKey creates a ServiceClient object using the specified URL, shared key, and options.
-// Example of serviceURL: https://<your_storage_account>.blob.core.windows.net
+// Example of serviceURL: https://<your_storage_account>.blob.core.usgovcloudapi.net
 func NewServiceClientWithSharedKey(serviceURL string, cred *SharedKeyCredential, options *ClientOptions) (*ServiceClient, error) {
 	authPolicy := newSharedKeyCredPolicy(cred)
 	conOptions := getConnectionOptions(options)

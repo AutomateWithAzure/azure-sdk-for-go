@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobstartcopydestifmodifiedsincefalse?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobstartcopydestifmodifiedsincefalse?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobstartcopydestifmodifiedsincefalse/gotestblobblobstartcopydestifmodifiedsincefalse",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobstartcopydestifmodifiedsincefalse/gotestblobblobstartcopydestifmodifiedsincefalse",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -63,7 +63,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobstartcopydestifmodifiedsincefalse/dstgotestblobblobstartcopydestifmodifiedsincefalse",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobstartcopydestifmodifiedsincefalse/dstgotestblobblobstartcopydestifmodifiedsincefalse",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -97,7 +97,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobstartcopydestifmodifiedsincefalse/dstgotestblobblobstartcopydestifmodifiedsincefalse",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobstartcopydestifmodifiedsincefalse/dstgotestblobblobstartcopydestifmodifiedsincefalse",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -106,7 +106,7 @@
         "Content-Length": "0",
         "If-Modified-Since": "Thu, 11 Aug 2022 15:08:06 GMT",
         "User-Agent": "azsdk-go-azblob/v0.5.0 (go1.19; Windows_NT)",
-        "x-ms-copy-source": "https://fakestorage.blob.core.windows.net/gocblobstartcopydestifmodifiedsincefalse/gotestblobblobstartcopydestifmodifiedsincefalse",
+        "x-ms-copy-source": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobstartcopydestifmodifiedsincefalse/gotestblobblobstartcopydestifmodifiedsincefalse",
         "X-Ms-Date": "Thu, 11 Aug 2022 15:07:56 GMT",
         "x-ms-version": "2020-10-02"
       },
@@ -131,7 +131,7 @@
       ]
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobstartcopydestifmodifiedsincefalse?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobstartcopydestifmodifiedsincefalse?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

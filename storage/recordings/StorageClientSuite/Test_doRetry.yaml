@@ -11,7 +11,7 @@ interactions:
       - return-no-content
       X-Ms-Version:
       - "2016-05-31"
-    url: https://golangrocksonazure.table.core.windows.net/%28retry%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/%28retry%29?timeout=30
     method: DELETE
   response:
     body: '{"odata.error":{"code":"ResourceNotFound","message":{"lang":"en-US","value":"The
@@ -42,7 +42,7 @@ interactions:
       - return-no-content
       X-Ms-Version:
       - "2016-05-31"
-    url: https://golangrocksonazure.table.core.windows.net/%28retry%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/%28retry%29?timeout=30
     method: DELETE
   response:
     body: '{"odata.error":{"code":"ResourceNotFound","message":{"lang":"en-US","value":"The
@@ -73,7 +73,7 @@ interactions:
       - return-no-content
       X-Ms-Version:
       - "2016-05-31"
-    url: https://golangrocksonazure.table.core.windows.net/%28retry%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/%28retry%29?timeout=30
     method: DELETE
   response:
     body: '{"odata.error":{"code":"ResourceNotFound","message":{"lang":"en-US","value":"The
@@ -105,7 +105,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:20 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31storageclientsuitetestdoretry?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=rcHSmJ9lUiNC5I%2F1tqM35%2FATPQ%2Fbq41nnXOlOxBAwFQ%3D&sp=racwdl&sr=c&sv=2018-03-28
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31storageclientsuitetestdoretry?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=rcHSmJ9lUiNC5I%2F1tqM35%2FATPQ%2Fbq41nnXOlOxBAwFQ%3D&sp=racwdl&sr=c&sv=2018-03-28
     method: HEAD
   response:
     body: ""
@@ -134,7 +134,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:20 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31storageclientsuitetestdoretry?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=rcHSmJ9lUiNC5I%2F1tqM35%2FATPQ%2Fbq41nnXOlOxBAwFQ%3D&sp=racwdl&sr=c&sv=2018-03-28
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31storageclientsuitetestdoretry?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=rcHSmJ9lUiNC5I%2F1tqM35%2FATPQ%2Fbq41nnXOlOxBAwFQ%3D&sp=racwdl&sr=c&sv=2018-03-28
     method: HEAD
   response:
     body: ""
@@ -163,7 +163,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:20 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31storageclientsuitetestdoretry?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=rcHSmJ9lUiNC5I%2F1tqM35%2FATPQ%2Fbq41nnXOlOxBAwFQ%3D&sp=racwdl&sr=c&sv=2018-03-28
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31storageclientsuitetestdoretry?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=rcHSmJ9lUiNC5I%2F1tqM35%2FATPQ%2Fbq41nnXOlOxBAwFQ%3D&sp=racwdl&sr=c&sv=2018-03-28
     method: HEAD
   response:
     body: ""
@@ -192,7 +192,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:27 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31storageclientsuitetestdoretry?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=YrSNFHLIBz9pTwGYutjO4TkMFjpUO%2BUnmT6DiqjhoAw%3D&sp=rwdlacup&spr=https&srt=sco&ss=b&sv=2018-03-28
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31storageclientsuitetestdoretry?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=YrSNFHLIBz9pTwGYutjO4TkMFjpUO%2BUnmT6DiqjhoAw%3D&sp=rwdlacup&spr=https&srt=sco&ss=b&sv=2018-03-28
     method: HEAD
   response:
     body: ""
@@ -221,7 +221,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:27 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31storageclientsuitetestdoretry?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=YrSNFHLIBz9pTwGYutjO4TkMFjpUO%2BUnmT6DiqjhoAw%3D&sp=rwdlacup&spr=https&srt=sco&ss=b&sv=2018-03-28
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31storageclientsuitetestdoretry?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=YrSNFHLIBz9pTwGYutjO4TkMFjpUO%2BUnmT6DiqjhoAw%3D&sp=rwdlacup&spr=https&srt=sco&ss=b&sv=2018-03-28
     method: HEAD
   response:
     body: ""
@@ -250,7 +250,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:27 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/31storageclientsuitetestdoretry?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=YrSNFHLIBz9pTwGYutjO4TkMFjpUO%2BUnmT6DiqjhoAw%3D&sp=rwdlacup&spr=https&srt=sco&ss=b&sv=2018-03-28
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/31storageclientsuitetestdoretry?restype=container&se=2050-12-20T21%3A55%3A06Z&sig=YrSNFHLIBz9pTwGYutjO4TkMFjpUO%2BUnmT6DiqjhoAw%3D&sp=rwdlacup&spr=https&srt=sco&ss=b&sv=2018-03-28
     method: HEAD
   response:
     body: ""

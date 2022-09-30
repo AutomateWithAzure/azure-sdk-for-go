@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44blockblobsuitetestcreateblockb?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44blockblobsuitetestcreateblockb?restype=container
     method: PUT
   response:
     body: ""
@@ -164,7 +164,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44blockblobsuitetestcreateblockb/blob/44blockblobsuitetestcreateblockblobfromreader
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44blockblobsuitetestcreateblockb/blob/44blockblobsuitetestcreateblockblobfromreader
     method: PUT
   response:
     body: ""
@@ -203,7 +203,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44blockblobsuitetestcreateblockb/blob/44blockblobsuitetestcreateblockblobfromreader
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44blockblobsuitetestcreateblockb/blob/44blockblobsuitetestcreateblockblobfromreader
     method: GET
   response:
     body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat
@@ -365,7 +365,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:12 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/44blockblobsuitetestcreateblockb?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/44blockblobsuitetestcreateblockb?restype=container
     method: DELETE
   response:
     body: ""

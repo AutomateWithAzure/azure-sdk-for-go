@@ -33,7 +33,7 @@ func Example_blob_HTTPHeaders() {
 	accountName, accountKey := os.Getenv("AZURE_STORAGE_ACCOUNT_NAME"), os.Getenv("AZURE_STORAGE_ACCOUNT_KEY")
 
 	// Create a blob client
-	u := fmt.Sprintf("https://%s.blob.core.windows.net/mycontainer/ReadMe.txt", accountName)
+	u := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/mycontainer/ReadMe.txt", accountName)
 	credential, err := blob.NewSharedKeyCredential(accountName, accountKey)
 	handleError(err)
 	blobClient, err := blockblob.NewClientWithSharedKeyCredential(u, credential, nil)
@@ -72,7 +72,7 @@ func Example_blob_Client_SetMetadata() {
 	accountName, accountKey := os.Getenv("AZURE_STORAGE_ACCOUNT_NAME"), os.Getenv("AZURE_STORAGE_ACCOUNT_KEY")
 
 	// Create a blob client
-	u := fmt.Sprintf("https://%s.blob.core.windows.net/mycontainer/ReadMe.txt", accountName)
+	u := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/mycontainer/ReadMe.txt", accountName)
 	credential, err := blob.NewSharedKeyCredential(accountName, accountKey)
 	handleError(err)
 	blobClient, err := blockblob.NewClientWithSharedKeyCredential(u, credential, nil)
@@ -117,7 +117,7 @@ func Example_blob_Client_SetMetadata() {
 func Example_blob_Client_CreateSnapshot() {
 	accountName, accountKey := os.Getenv("AZURE_STORAGE_ACCOUNT_NAME"), os.Getenv("AZURE_STORAGE_ACCOUNT_KEY")
 
-	u := fmt.Sprintf("https://%s.blob.core.windows.net/mycontainer", accountName)
+	u := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/mycontainer", accountName)
 	credential, err := blob.NewSharedKeyCredential(accountName, accountKey)
 	handleError(err)
 	containerClient, err := container.NewClientWithSharedKeyCredential(u, credential, nil)
@@ -210,7 +210,7 @@ func Example_blob_Client_StartCopyFromURL() {
 
 	// Create a containerClient object to a container where we'll create a blob and its snapshot.
 	// Create a blockBlobClient object to a blob in the container.
-	blobURL := fmt.Sprintf("https://%s.blob.core.windows.net/mycontainer/CopiedBlob.bin", accountName)
+	blobURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/mycontainer/CopiedBlob.bin", accountName)
 	credential, err := blob.NewSharedKeyCredential(accountName, accountKey)
 	handleError(err)
 	blobClient, err := blob.NewClientWithSharedKeyCredential(blobURL, credential, nil)
@@ -236,7 +236,7 @@ func Example_blob_Client_StartCopyFromURL() {
 // This example demonstrates splitting a URL into its parts so you can examine and modify the URL in an Azure Storage fluent way.
 func ExampleParseURL() {
 	// Here is an example of a blob snapshot.
-	u := "https://myaccount.blob.core.windows.net/mycontainter/ReadMe.txt?" +
+	u := "https://myaccount.blob.core.usgovcloudapi.net/mycontainter/ReadMe.txt?" +
 		"snapshot=2011-03-09T01:42:34Z&" +
 		"sv=2015-02-21&sr=b&st=2111-01-09T01:42:34.936Z&se=2222-03-09T01:42:34.936Z&sp=rw&sip=168.1.5.60-168.1.5.70&" +
 		"spr=https,http&si=myIdentifier&ss=bf&srt=s&sig=92836758923659283652983562=="

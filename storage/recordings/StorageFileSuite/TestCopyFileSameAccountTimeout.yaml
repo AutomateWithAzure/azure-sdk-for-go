@@ -14,7 +14,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:40 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-47storagefilesuitetestcopyfilesameaccounttimeout?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-47storagefilesuitetestcopyfilesameaccounttimeout?restype=share
     method: PUT
   response:
     body: ""
@@ -49,7 +49,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:40 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-47storagefilesuitetestcopyfilesameaccounttimeout/one?restype=directory
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-47storagefilesuitetestcopyfilesameaccounttimeout/one?restype=directory
     method: PUT
   response:
     body: ""
@@ -86,7 +86,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:40 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-47storagefilesuitetestcopyfilesameaccounttimeout/one/two?restype=directory
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-47storagefilesuitetestcopyfilesameaccounttimeout/one/two?restype=directory
     method: PUT
   response:
     body: ""
@@ -127,7 +127,7 @@ interactions:
       - file
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-47storagefilesuitetestcopyfilesameaccounttimeout/one/two/some.file
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-47storagefilesuitetestcopyfilesameaccounttimeout/one/two/some.file
     method: PUT
   response:
     body: ""
@@ -161,14 +161,14 @@ interactions:
       - Go/go1.15.1 (amd64-windows) azure-storage-go/v52.6.0 api-version/2018-03-28
         file
       x-ms-copy-source:
-      - https://golangrocksonazure.file.core.windows.net/share-47storagefilesuitetestcopyfilesameaccounttimeout/one/two/some.file
+      - https://golangrocksonazure.file.core.usgovcloudapi.net/share-47storagefilesuitetestcopyfilesameaccounttimeout/one/two/some.file
       x-ms-date:
       - Thu, 15 Apr 2021 14:39:40 GMT
       x-ms-type:
       - file
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-47storagefilesuitetestcopyfilesameaccounttimeout/one/two/someother.file?timeout=60
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-47storagefilesuitetestcopyfilesameaccounttimeout/one/two/someother.file?timeout=60
     method: PUT
   response:
     body: ""
@@ -207,7 +207,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:41 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-47storagefilesuitetestcopyfilesameaccounttimeout/one/two/some.file
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-47storagefilesuitetestcopyfilesameaccounttimeout/one/two/some.file
     method: DELETE
   response:
     body: ""
@@ -238,7 +238,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:41 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-47storagefilesuitetestcopyfilesameaccounttimeout/one/two/someother.file
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-47storagefilesuitetestcopyfilesameaccounttimeout/one/two/someother.file
     method: DELETE
   response:
     body: ""
@@ -269,7 +269,7 @@ interactions:
       - Thu, 15 Apr 2021 14:39:41 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-47storagefilesuitetestcopyfilesameaccounttimeout?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-47storagefilesuitetestcopyfilesameaccounttimeout?restype=share
     method: DELETE
   response:
     body: ""

@@ -14,7 +14,7 @@ import (
 
 var errConnectionString = errors.New("connection string is either blank or malformed. The expected connection string " +
 	"should contain key value pairs separated by semicolons. For example 'DefaultEndpointsProtocol=https;AccountName=<accountName>;" +
-	"AccountKey=<accountKey>;EndpointSuffix=core.windows.net'")
+	"AccountKey=<accountKey>;EndpointSuffix=core.usgovcloudapi.net'")
 
 // convertConnStrToMap converts a connection string (in format key1=value1;key2=value2;key3=value3;) into a map of key-value pairs
 func convertConnStrToMap(connStr string) (map[string]string, error) {
@@ -42,7 +42,7 @@ func parseConnectionString(connectionString string) (string, *SharedKeyCredentia
 	var cred *SharedKeyCredential
 
 	defaultScheme := "https"
-	defaultSuffix := "core.windows.net"
+	defaultSuffix := "core.usgovcloudapi.net"
 
 	connStrMap, err := convertConnStrToMap(connectionString)
 	if err != nil {

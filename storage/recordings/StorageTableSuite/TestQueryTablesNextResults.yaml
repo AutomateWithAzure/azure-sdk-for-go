@@ -16,10 +16,10 @@ interactions:
       - Thu, 15 Apr 2021 14:41:07 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables
     method: GET
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#Tables","value":[]}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#Tables","value":[]}'
     headers:
       Cache-Control:
       - no-cache
@@ -62,7 +62,7 @@ interactions:
       - Thu, 15 Apr 2021 14:41:07 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
     body: ""
@@ -72,11 +72,11 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table044storagetablesuitetestque')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table044storagetablesuitetestque')
       Date:
       - Thu, 15 Apr 2021 14:41:07 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table044storagetablesuitetestque')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table044storagetablesuitetestque')
       Preference-Applied:
       - return-no-content
       Server:
@@ -114,7 +114,7 @@ interactions:
       - Thu, 15 Apr 2021 14:41:07 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
     body: ""
@@ -124,11 +124,11 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table144storagetablesuitetestque')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table144storagetablesuitetestque')
       Date:
       - Thu, 15 Apr 2021 14:41:07 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table144storagetablesuitetestque')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table144storagetablesuitetestque')
       Preference-Applied:
       - return-no-content
       Server:
@@ -166,7 +166,7 @@ interactions:
       - Thu, 15 Apr 2021 14:41:07 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
     body: ""
@@ -176,11 +176,11 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table244storagetablesuitetestque')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table244storagetablesuitetestque')
       Date:
       - Thu, 15 Apr 2021 14:41:07 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table244storagetablesuitetestque')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table244storagetablesuitetestque')
       Preference-Applied:
       - return-no-content
       Server:
@@ -209,10 +209,10 @@ interactions:
       - Thu, 15 Apr 2021 14:41:07 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?%24top=2
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?%24top=2
     method: GET
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#Tables","value":[{"TableName":"table044storagetablesuitetestque"},{"TableName":"table144storagetablesuitetestque"}]}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#Tables","value":[{"TableName":"table044storagetablesuitetestque"},{"TableName":"table144storagetablesuitetestque"}]}'
     headers:
       Cache-Control:
       - no-cache
@@ -248,10 +248,10 @@ interactions:
       - Thu, 15 Apr 2021 14:41:07 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?%24top=2&NextTableName=1%2168%21dGFibGUyNDRzdG9yYWdldGFibGVzdWl0ZXRlc3RxdWUBMDFkNzMyMDU1ZWUwOGE1Mw--
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?%24top=2&NextTableName=1%2168%21dGFibGUyNDRzdG9yYWdldGFibGVzdWl0ZXRlc3RxdWUBMDFkNzMyMDU1ZWUwOGE1Mw--
     method: GET
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#Tables","value":[{"TableName":"table244storagetablesuitetestque"}]}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#Tables","value":[{"TableName":"table244storagetablesuitetestque"}]}'
     headers:
       Cache-Control:
       - no-cache
@@ -287,7 +287,7 @@ interactions:
       - Thu, 15 Apr 2021 14:41:07 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table244storagetablesuitetestque%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table244storagetablesuitetestque%27%29?timeout=30
     method: DELETE
   response:
     body: ""
@@ -326,7 +326,7 @@ interactions:
       - Thu, 15 Apr 2021 14:41:07 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table144storagetablesuitetestque%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table144storagetablesuitetestque%27%29?timeout=30
     method: DELETE
   response:
     body: ""
@@ -365,7 +365,7 @@ interactions:
       - Thu, 15 Apr 2021 14:41:07 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table044storagetablesuitetestque%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table044storagetablesuitetestque%27%29?timeout=30
     method: DELETE
   response:
     body: ""

@@ -92,7 +92,7 @@ func ExampleExportPipelinesClient_BeginCreate() {
 				Target: &armcontainerregistry.ExportPipelineTargetProperties{
 					Type:        to.Ptr("AzureStorageBlobContainer"),
 					KeyVaultURI: to.Ptr("https://myvault.vault.azure.net/secrets/acrexportsas"),
-					URI:         to.Ptr("https://accountname.blob.core.windows.net/containername"),
+					URI:         to.Ptr("https://accountname.blob.core.usgovcloudapi.net/containername"),
 				},
 			},
 		},

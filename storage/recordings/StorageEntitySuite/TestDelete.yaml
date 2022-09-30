@@ -25,7 +25,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:40 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables?timeout=30
     method: POST
   response:
     body: ""
@@ -35,11 +35,11 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table29storageentitysuitetestdel')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table29storageentitysuitetestdel')
       Date:
       - Tue, 13 Apr 2021 15:57:39 GMT
       Location:
-      - https://golangrocksonazure.table.core.windows.net/Tables('table29storageentitysuitetestdel')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/Tables('table29storageentitysuitetestdel')
       Preference-Applied:
       - return-no-content
       Server:
@@ -76,10 +76,10 @@ interactions:
       - Tue, 13 Apr 2021 15:57:40 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestdel
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestdel
     method: POST
   response:
-    body: '{"odata.metadata":"https://golangrocksonazure.table.core.windows.net/$metadata#table29storageentitysuitetestdel/@Element","odata.type":"golangrocksonazure.table29storageentitysuitetestdel","odata.id":"https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestdel(PartitionKey=''pkey1'',RowKey=''rowkey1'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.3569884Z''\"","odata.editLink":"table29storageentitysuitetestdel(PartitionKey=''pkey1'',RowKey=''rowkey1'')","PartitionKey":"pkey1","RowKey":"rowkey1","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.3569884Z"}'
+    body: '{"odata.metadata":"https://golangrocksonazure.table.core.usgovcloudapi.net/$metadata#table29storageentitysuitetestdel/@Element","odata.type":"golangrocksonazure.table29storageentitysuitetestdel","odata.id":"https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestdel(PartitionKey=''pkey1'',RowKey=''rowkey1'')","odata.etag":"W/\"datetime''2021-04-13T15%3A57%3A40.3569884Z''\"","odata.editLink":"table29storageentitysuitetestdel(PartitionKey=''pkey1'',RowKey=''rowkey1'')","PartitionKey":"pkey1","RowKey":"rowkey1","Timestamp@odata.type":"Edm.DateTime","Timestamp":"2021-04-13T15:57:40.3569884Z"}'
     headers:
       Cache-Control:
       - no-cache
@@ -90,7 +90,7 @@ interactions:
       Etag:
       - W/"datetime'2021-04-13T15%3A57%3A40.3569884Z'"
       Location:
-      - https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestdel(PartitionKey='pkey1',RowKey='rowkey1')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestdel(PartitionKey='pkey1',RowKey='rowkey1')
       Preference-Applied:
       - return-content
       Server:
@@ -123,7 +123,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:40 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestdel%28PartitionKey=%27pkey1%27,RowKey=%27rowkey1%27%29
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestdel%28PartitionKey=%27pkey1%27,RowKey=%27rowkey1%27%29
     method: DELETE
   response:
     body: ""
@@ -168,7 +168,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:40 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestdel
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestdel
     method: POST
   response:
     body: ""
@@ -178,13 +178,13 @@ interactions:
       Content-Length:
       - "0"
       Dataserviceid:
-      - https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestdel(PartitionKey='pkey2',RowKey='rowkey2')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestdel(PartitionKey='pkey2',RowKey='rowkey2')
       Date:
       - Tue, 13 Apr 2021 15:57:39 GMT
       Etag:
       - W/"datetime'2021-04-13T15%3A57%3A40.4670668Z'"
       Location:
-      - https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestdel(PartitionKey='pkey2',RowKey='rowkey2')
+      - https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestdel(PartitionKey='pkey2',RowKey='rowkey2')
       Preference-Applied:
       - return-no-content
       Server:
@@ -217,7 +217,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:40 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestdel%28PartitionKey=%27pkey2%27,RowKey=%27rowkey2%27%29
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestdel%28PartitionKey=%27pkey2%27,RowKey=%27rowkey2%27%29
     method: DELETE
   response:
     body: '{"odata.error":{"code":"InvalidInput","message":{"lang":"en-US","value":"The
@@ -258,7 +258,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:40 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/table29storageentitysuitetestdel%28PartitionKey=%27pkey2%27,RowKey=%27rowkey2%27%29
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/table29storageentitysuitetestdel%28PartitionKey=%27pkey2%27,RowKey=%27rowkey2%27%29
     method: DELETE
   response:
     body: ""
@@ -297,7 +297,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:40 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/Tables%28%27table29storageentitysuitetestdel%27%29?timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/Tables%28%27table29storageentitysuitetestdel%27%29?timeout=30
     method: DELETE
   response:
     body: ""

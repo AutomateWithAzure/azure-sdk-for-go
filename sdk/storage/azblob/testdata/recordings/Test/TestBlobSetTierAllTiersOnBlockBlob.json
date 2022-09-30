@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsettieralltiersonblockblob?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsettieralltiersonblockblob?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsettieralltiersonblockblob/gotestblobblobsettieralltiersonblockblob",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsettieralltiersonblockblob/gotestblobblobsettieralltiersonblockblob",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -63,7 +63,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsettieralltiersonblockblob/gotestblobblobsettieralltiersonblockblob?comp=tier",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsettieralltiersonblockblob/gotestblobblobsettieralltiersonblockblob?comp=tier",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -90,7 +90,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsettieralltiersonblockblob/gotestblobblobsettieralltiersonblockblob",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsettieralltiersonblockblob/gotestblobblobsettieralltiersonblockblob",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -128,7 +128,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsettieralltiersonblockblob/gotestblobblobsettieralltiersonblockblob?comp=tier",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsettieralltiersonblockblob/gotestblobblobsettieralltiersonblockblob?comp=tier",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -155,7 +155,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsettieralltiersonblockblob/gotestblobblobsettieralltiersonblockblob",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsettieralltiersonblockblob/gotestblobblobsettieralltiersonblockblob",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -193,7 +193,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsettieralltiersonblockblob/gotestblobblobsettieralltiersonblockblob?comp=tier",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsettieralltiersonblockblob/gotestblobblobsettieralltiersonblockblob?comp=tier",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -220,7 +220,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsettieralltiersonblockblob/gotestblobblobsettieralltiersonblockblob",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsettieralltiersonblockblob/gotestblobblobsettieralltiersonblockblob",
       "RequestMethod": "HEAD",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -258,7 +258,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobsettieralltiersonblockblob?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobsettieralltiersonblockblob?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

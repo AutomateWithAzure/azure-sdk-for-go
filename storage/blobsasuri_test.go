@@ -31,7 +31,7 @@ func (s *BlobSASURISuite) TestGetBlobSASURI(c *chk.C) {
 
 	expectedParts := url.URL{
 		Scheme: "https",
-		Host:   "foo.blob.core.windows.net",
+		Host:   "foo.blob.core.usgovcloudapi.net",
 		Path:   "container/name",
 		RawQuery: url.Values{
 			"sv":  {oldAPIVer},
@@ -63,7 +63,7 @@ func (s *BlobSASURISuite) TestGetBlobSASURIContainer(c *chk.C) {
 
 	expectedParts := url.URL{
 		Scheme: "https",
-		Host:   "foo.blob.core.windows.net",
+		Host:   "foo.blob.core.usgovcloudapi.net",
 		Path:   "container",
 		RawQuery: url.Values{
 			"sv":  {oldAPIVer},
@@ -94,7 +94,7 @@ func (s *BlobSASURISuite) TestGetBlobSASURIWithSignedIPAndProtocolValidAPIVersio
 
 	expectedParts := url.URL{
 		Scheme: "https",
-		Host:   "foo.blob.core.windows.net",
+		Host:   "foo.blob.core.usgovcloudapi.net",
 		Path:   "/container/name",
 		RawQuery: url.Values{
 			"sv":  {newerAPIVer},
@@ -130,7 +130,7 @@ func (s *BlobSASURISuite) TestGetBlobSASURIWithSignedIPAndProtocolUsingOldAPIVer
 
 	expectedParts := url.URL{
 		Scheme: "https",
-		Host:   "foo.blob.core.windows.net",
+		Host:   "foo.blob.core.usgovcloudapi.net",
 		Path:   "/container/name",
 		RawQuery: url.Values{
 			"sv":  {oldAPIVer},

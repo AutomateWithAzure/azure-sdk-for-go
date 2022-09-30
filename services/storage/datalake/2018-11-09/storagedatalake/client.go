@@ -15,7 +15,7 @@ import (
 
 const (
 	// DefaultDNSSuffix is the default value for dns suffix
-	DefaultDNSSuffix = "dfs.core.windows.net"
+	DefaultDNSSuffix = "dfs.core.usgovcloudapi.net"
 )
 
 // BaseClient is the base client for Storagedatalake.

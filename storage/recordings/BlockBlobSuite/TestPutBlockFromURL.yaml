@@ -16,7 +16,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:13 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/34blockblobsuitetestputblockfrom?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/34blockblobsuitetestputblockfrom?restype=container
     method: PUT
   response:
     body: ""
@@ -56,7 +56,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:13 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/34blockblobsuitetestputblockfrom/blob/src34blockblobsuitetestputblockfromurl?blockid=0000&comp=block
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/34blockblobsuitetestputblockfrom/blob/src34blockblobsuitetestputblockfromurl?blockid=0000&comp=block
     method: PUT
   response:
     body: ""
@@ -93,7 +93,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:13 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/34blockblobsuitetestputblockfrom/blob/src34blockblobsuitetestputblockfromurl?comp=blocklist
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/34blockblobsuitetestputblockfrom/blob/src34blockblobsuitetestputblockfromurl?comp=blocklist
     method: PUT
   response:
     body: ""
@@ -131,14 +131,14 @@ interactions:
       - Go/go1.15.1 (amd64-windows) azure-storage-go/v52.6.0 api-version/2018-03-28
         blob
       x-ms-copy-source:
-      - https://golangrocksonazure.blob.core.windows.net/34blockblobsuitetestputblockfrom/blob/src34blockblobsuitetestputblockfromurl
+      - https://golangrocksonazure.blob.core.usgovcloudapi.net/34blockblobsuitetestputblockfrom/blob/src34blockblobsuitetestputblockfromurl
       x-ms-date:
       - Tue, 13 Apr 2021 15:57:13 GMT
       x-ms-source-range:
       - bytes=0-63
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/34blockblobsuitetestputblockfrom/blob/dst34blockblobsuitetestputblockfromurl?blockid=0000&comp=block
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/34blockblobsuitetestputblockfrom/blob/dst34blockblobsuitetestputblockfromurl?blockid=0000&comp=block
     method: PUT
   response:
     body: ""
@@ -173,7 +173,7 @@ interactions:
       - Tue, 13 Apr 2021 15:57:13 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.blob.core.windows.net/34blockblobsuitetestputblockfrom?restype=container
+    url: https://golangrocksonazure.blob.core.usgovcloudapi.net/34blockblobsuitetestputblockfrom?restype=container
     method: DELETE
   response:
     body: ""

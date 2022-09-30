@@ -91,7 +91,7 @@ func ExampleStorageAccountCredentialsClient_BeginCreateOrUpdate() {
 				},
 				CloudType: to.Ptr(armstorsimple1200series.CloudTypeAzure),
 				EnableSSL: to.Ptr(armstorsimple1200series.SSLStatusEnabled),
-				EndPoint:  to.Ptr("blob.core.windows.net"),
+				EndPoint:  to.Ptr("blob.core.usgovcloudapi.net"),
 				Location:  to.Ptr("West US"),
 				Login:     to.Ptr("SacForSDKTest"),
 			},

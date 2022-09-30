@@ -387,7 +387,7 @@ func TestRetentionTooLong(t *testing.T) {
 func TestGetAccountSASToken(t *testing.T) {
 	cred, err := NewSharedKeyCredential("myAccountName", "daaaaaaaaaabbbbbbbbbbcccccccccccccccccccdddddddddddddddddddeeeeeeeeeeefffffffffffggggg==")
 	require.NoError(t, err)
-	service, err := NewServiceClientWithSharedKey("https://myAccountName.table.core.windows.net", cred, nil)
+	service, err := NewServiceClientWithSharedKey("https://myAccountName.table.core.usgovcloudapi.net", cred, nil)
 	require.NoError(t, err)
 
 	resources := AccountSASResourceTypes{Service: true}
@@ -397,12 +397,12 @@ func TestGetAccountSASToken(t *testing.T) {
 
 	sas, err := service.GetAccountSASURL(resources, perms, start, end)
 	require.NoError(t, err)
-	require.Equal(t, "https://myAccountName.table.core.windows.net/?se=2021-09-09T14%3A30%3A00Z&sig=m%2F%2FxhMvxidHaswzZRpyuiHykqnTppPi%2BQ9S5xHMksIQ%3D&sp=r&spr=https&srt=s&ss=t&st=2021-09-08T14%3A30%3A00Z&sv=2019-02-02", sas)
+	require.Equal(t, "https://myAccountName.table.core.usgovcloudapi.net/?se=2021-09-09T14%3A30%3A00Z&sig=m%2F%2FxhMvxidHaswzZRpyuiHykqnTppPi%2BQ9S5xHMksIQ%3D&sp=r&spr=https&srt=s&ss=t&st=2021-09-08T14%3A30%3A00Z&sv=2019-02-02", sas)
 }
 
 func TestGetAccountSASTokenError(t *testing.T) {
 	cred := NewFakeCredential("fakeaccount", "fakekey")
-	service, err := NewServiceClient("https://myAccountName.table.core.windows.net", cred, nil)
+	service, err := NewServiceClient("https://myAccountName.table.core.usgovcloudapi.net", cred, nil)
 	require.NoError(t, err)
 
 	resources := AccountSASResourceTypes{Service: true}

@@ -15,7 +15,7 @@ import (
 
 const (
 	// DefaultBaseURI is the default URI used for the service Batch
-	DefaultBaseURI = "https://batch.core.windows.net"
+	DefaultBaseURI = "https://batch.core.usgovcloudapi.net"
 )
 
 // BaseClient is the base client for Batch.

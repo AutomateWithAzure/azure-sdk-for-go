@@ -16,7 +16,7 @@ interactions:
       - Thu, 15 Apr 2021 14:41:08 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.table.core.windows.net/nonexistingtable?comp=acl&timeout=30
+    url: https://golangrocksonazure.table.core.usgovcloudapi.net/nonexistingtable?comp=acl&timeout=30
     method: PUT
   response:
     body: |-

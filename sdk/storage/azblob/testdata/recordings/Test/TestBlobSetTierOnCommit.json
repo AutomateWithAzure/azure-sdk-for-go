@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/testgocblobsettieroncommit?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/testgocblobsettieroncommit?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/testgocblobsettieroncommit/coolgotestblobblobsettieroncommit?blockid=ICAgICAw\u0026comp=block",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/testgocblobsettieroncommit/coolgotestblobblobsettieroncommit?blockid=ICAgICAw\u0026comp=block",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -58,7 +58,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/testgocblobsettieroncommit/coolgotestblobblobsettieroncommit?comp=blocklist",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/testgocblobsettieroncommit/coolgotestblobblobsettieroncommit?comp=blocklist",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -94,7 +94,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/testgocblobsettieroncommit/coolgotestblobblobsettieroncommit?blocklisttype=committed\u0026comp=blocklist",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/testgocblobsettieroncommit/coolgotestblobblobsettieroncommit?blocklisttype=committed\u0026comp=blocklist",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -123,7 +123,7 @@
       "ResponseBody": "\uFEFF\u003C?xml version=\u00221.0\u0022 encoding=\u0022utf-8\u0022?\u003E\u003CBlockList\u003E\u003CCommittedBlocks\u003E\u003CBlock\u003E\u003CName\u003EICAgICAw\u003C/Name\u003E\u003CSize\u003E15\u003C/Size\u003E\u003C/Block\u003E\u003C/CommittedBlocks\u003E\u003C/BlockList\u003E"
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/testgocblobsettieroncommit/hotgotestblobblobsettieroncommit?blockid=ICAgICAw\u0026comp=block",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/testgocblobsettieroncommit/hotgotestblobblobsettieroncommit?blockid=ICAgICAw\u0026comp=block",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -152,7 +152,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/testgocblobsettieroncommit/hotgotestblobblobsettieroncommit?comp=blocklist",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/testgocblobsettieroncommit/hotgotestblobblobsettieroncommit?comp=blocklist",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -188,7 +188,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/testgocblobsettieroncommit/hotgotestblobblobsettieroncommit?blocklisttype=committed\u0026comp=blocklist",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/testgocblobsettieroncommit/hotgotestblobblobsettieroncommit?blocklisttype=committed\u0026comp=blocklist",
       "RequestMethod": "GET",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -217,7 +217,7 @@
       "ResponseBody": "\uFEFF\u003C?xml version=\u00221.0\u0022 encoding=\u0022utf-8\u0022?\u003E\u003CBlockList\u003E\u003CCommittedBlocks\u003E\u003CBlock\u003E\u003CName\u003EICAgICAw\u003C/Name\u003E\u003CSize\u003E15\u003C/Size\u003E\u003C/Block\u003E\u003C/CommittedBlocks\u003E\u003C/BlockList\u003E"
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/testgocblobsettieroncommit?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/testgocblobsettieroncommit?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

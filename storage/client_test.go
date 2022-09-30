@@ -266,7 +266,7 @@ func replaceUUIDs(body string, exp *regexp.Regexp) string {
 }
 
 func isBatchOp(url string) bool {
-	return url == "https://golangrocksonazure.table.core.windows.net/$batch"
+	return url == "https://golangrocksonazure.table.core.usgovcloudapi.net/$batch"
 }
 
 //getEmulatorClient returns a test client for Azure Storeage Emulator
@@ -301,14 +301,14 @@ func (s *StorageClientSuite) TestNewFromConnectionString(c *chk.C) {
 
 func (s *StorageClientSuite) TestNewAccountSASClientFromEndpointToken(c *chk.C) {
 	cli, err := NewAccountSASClientFromEndpointToken(
-		"http://golangrocksonazure.blob.core.windows.net",
+		"http://golangrocksonazure.blob.core.usgovcloudapi.net",
 		"sv=2017-04-17&ss=bq&srt=sco&sp=rwdlacup&se=2018-01-09T22:32:27Z&st=2018-01-08T14:32:27Z&spr=http&sig=z8K9AiNvsQAoRQmqEgHrk3KdRfY37MxCHckGi%2BJRFDI%3D",
 	)
 
 	c.Assert(err, chk.IsNil)
 	c.Assert(cli.accountSASToken, chk.HasLen, 8)
 	c.Assert(cli.accountName, chk.Equals, "golangrocksonazure")
-	c.Assert(cli.baseURL, chk.Equals, "core.windows.net")
+	c.Assert(cli.baseURL, chk.Equals, "core.usgovcloudapi.net")
 	c.Assert(cli.apiVersion, chk.Equals, "2017-04-17")
 	c.Assert(cli.useHTTPS, chk.Equals, false)
 }
@@ -375,7 +375,7 @@ func (s *StorageClientSuite) TestGetBaseURL_Basic_Https(c *chk.C) {
 	c.Assert(err, chk.IsNil)
 	c.Assert(cli.apiVersion, chk.Equals, DefaultAPIVersion)
 	c.Assert(err, chk.IsNil)
-	c.Assert(cli.getBaseURL("table").String(), chk.Equals, "https://golangrocksonazure.table.core.windows.net")
+	c.Assert(cli.getBaseURL("table").String(), chk.Equals, "https://golangrocksonazure.table.core.usgovcloudapi.net")
 }
 
 func (s *StorageClientSuite) TestGetBaseURL_Custom_NoHttps(c *chk.C) {
@@ -406,14 +406,14 @@ func (s *StorageClientSuite) TestGetEndpoint_None(c *chk.C) {
 	cli, err := NewBasicClient(dummyStorageAccount, "YmFy")
 	c.Assert(err, chk.IsNil)
 	output := cli.getEndpoint(blobServiceName, "", url.Values{})
-	c.Assert(output, chk.Equals, "https://golangrocksonazure.blob.core.windows.net/")
+	c.Assert(output, chk.Equals, "https://golangrocksonazure.blob.core.usgovcloudapi.net/")
 }
 
 func (s *StorageClientSuite) TestGetEndpoint_PathOnly(c *chk.C) {
 	cli, err := NewBasicClient(dummyStorageAccount, "YmFy")
 	c.Assert(err, chk.IsNil)
 	output := cli.getEndpoint(blobServiceName, "path", url.Values{})
-	c.Assert(output, chk.Equals, "https://golangrocksonazure.blob.core.windows.net/path")
+	c.Assert(output, chk.Equals, "https://golangrocksonazure.blob.core.usgovcloudapi.net/path")
 }
 
 func (s *StorageClientSuite) TestGetEndpoint_ParamsOnly(c *chk.C) {
@@ -423,7 +423,7 @@ func (s *StorageClientSuite) TestGetEndpoint_ParamsOnly(c *chk.C) {
 	params.Set("a", "b")
 	params.Set("c", "d")
 	output := cli.getEndpoint(blobServiceName, "", params)
-	c.Assert(output, chk.Equals, "https://golangrocksonazure.blob.core.windows.net/?a=b&c=d")
+	c.Assert(output, chk.Equals, "https://golangrocksonazure.blob.core.usgovcloudapi.net/?a=b&c=d")
 }
 
 func (s *StorageClientSuite) TestGetEndpoint_Mixed(c *chk.C) {
@@ -433,7 +433,7 @@ func (s *StorageClientSuite) TestGetEndpoint_Mixed(c *chk.C) {
 	params.Set("a", "b")
 	params.Set("c", "d")
 	output := cli.getEndpoint(blobServiceName, "path", params)
-	c.Assert(output, chk.Equals, "https://golangrocksonazure.blob.core.windows.net/path?a=b&c=d")
+	c.Assert(output, chk.Equals, "https://golangrocksonazure.blob.core.usgovcloudapi.net/path?a=b&c=d")
 }
 
 func (s *StorageClientSuite) TestGetEndpoint_StorageEmulator(c *chk.C) {

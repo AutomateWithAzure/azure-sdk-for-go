@@ -31,7 +31,7 @@ func TestDeployPlatformImage(t *testing.T) {
 	role := NewVMConfiguration(vmname, "Standard_D3")
 	ConfigureDeploymentFromPlatformImage(&role,
 		GetLinuxTestImage(t, client).Name,
-		fmt.Sprintf("http://%s.blob.core.windows.net/sdktest/%s.vhd", sa.ServiceName, vmname),
+		fmt.Sprintf("http://%s.blob.core.usgovcloudapi.net/sdktest/%s.vhd", sa.ServiceName, vmname),
 		GenerateName())
 	ConfigureForLinux(&role, "myvm", "azureuser", GeneratePassword())
 	ConfigureWithPublicSSH(&role)
@@ -48,7 +48,7 @@ func TestDeployPlatformWindowsImage(t *testing.T) {
 	role := NewVMConfiguration(vmname, "Standard_D3")
 	ConfigureDeploymentFromPlatformImage(&role,
 		GetWindowsTestImage(t, client).Name,
-		fmt.Sprintf("http://%s.blob.core.windows.net/sdktest/%s.vhd", sa.ServiceName, vmname),
+		fmt.Sprintf("http://%s.blob.core.usgovcloudapi.net/sdktest/%s.vhd", sa.ServiceName, vmname),
 		GenerateName())
 	ConfigureForWindows(&role, vmname, "azureuser", GeneratePassword(), true, "")
 	ConfigureWinRMOverHTTP(&role)
@@ -75,7 +75,7 @@ func TestDeployPlatformOSImageCaptureRedeploy(t *testing.T) {
 	role := NewVMConfiguration(vmname, "Standard_D3")
 	ConfigureDeploymentFromPlatformImage(&role,
 		GetLinuxTestImage(t, client).Name,
-		fmt.Sprintf("http://%s.blob.core.windows.net/sdktest/%s.vhd", sa.ServiceName, vmname),
+		fmt.Sprintf("http://%s.blob.core.usgovcloudapi.net/sdktest/%s.vhd", sa.ServiceName, vmname),
 		GenerateName())
 	ConfigureForLinux(&role, "myvm", "azureuser", GeneratePassword())
 	ConfigureWithPublicSSH(&role)
@@ -121,7 +121,7 @@ func TestDeployPlatformOSImageCaptureRedeploy(t *testing.T) {
 	role = NewVMConfiguration(newvmname, "Standard_D3")
 	ConfigureDeploymentFromPlatformImage(&role,
 		im.Name,
-		fmt.Sprintf("http://%s.blob.core.windows.net/sdktest/%s.vhd", sa.ServiceName, newvmname),
+		fmt.Sprintf("http://%s.blob.core.usgovcloudapi.net/sdktest/%s.vhd", sa.ServiceName, newvmname),
 		GenerateName())
 	ConfigureForLinux(&role, newvmname, "azureuser", GeneratePassword())
 	ConfigureWithPublicSSH(&role)
@@ -145,7 +145,7 @@ func TestDeployPlatformVMImageCaptureRedeploy(t *testing.T) {
 	role := NewVMConfiguration(vmname, "Standard_D3")
 	ConfigureDeploymentFromPlatformImage(&role,
 		GetLinuxTestImage(t, client).Name,
-		fmt.Sprintf("http://%s.blob.core.windows.net/sdktest/%s.vhd", sa.ServiceName, vmname),
+		fmt.Sprintf("http://%s.blob.core.usgovcloudapi.net/sdktest/%s.vhd", sa.ServiceName, vmname),
 		GenerateName())
 	ConfigureForLinux(&role, "myvm", "azureuser", GeneratePassword())
 	ConfigureWithPublicSSH(&role)
@@ -216,7 +216,7 @@ func TestDeployFromPublishedVmImage(t *testing.T) {
 
 	role := NewVMConfiguration(vmname, "Standard_D4")
 	ConfigureDeploymentFromPublishedVMImage(&role, im.Name,
-		fmt.Sprintf("http://%s.blob.core.windows.net/%s", sa.ServiceName, vmname), false)
+		fmt.Sprintf("http://%s.blob.core.usgovcloudapi.net/%s", sa.ServiceName, vmname), false)
 	ConfigureForWindows(&role, vmname, "azureuser", GeneratePassword(), true, "")
 	ConfigureWithPublicSSH(&role)
 
@@ -232,7 +232,7 @@ func TestRoleStateOperations(t *testing.T) {
 	role := NewVMConfiguration(vmname, "Standard_D3")
 	ConfigureDeploymentFromPlatformImage(&role,
 		GetLinuxTestImage(t, client).Name,
-		fmt.Sprintf("http://%s.blob.core.windows.net/sdktest/%s.vhd", sa.ServiceName, vmname),
+		fmt.Sprintf("http://%s.blob.core.usgovcloudapi.net/sdktest/%s.vhd", sa.ServiceName, vmname),
 		GenerateName())
 	ConfigureForLinux(&role, "myvm", "azureuser", GeneratePassword())
 

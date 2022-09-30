@@ -38,7 +38,7 @@ func Example_blockblob_Client() {
 		panic("AZURE_STORAGE_ACCOUNT_NAME could not be found")
 	}
 	blobName := "test_block_blob.txt"
-	blobURL := fmt.Sprintf("https://%s.blob.core.windows.net/testcontainer/%s", accountName, blobName)
+	blobURL := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/testcontainer/%s", accountName, blobName)
 
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
@@ -126,7 +126,7 @@ func Example_blockblob_Client_UploadFile() {
 	accountName, accountKey := os.Getenv("AZURE_STORAGE_ACCOUNT_NAME"), os.Getenv("AZURE_STORAGE_ACCOUNT_KEY")
 
 	// Create a BlockBlobURL object to a blob in the container (we assume the container already exists).
-	u := fmt.Sprintf("https://%s.blob.core.windows.net/mycontainer/BigBlockBlob.bin", accountName)
+	u := fmt.Sprintf("https://%s.blob.core.usgovcloudapi.net/mycontainer/BigBlockBlob.bin", accountName)
 	credential, err := azblob.NewSharedKeyCredential(accountName, accountKey)
 	if err != nil {
 		log.Fatal(err)

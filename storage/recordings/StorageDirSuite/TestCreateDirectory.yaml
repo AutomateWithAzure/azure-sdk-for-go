@@ -14,7 +14,7 @@ interactions:
       - Tue, 13 Apr 2021 16:04:06 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-35storagedirsuitetestcreatedirectory?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-35storagedirsuitetestcreatedirectory?restype=share
     method: PUT
   response:
     body: ""
@@ -49,7 +49,7 @@ interactions:
       - Tue, 13 Apr 2021 16:04:06 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-35storagedirsuitetestcreatedirectory/dir?restype=directory
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-35storagedirsuitetestcreatedirectory/dir?restype=directory
     method: PUT
   response:
     body: ""
@@ -86,7 +86,7 @@ interactions:
       - Tue, 13 Apr 2021 16:04:06 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-35storagedirsuitetestcreatedirectory/dir?restype=directory
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-35storagedirsuitetestcreatedirectory/dir?restype=directory
     method: DELETE
   response:
     body: ""
@@ -117,7 +117,7 @@ interactions:
       - Tue, 13 Apr 2021 16:04:06 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-35storagedirsuitetestcreatedirectory/dir?restype=directory
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-35storagedirsuitetestcreatedirectory/dir?restype=directory
     method: HEAD
   response:
     body: ""
@@ -148,7 +148,7 @@ interactions:
       - Tue, 13 Apr 2021 16:04:06 GMT
       x-ms-version:
       - "2018-03-28"
-    url: https://golangrocksonazure.file.core.windows.net/share-35storagedirsuitetestcreatedirectory?restype=share
+    url: https://golangrocksonazure.file.core.usgovcloudapi.net/share-35storagedirsuitetestcreatedirectory?restype=share
     method: DELETE
   response:
     body: ""

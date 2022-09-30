@@ -21,7 +21,7 @@
         "Success": "2021-10-19 17:51:49.0904642 -0400 EDT m=\u002B24906.888867301"
       },
       "ResponseBody": [
-        "{\u0022Tag\u0022:\u0022Sanitized\u0022,\u0022Tag2\u0022:\u0022Sanitized2\u0022,\u0022Tag3\u0022:\u0022https://Sanitized.table.core.windows.net/\u0022}\n"
+        "{\u0022Tag\u0022:\u0022Sanitized\u0022,\u0022Tag2\u0022:\u0022Sanitized2\u0022,\u0022Tag3\u0022:\u0022https://Sanitized.table.core.usgovcloudapi.net/\u0022}\n"
       ]
     }
   ],

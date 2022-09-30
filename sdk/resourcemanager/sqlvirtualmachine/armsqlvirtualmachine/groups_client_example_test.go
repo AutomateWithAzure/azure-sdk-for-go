@@ -63,7 +63,7 @@ func ExampleGroupsClient_BeginCreateOrUpdate() {
 				OuPath:                   to.Ptr("OU=WSCluster,DC=testdomain,DC=com"),
 				SQLServiceAccount:        to.Ptr("sqlservice@testdomain.com"),
 				StorageAccountPrimaryKey: to.Ptr("<primary storage access key>"),
-				StorageAccountURL:        to.Ptr("https://storgact.blob.core.windows.net/"),
+				StorageAccountURL:        to.Ptr("https://storgact.blob.core.usgovcloudapi.net/"),
 			},
 		},
 	}, nil)

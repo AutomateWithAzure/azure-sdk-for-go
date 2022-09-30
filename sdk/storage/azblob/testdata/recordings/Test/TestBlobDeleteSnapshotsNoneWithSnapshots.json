@@ -1,7 +1,7 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobdeletesnapshotsnonewithsnapshots?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobdeletesnapshotsnonewithsnapshots?restype=container",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -29,7 +29,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobdeletesnapshotsnonewithsnapshots/gotestblobblobdeletesnapshotsnonewithsnapshots",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobdeletesnapshotsnonewithsnapshots/gotestblobblobdeletesnapshotsnonewithsnapshots",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -63,7 +63,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobdeletesnapshotsnonewithsnapshots/gotestblobblobdeletesnapshotsnonewithsnapshots?comp=snapshot",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobdeletesnapshotsnonewithsnapshots/gotestblobblobdeletesnapshotsnonewithsnapshots?comp=snapshot",
       "RequestMethod": "PUT",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -94,7 +94,7 @@
       "ResponseBody": null
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobdeletesnapshotsnonewithsnapshots/gotestblobblobdeletesnapshotsnonewithsnapshots",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobdeletesnapshotsnonewithsnapshots/gotestblobblobdeletesnapshotsnonewithsnapshots",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",
@@ -125,7 +125,7 @@
       ]
     },
     {
-      "RequestUri": "https://fakestorage.blob.core.windows.net/gocblobdeletesnapshotsnonewithsnapshots?restype=container",
+      "RequestUri": "https://fakestorage.blob.core.usgovcloudapi.net/gocblobdeletesnapshotsnonewithsnapshots?restype=container",
       "RequestMethod": "DELETE",
       "RequestHeaders": {
         "Accept": "application/xml",

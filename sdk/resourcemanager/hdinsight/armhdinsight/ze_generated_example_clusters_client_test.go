@@ -120,7 +120,7 @@ func ExampleClustersClient_BeginCreate() {
 				StorageProfile: &armhdinsight.StorageProfile{
 					Storageaccounts: []*armhdinsight.StorageAccount{
 						{
-							Name:      to.Ptr("mystorage.blob.core.windows.net"),
+							Name:      to.Ptr("mystorage.blob.core.usgovcloudapi.net"),
 							Container: to.Ptr("hdinsight-autoscale-tes-2019-06-18t05-49-16-591z"),
 							IsDefault: to.Ptr(true),
 							Key:       to.Ptr("storagekey"),

@@ -639,7 +639,7 @@ type SecurityAlertPolicyProperties struct {
 	// Specifies the identifier key of the Threat Detection audit storage account.
 	StorageAccountAccessKey *string `json:"storageAccountAccessKey,omitempty"`
 
-	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.windows.net). This blob storage will hold all Threat
+	// Specifies the blob storage endpoint (e.g. https://MyAccount.blob.core.usgovcloudapi.net). This blob storage will hold all Threat
 	// Detection audit logs.
 	StorageEndpoint *string `json:"storageEndpoint,omitempty"`
 }
